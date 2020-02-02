@@ -19,5 +19,8 @@ export default {
 
 </script>
 <style>
-
+html {
+  font-family: 'Noto Sans TC', sans-serif;
+  margin: 0;
+}
 </style>
