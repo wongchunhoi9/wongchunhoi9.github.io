@@ -1,6 +1,6 @@
 
 import path from 'path'
-import FMMode from "frontmatter-markdown-loader/mode";
+ import FMMode from "frontmatter-markdown-loader/mode";
 const baseUrl = 'https://wongchunhoi9.github.io';
 
 export default {
@@ -27,9 +27,7 @@ export default {
   /*
   ** Global CSS
   */
-  css: [
-
-  ],
+  css: ['github-markdown-css'  ],
   /*
   ** Plugins to load before mounting the App
   */
@@ -47,9 +45,7 @@ export default {
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
-    '@nuxtjs/axios',
-    ['@nuxtjs/markdownit', { linkify: true }]
-  
+    '@nuxtjs/axios'
   ],
   /*
   ** Axios module configuration
@@ -70,9 +66,13 @@ export default {
           test: /\.md$/,
           loader: "frontmatter-markdown-loader",
            include: path.resolve(__dirname, 'contents'),
-          // options: {
-          //   mode: [FMMode.VUE_COMPONENT]
-          // }
+          options: {
+            // mode: [FMMode.VUE_COMPONENT],
+            mode: [FMMode.VUE_COMPONENT, FMMode.META, FMMode.HTML],
+            vue: {
+              root: 'markdown-body'
+            }
+          }
         }
       );
       

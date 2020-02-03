@@ -1,13 +1,14 @@
 <template>
     <section class="post-list">
-          <PostPreview 
-          v-for="post in posts"
-          :key="post.id"
-          :id="post.id"
-          :is-admin="isAdmin"
-          :thumbnail="post.thumbnail"
-          :title="post.title"
-          :PreviewText="post.previewText" />
+          <b-card-group columns>
+            <workPreviewCard 
+            v-for="post in posts"
+            :key="post.id"
+            :id="post.id"
+            :thumbnail="post.thumbnail"
+            :title="post.title"
+            :PreviewText="post.previewText" />
+          </b-card-group>
           
             
     </section>
@@ -26,10 +27,10 @@
 </style>
 
 <script>
-import PostPreview from '@/components/workPreviiew/workPreviewCard'
+import workPreviewCard from '@/components/workPreview/workPreviewCard'
 export default {
     components:{
-        PostPreview
+        workPreviewCard
     },
     props: {
     

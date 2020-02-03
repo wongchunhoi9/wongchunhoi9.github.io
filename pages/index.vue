@@ -1,5 +1,15 @@
 <template>
- <HeroSession />
+<div class="homepage">
+  <section class="Hero-session">
+    <HeroSession />
+  </section>
+  <section class="Hero-Work-Session">
+    <HeroWorkSession />
+  
+  </section>
+  
+</div>
+ 
 
  
 
@@ -7,10 +17,13 @@
 
 <script>
 import HeroSession from "@/components/HeroSession"
+import HeroWorkSession from "@/components/HeroWorkSession"
+
 
 export default {
   components:{
-    HeroSession
+    HeroSession,
+    HeroWorkSession
   }
 }
 </script>

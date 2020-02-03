@@ -1,16 +1,12 @@
 <template>
-    <div class="blog-page">
-        <section class="intro"> 
-            <h1>works</h1>
-        </section>
+    <div class="Hero-work-session-container">
+      <h2> Recent Work </h2>
         <workPreviewList :posts="loadedPosts"/>
     </div>
 </template>
 
-
 <script>
 import workPreviewList from "@/components/workPreview/workPreviewList";
-
 export default {
     components: {
         workPreviewList
@@ -18,24 +14,40 @@ export default {
     }, 
     data () { 
         return {
-             loadedPosts: [
+            loadedPosts: [
         {
           id: 'hardworking-circuit-1p4',
           title: "橙",
-          previewText: "This is our first post!",
+          previewText: "Artist in residence @ Cordorba",
           thumbnail:
             "https://static.pexels.com/photos/270348/pexels-photo-270348.jpeg"
         },
           {
           id: '2',
           title: "hardworking circuit #1.4",
-          previewText: "This is our second post!",
+          previewText:" about hardworking circuit 4",
           thumbnail:
             "https://static.pexels.com/photos/270348/pexels-photo-270348.jpeg"
         }
       ]
         }
     }
+    
 }
 </script>
 
+<style scoped>
+.Hero-work-session-container {
+background-color:rgb(78, 148, 160);
+height: 100%;
+max-width: 1100px;
+padding: 10px;
+margin: 10px;
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin: auto;
+
+}
+</style>

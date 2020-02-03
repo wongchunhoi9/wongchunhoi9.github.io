@@ -1,29 +1,51 @@
 <template>
       <nuxt-link  :to="postLink" class="post-preview">
-            <article>
-                <div 
+            <article style="padding: 10px">
+                <!-- <div 
                 class="post-thumbnail" 
                 :style="{backgroundImage: 'url(' + thumbnail + ')'}"> </div>
                 <div class="post-content"> 
                     <h1> {{title}}</h1>
                     <p> {{PreviewText}} </p>
-                </div>
+                </div> -->
+                
+                  <b-card
+                    no-body=false
+                    
+                    img-src="~/assets/images/webblogbackgroundimage.jpg"
+                    img-alt="Image"
+                    img-top
+                  >
+                  <template v-slot:header>
+                    <h4 class="mb-0">{{title}}</h4>
+                  </template>
+
+                  <b-card-body>
+                    <!-- <b-card-title>Card Title</b-card-title> -->
+                    <b-card-sub-title class="mb-2">{{PreviewText}}</b-card-sub-title>
+                    <b-card-text>
+                     <small> XXX </small>
+                    </b-card-text>
+                   
+                  </b-card-body>
+                  <template v-slot:footer>
+                      <small class="text-muted">tagging</small>
+                  </template>
+                </b-card>
+                
             </article>
             </nuxt-link>
 </template>
 
 <script>
 export default {
-    name: 'PostPreview',
+    name: 'workPreviewCard',
     props: {
         id: {
             type: String,
             required: true
         },
-        isAdmin: {
-            type:Boolean,
-            required: true
-        },
+        
         title: {
             type: String,
             required: true
@@ -38,17 +60,17 @@ export default {
         }
 
     },
-    // computed: {
-    //   postLink () {
-    //     return this.isAdmin ? '/admin/' + this.id : '/blog/' + this.id
-    //   }
-    // }
+    computed: {
+      postLink () {
+        return '/work/' + this.id
+      }
+    }
 }
 </script>
 
 <style scoped>
 
-.post-preview {
+/* .post-preview {
   border: 1px solid #ccc;
   box-shadow: 0 2px 2px #ccc;
   background-color: white;
@@ -82,5 +104,5 @@ a {
 a:hover .post-content,
 a:active .post-content {
   background-color: #ccc;
-}
+} */
 </style>

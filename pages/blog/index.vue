@@ -1,23 +1,16 @@
 <template>
-    <div>
-        <h1>My blog posts:</h1>
+  <div class="markdown-body">
+    <h1>frontmatter-markdown-loader-nuxt-sample</h1>
+    <ol type="A">
+      <li><nuxt-link to="/blog/blog234">Import synchronously</nuxt-link></li>
+      <li>
+        Import dynamically
         <ul>
-            <li v-for="post in posts" :key="post.attributes.title">
-                <nuxt-link to="#">{{post.attributes.title}}</nuxt-link>
-            </li>
+          <li><nuxt-link to="/blog/article?name=blog234">akg.md</nuxt-link></li>
+          <li><nuxt-link to="/blog/article?name=quruli">quruli.md</nuxt-link></li>
         </ul>
-    </div>
+      </li>
+      <li><nuxt-link to="/blog/quruli">Run component on markdown</nuxt-link></li>
+    </ol>
+  </div>
 </template>
-<script>
-  export default {
-    async asyncData() {
-      const resolve = await require.context('~/contents/blogPost/', true, /\.md$/)
-      let imports = resolve.keys().map((key) => resolve(key))
-      // sort by date
-    //   imports.sort((a, b) =>
-    //     moment(b.attributes.date, 'DD/MM/YYYY').diff(moment(a.attributes.date, 'DD/MM/YYYY'))
-    //   )
-      return { posts: imports }
-    }
-  }
-</script>

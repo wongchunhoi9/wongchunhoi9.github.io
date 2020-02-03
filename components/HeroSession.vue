@@ -1,6 +1,6 @@
 <template>
-     <div class="HomePage">
-   <div class="Hero-session">
+     
+   
      <div class="Hero-session-container">
        <div class="Hero-session-container-L">
          <h1>Recent Exhibition </h1>
@@ -9,7 +9,7 @@
        <div class="Hero-session-container-R">
          <div class="ImageSlideShowContainer">
            <p> this is image </p>
-             <b-img src="~/assets/images/webblogbackgroundimage.jpg" fluid alt="Responsive image"></b-img>
+             <!-- <b-img src="~/assets/images/webblogbackgroundimage.jpg" fluid alt="Responsive image"></b-img> -->
              <div>
                 <b-carousel
                     id="carousel-no-animation"
@@ -48,10 +48,10 @@
      </div>
      
      
-   </div>
+   
    
 
-  </div>
+  
 
 </template>
 
