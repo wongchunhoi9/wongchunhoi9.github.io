@@ -10,7 +10,7 @@
                 </div> -->
                 
                   <b-card
-                    no-body=false
+                    no-body
                     
                     img-src="~/assets/images/webblogbackgroundimage.jpg"
                     img-alt="Image"
