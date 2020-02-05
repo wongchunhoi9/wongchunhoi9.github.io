@@ -3,24 +3,26 @@
 
       <nuxt-link  :to="postLink" class="post-preview">
         <!-- <img :src="postImage" :alt="thumbnail"> -->
-            <article style="padding: 10px">
+            <article>
               <b-card
-                no-body>
-                <b-card-img-lazy :src="postImage"> </b-card-img-lazy>
+                :title="postPreviewTitle"
+                style="max-width: 20rem;"
+                :img-src="postImage">
+                <!-- <b-card-img 
+                :src="postImage" 
+                :top="true" > </b-card-img> -->
               
                 <!-- <img :src= "postImage"> -->
-                <b-card-title>{{title}}</b-card-title>
-                <b-card-sub-title class="mb-2">Card Sub Title</b-card-sub-title>
+                
+                
+                <b-card-sub-title>{{PreviewText}}</b-card-sub-title>
                 <b-card-text>
-                  Some quick example text to build on the card title and make up the bulk of the card's
-                  content.fafffffffffffffffffffffffffffffffffffffffffSome quick example text to build on the card title and make up the bulk of the card's
-                  content.fafffffffffffffffffffffffffffffffffffffffffSome quick example text to build on the card title and make up the bulk of the card's
-                  content.fafffffffffffffffffffffffffffffffffffffffffSome quick example text to build on the card title and make up the bulk of the card's
-                  content.fafffffffffffffffffffffffffffffffffffffffffSome quick example text to build on the card title and make up the bulk of the card's
-                  content.fafffffffffffffffffffffffffffffffffffffffffSome quick example text to build on the card title and make up the bulk of the card's
-                  content.fafffffffffffffffffffffffffffffffffffffffff
+                  discription here
                 </b-card-text>
-              
+                
+                <template v-slot:footer>
+                      <small class="text-muted">tag</small>
+                </template>
               </b-card>
               
                
@@ -72,6 +74,9 @@ export default {
         console.log(this.thumbnail)
         return require('~/assets/images/' + this.thumbnail + '.jpg');
         // return require('~/assets/images/' +${fileName} + '.jpg');
+      },
+      postPreviewTitle() { 
+        return this.title
       }
       
     }

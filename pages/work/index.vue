@@ -1,9 +1,9 @@
 <template>
-    <div class="blog-page">
+    <div class="work-page">
         <section class="intro"> 
             <h1>works</h1>
         </section>
-        <workPreviewList :posts="loadedPosts"/>
+        <workPreviewList :posts="WorkloadedPosts"/>
     </div>
 </template>
 
@@ -18,7 +18,7 @@ export default {
     }, 
     data () { 
         return {
-             loadedPosts: [
+             WorkloadedPosts: [
         {
           id: 'hardworking-circuit-1p4',
           title: "橙",
@@ -29,6 +29,13 @@ export default {
           {
           id: '2',
           title: "hardworking circuit #1.4",
+          previewText: "This is our second post!",
+          thumbnail:
+            "webblogbackgroundimage"
+        },
+          {
+          id: '3',
+          title: "hardworking circuit #1.456",
           previewText: "This is our second post!",
           thumbnail:
             "webblogbackgroundimage"

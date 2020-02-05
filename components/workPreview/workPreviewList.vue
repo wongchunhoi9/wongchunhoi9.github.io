@@ -1,6 +1,6 @@
 <template>
     <section class="post-list">
-          <b-card-group columns>
+          <b-card-group columns >
             <workPreviewCard 
             v-for="post in posts"
             :key="post.id"
