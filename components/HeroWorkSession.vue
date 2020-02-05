@@ -20,14 +20,14 @@ export default {
           title: "橙",
           previewText: "Artist in residence @ Cordorba",
           thumbnail:
-            "https://static.pexels.com/photos/270348/pexels-photo-270348.jpeg"
+            "webblogbackgroundimage"
         },
           {
           id: '2',
           title: "hardworking circuit #1.4",
           previewText:" about hardworking circuit 4",
           thumbnail:
-            "https://static.pexels.com/photos/270348/pexels-photo-270348.jpeg"
+            "webblogbackgroundimage"
         }
       ]
         }

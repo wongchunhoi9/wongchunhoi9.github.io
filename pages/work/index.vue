@@ -24,14 +24,14 @@ export default {
           title: "橙",
           previewText: "This is our first post!",
           thumbnail:
-            "https://static.pexels.com/photos/270348/pexels-photo-270348.jpeg"
+            "webblogbackgroundimage"
         },
           {
           id: '2',
           title: "hardworking circuit #1.4",
           previewText: "This is our second post!",
           thumbnail:
-            "https://static.pexels.com/photos/270348/pexels-photo-270348.jpeg"
+            "webblogbackgroundimage"
         }
       ]
         }

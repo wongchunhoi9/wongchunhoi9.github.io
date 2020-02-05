@@ -1,44 +1,47 @@
 <template>
-      <nuxt-link  :to="postLink" class="post-preview">
-            <article style="padding: 10px">
-                <!-- <div 
-                class="post-thumbnail" 
-                :style="{backgroundImage: 'url(' + thumbnail + ')'}"> </div>
-                <div class="post-content"> 
-                    <h1> {{title}}</h1>
-                    <p> {{PreviewText}} </p>
-                </div> -->
-                
-                  <b-card
-                    no-body
-                    
-                    img-src="~/assets/images/webblogbackgroundimage.jpg"
-                    img-alt="Image"
-                    img-top
-                  >
-                  <template v-slot:header>
-                    <h4 class="mb-0">{{title}}</h4>
-                  </template>
+ 
 
-                  <b-card-body>
-                    <!-- <b-card-title>Card Title</b-card-title> -->
-                    <b-card-sub-title class="mb-2">{{PreviewText}}</b-card-sub-title>
-                    <b-card-text>
-                     <small> XXX </small>
-                    </b-card-text>
-                   
-                  </b-card-body>
-                  <template v-slot:footer>
-                      <small class="text-muted">tagging</small>
-                  </template>
-                </b-card>
+      <nuxt-link  :to="postLink" class="post-preview">
+        <!-- <img :src="postImage" :alt="thumbnail"> -->
+            <article style="padding: 10px">
+              <b-card
+                no-body>
+                <b-card-img-lazy :src="postImage"> </b-card-img-lazy>
+              
+                <!-- <img :src= "postImage"> -->
+                <b-card-title>{{title}}</b-card-title>
+                <b-card-sub-title class="mb-2">Card Sub Title</b-card-sub-title>
+                <b-card-text>
+                  Some quick example text to build on the card title and make up the bulk of the card's
+                  content.fafffffffffffffffffffffffffffffffffffffffffSome quick example text to build on the card title and make up the bulk of the card's
+                  content.fafffffffffffffffffffffffffffffffffffffffffSome quick example text to build on the card title and make up the bulk of the card's
+                  content.fafffffffffffffffffffffffffffffffffffffffffSome quick example text to build on the card title and make up the bulk of the card's
+                  content.fafffffffffffffffffffffffffffffffffffffffffSome quick example text to build on the card title and make up the bulk of the card's
+                  content.fafffffffffffffffffffffffffffffffffffffffffSome quick example text to build on the card title and make up the bulk of the card's
+                  content.fafffffffffffffffffffffffffffffffffffffffff
+                </b-card-text>
+              
+              </b-card>
+              
+               
+                
+
+                
+
+                
+                  
                 
             </article>
             </nuxt-link>
+             <!-- <div class="testingImage">
+              <img :src="~/assets/images/webblogbackgroundimage.jpg"></div>
+            </div>  -->
+
 </template>
 
 <script>
 export default {
+  
     name: 'workPreviewCard',
     props: {
         id: {
@@ -63,14 +66,21 @@ export default {
     computed: {
       postLink () {
         return '/work/' + this.id
+      },
+      postImage () { 
+        const fileName = this.thumbnail.toLowerCase()
+        console.log(this.thumbnail)
+        return require('~/assets/images/' + this.thumbnail + '.jpg');
+        // return require('~/assets/images/' +${fileName} + '.jpg');
       }
+      
     }
 }
 </script>
 
 <style scoped>
 
-/* .post-preview {
+ /* .post-preview {
   border: 1px solid #ccc;
   box-shadow: 0 2px 2px #ccc;
   background-color: white;
@@ -90,7 +100,8 @@ a {
 }
 
 .post-thumbnail {
-  width: 100%;
+  
+  width:100px;
   height: 200px;
   background-position: center;
   background-size: cover;
