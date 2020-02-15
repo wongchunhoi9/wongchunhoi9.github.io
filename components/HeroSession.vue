@@ -8,36 +8,14 @@
        </div>
        <div class="Hero-session-container-R">
          <div class="ImageSlideShowContainer">
-           <p> this is image </p>
+           <!-- <p> this is image {{ImageSlider}}</p> -->
              <!-- <b-img src="~/assets/images/webblogbackgroundimage.jpg" fluid alt="Responsive image"></b-img> -->
              <div>
-                <b-carousel
-                    id="carousel-no-animation"
-                    style="#000"
-                    no-animation
-                    indicators
-                    img-width="1024"
-                    img-height="480"
-                    controls
-                >
-                    <b-carousel-slide
-                    caption="First slide"
-                    text="First Slide TEXT"
-                    img-src="~/assets/images/webblogbackgroundimage.jpg"
-                    ></b-carousel-slide>
-                    <b-carousel-slide
-                    caption="Second Slide"
-                    img-src="https://picsum.photos/1024/480/?image=12"
-                    ></b-carousel-slide>
-                    <b-carousel-slide
-                    caption="Third Slide"
-                    img-src="https://picsum.photos/1024/480/?image=22"
-                    ></b-carousel-slide>
-                    <b-carousel-slide
-                    caption="Fourth Slide"
-                    img-src="https://picsum.photos/1024/480/?image=23"
-                    ></b-carousel-slide>
-                </b-carousel>
+              
+               
+                
+                 
+                
                 </div>
          </div>
          <div class="ImageSliderShowCaption">
@@ -54,6 +32,23 @@
   
 
 </template>
+
+<script>
+import HeroSessionImageSlider from "~/components/HeroSessionImageSlider"
+export default {
+  components:{
+    HeroSessionImageSlider
+  },
+  props:{
+
+    ImageSlider:{
+      type:Array,
+      required:false
+    }
+  }
+  
+}
+</script>
 
 <style scoped>
 

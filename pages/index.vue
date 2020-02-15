@@ -2,6 +2,7 @@
 <div class="homepage">
   <section class="Hero-session">
     <HeroSession />
+    <HeroSessionImageSlider :ImageSlider="HeroImageSlider"/>
   </section>
   <section class="Hero-work-session-container">
     <H3> Recent Works </h3>
@@ -19,7 +20,8 @@
 <script>
 import HeroSession from "@/components/HeroSession"
 import HeroWorkSession from "@/components/HeroWorkSession"
-import workPreviewList from "@/components/workPreview/workPreviewList";
+import workPreviewList from "@/components/workPreview/workPreviewList"
+import HeroSessionImageSlider from "~/components/HeroSessionImageSlider"
 
 
 
@@ -28,14 +30,15 @@ export default {
     HeroSession,
     HeroWorkSession,
     workPreviewList,
+    HeroSessionImageSlider
     
   },
   data () { 
         return {
              HeroWorkloadedPosts: [
         {
-          id: 'hardworking-circuit-1p4',
-          title: "橙",
+          id: 'hardworking-circuit-1-4',
+          title: "hardworking circuit #1.4 勤力電路＃1.4",
           previewText: "This is our first post!",
           thumbnail:
             "webblogbackgroundimage"
@@ -54,7 +57,21 @@ export default {
           thumbnail:
             "webblogbackgroundimage"
         }
-      ]
+      ],
+            HeroImageSlider: [
+              {
+                id:'sliderimage1',
+                title:'slider1 Title',
+                subtitle:'subtitle here',
+                imageSource:'webblogbackgroundimage'
+              },
+              {
+                id:'sliderimage2',
+                title:'slider2 Title',
+                subtitle:'subtitle here',
+                imageSource:'webblogbackgroundimage'
+              }
+            ]
         }
     }
 }
