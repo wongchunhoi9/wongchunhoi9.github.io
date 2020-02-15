@@ -22,11 +22,13 @@ import HeroWorkSession from "@/components/HeroWorkSession"
 import workPreviewList from "@/components/workPreview/workPreviewList";
 
 
+
 export default {
   components:{
     HeroSession,
     HeroWorkSession,
-    workPreviewList
+    workPreviewList,
+    
   },
   data () { 
         return {

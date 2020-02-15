@@ -27,11 +27,15 @@
             </b-navbar-nav>
             </b-collapse>
         </b-navbar>
-
+    
+        
     </header>
   
 </div>
 </template>
+
+
+
 
 <style scoped>
 .header-container {

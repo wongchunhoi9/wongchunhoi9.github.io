@@ -2,6 +2,7 @@
   <div>
     <TheHeader />
     <!-- <TheRoute /> -->
+   >
     <nuxt />
     <TheFooter />
   </div>
@@ -10,16 +11,20 @@
 <script>
 import TheHeader from "@/components/Navigation/TheHeader"
 import TheFooter from "@/components/Navigation/TheFooter"
-// import TheRoute from "@/components/Navigation/TheRoute";
+ 
 
 export default { 
+    
   components: {
     TheHeader,
-    TheFooter
+    TheFooter,
+   
   }
+    
 }
 
 </script>
+
 <style>
 html {
   font-family: 'Noto Sans TC', sans-serif;

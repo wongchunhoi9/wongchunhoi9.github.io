@@ -1,6 +1,6 @@
 <template>
     <div class="Hero-work-session-container">
-      <h2> Recent Work </h2>
+      <h3 class="intro"> Recent Work </h3>
       
         <workPreviewList :posts="loadedPosts"/>
     </div>
@@ -33,4 +33,14 @@ justify-content: center;
 margin: auto;
 
 }
+.intro { 
+  display: flex;
+  padding: 20px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+
 </style>

@@ -77,7 +77,7 @@ margin: auto;
 flex:35%;
 padding: 20px;
 background-color: beige;
-max-width: 309px;
+/* max-width: 309px; */
 }
 
 .Hero-session-container-L h1{ 

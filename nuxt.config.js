@@ -27,7 +27,8 @@ export default {
   /*
   ** Global CSS
   */
-  css: ['github-markdown-css'  ],
+  css: ['github-markdown-css' ,
+        '~/assets/styles/main.css' ],
   /*
   ** Plugins to load before mounting the App
   */
