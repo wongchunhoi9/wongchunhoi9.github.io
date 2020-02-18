@@ -8,15 +8,17 @@
     <!-- {{ImageSlider}} -->
      <b-carousel
                     id="carousel-no-animation"
-                    style="#000"
+                    style="text-shadow: 1px 1px 4px #000;"
                     no-animation
-                    indicators
+                    
                     img-width="1024"
                     img-height="480"
                     controls
+                    
                 >
                     
                     <HeroSessionImageSliderSingle 
+                    
                     v-for="Image in ImageSlider"
                     :key="Image.id"
                     :id="Image.id"
@@ -62,3 +64,9 @@ export default {
 
 }
 </script>
+
+<style scoped>
+/* .carousel-caption {
+    color:black !important;
+} */
+</style>

@@ -1,43 +1,44 @@
 <template>
- 
+ <div>
 
       <nuxt-link  :to="postLink" class="post-preview">
         <!-- <img :src="postImage" :alt="thumbnail"> -->
-            <article>
+            <article>             
               <b-card
                 :title="postPreviewTitle"
-                style="max-width: 20rem;"
-                :img-src="postImage">
-                <!-- <b-card-img 
-                :src="postImage" 
-                :top="true" > </b-card-img> -->
-              
-                <!-- <img :src= "postImage"> -->
-                
-                
-                <b-card-sub-title>{{PreviewText}}</b-card-sub-title>
+                style="max-width: 20rem; 
+                      margin-bottom:10px; 
+                      position:relative; 
+                      display:flex; 
+                      background-color: #E8A87C41;
+                      border-width:5px;"
+                :img-src="postImage"
+                >
+               
+                <b-card-sub-title aligh="right"> {{medium}}
+                  <br>
+                  {{year}}</b-card-sub-title>
                 <b-card-text>
-                  discription here
+                  <br>
+                 {{PreviewText}}
                 </b-card-text>
                 
-                <template v-slot:footer>
-                      <small class="text-muted">tag</small>
-                </template>
+                <b-card-footer>
+                      {{category}}
+                      <!-- <small class="text-muted">{{category}}</small> -->
+                </b-card-footer>
               </b-card>
-              
-               
-                
-
-                
-
-                
-                  
                 
             </article>
-            </nuxt-link>
-             <!-- <div class="testingImage">
-              <img :src="~/assets/images/webblogbackgroundimage.jpg"></div>
-            </div>  -->
+
+          
+       </nuxt-link>
+             
+         
+
+
+</div>
+        
 
 </template>
 
@@ -62,6 +63,18 @@ export default {
         thumbnail: {
             type: String,
             required: true
+        },
+         medium: {
+            type: String,
+            required: true
+        },
+        year: {
+            type:String,
+            required: true
+        },
+        category: {
+            type: String,
+            required: true
         }
 
     },
@@ -71,8 +84,9 @@ export default {
       },
       postImage () { 
         const fileName = this.thumbnail.toLowerCase()
-        console.log(this.thumbnail)
-        return require('~/assets/images/' + this.thumbnail + '.jpg');
+        // console.log(this.thumbnail)
+          // return require('~/assets/images/' + this.thumbnail + '.jpg');
+        return require('~/assets/images/' + this.thumbnail);
         // return require('~/assets/images/' +${fileName} + '.jpg');
       },
       postPreviewTitle() { 
@@ -85,40 +99,6 @@ export default {
 
 <style scoped>
 
- /* .post-preview {
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 2px #ccc;
-  background-color: white;
-  width: 90%;
-}
 
-a {
-  text-decoration: none;
-  color: black;
-}
 
-@media (min-width: 850px) {
-  .post-preview {
-    width: 400px;
-    margin: 10px;
-  }
-}
-
-.post-thumbnail {
-  
-  width:100px;
-  height: 200px;
-  background-position: center;
-  background-size: cover;
-}
-
-.post-content {
-  padding: 10px;
-  text-align: center;
-}
-
-a:hover .post-content,
-a:active .post-content {
-  background-color: #ccc;
-} */
 </style>

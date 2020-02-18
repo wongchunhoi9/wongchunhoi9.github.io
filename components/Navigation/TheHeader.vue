@@ -11,7 +11,7 @@
                 <b-nav-text>    ----   </b-nav-text>
                 <b-nav-item class="nav-item"><nuxt-link to="/work">work</nuxt-link></b-nav-item>
                 <b-nav-item class="nav-item"><nuxt-link to="/sound">sound</nuxt-link></b-nav-item>
-                <b-nav-item class="nav-item" ><nuxt-link to="/blog">blog</nuxt-link></b-nav-item>
+                <b-nav-item class="nav-item" disabled ><nuxt-link to="/blog">blog</nuxt-link></b-nav-item>
                 <b-nav-item class="nav-item"><nuxt-link to="/about">about</nuxt-link></b-nav-item>
                 <!-- //disabled="" -->
             </b-navbar-nav>
@@ -55,17 +55,20 @@
 }
 
 .nav-brand{
-    color: rgb(125, 133, 138)
+    color: #9b6241
 }
 .nav-brand a{
-    color: rgb(55, 76, 168)
+    color: #9b6241
 } 
 .nav-item a {
-    color: rgb(18, 25, 41);
+    color: #5c6d76;
+}
+.nav-item a:hover{
+    color:#9b6241;
 }
 
 .nav-item a.nuxt-link-active {
-  color:rgba(100, 177, 125, 0.699);
+  color:#c87c42
 }
 </style>
 

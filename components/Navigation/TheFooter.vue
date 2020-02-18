@@ -31,7 +31,7 @@
 .site-footer {
 width:100%;
   margin: auto;
-  background: rgba(79, 82, 81, 0.247);
+  background: rgb(208, 210, 211);
   padding: 10px;
   font-size: 11px;
   

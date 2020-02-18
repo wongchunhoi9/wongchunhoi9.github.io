@@ -1,7 +1,7 @@
 /* Indivudal Work Page Container */
 
 .individual-work-page-container{
-    background-color:rgb(221, 224, 225);
+    background-color:rgba(200, 124, 66, 0.315);
     height: 100%;
     /* max-width: 1100px; */
     padding: 3px;
@@ -14,7 +14,7 @@
 
 }
 .work-session-backgroundcolor .row > [class^="col-"] { 
-    background-color: rgb(120, 152, 141);
+    background-color: rgb(249, 249, 249);
     border-block-color: rgb(17, 26, 29);
     border-style: solid;
     border-width: 1px;
@@ -22,7 +22,7 @@
 
 }
 .work-session-backgroundcolor .row .col {
-    background-color: rgb(120, 152, 141);
+    background-color: rgb(255, 255, 255);
     border-block-color: rgb(17, 26, 29);
     border-style: solid;
     border-width: 1px;
@@ -30,3 +30,25 @@
     margin-bottom: 2px;
     margin-top: 2px;
 }
+
+a {
+    color:#314A55;
+}
+
+a:hover{
+    color:#CB7C42;
+}
+
+ *{
+        
+          font-family: 'Noto Sans TC', sans-serif;
+         
+  
+
+        /* font-family: 'Rajdhani', sans-serif; */
+         /* font-weight: bolder; */
+
+        /* font-family: 'Raleway', sans-serif; */
+
+        /* font-family: 'Cutive Mono', monospace; */
+ }

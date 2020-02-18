@@ -7,8 +7,8 @@
             </b-row>
             <b-row>
                 <b-col>     
-                    <b-img  src="~/assets/images/webblogbackgroundimage.jpg" fluid > </b-img>
-                    <figcaption class="figure-caption"> A Caption </figcaption>
+                    <b-img  src="~/assets/images/hardworking-circuit-1p3sketch-03.svg" fluid > </b-img>
+                    <figcaption class="figure-caption"> refined conceptual schematic diagram </figcaption>
                 </b-col>
                 
             </b-row>
@@ -50,34 +50,5 @@
 </template>
 
 <style scoped>
-/* .individual-work-page-container{
-    background-color:rgb(221, 224, 225);
-    height: 100%;
-    
-    padding: 3px;
-    margin: 5px;
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: auto;
-
-}
-.work-session-backgroundcolor .row > [class^="col-"] { 
-    background-color: rgb(120, 152, 141);
-    border-block-color: rgb(17, 26, 29);
-    border-style: solid;
-    border-width: 1px;
-    padding-block: 5px;
-
-}
-.work-session-backgroundcolor .row .col {
-    background-color: rgb(120, 152, 141);
-    border-block-color: rgb(17, 26, 29);
-    border-style: solid;
-    border-width: 1px;
-    padding-block: 5px;
-    margin-bottom: 2px;
-    margin-top: 2px;
-} */
 </style>

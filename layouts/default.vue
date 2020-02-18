@@ -22,7 +22,16 @@ export default {
 </script>
 <style>
 html {
-  font-family: 'Noto Sans TC', sans-serif;
+  /* font-family: 'Noto Sans TC', sans-serif; */
+  
+
+    /* font-family: 'Rajdhani', sans-serif;
+
+    font-family: 'Raleway', sans-serif; */
+
+    font-family: 'Cutive Mono', monospace;
+
+
   margin: 0;
 }
 </style>

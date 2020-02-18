@@ -54,7 +54,7 @@ export default {
 
 <style scoped>
 .About-Page-container{
-    background-color:rgb(221, 224, 225);
+    background-color:rgb(238, 242, 242);
     height: 100%;
     /* max-width: 1100px; */
     padding: 3px;
@@ -68,7 +68,7 @@ export default {
 
 }
 .profile-session .row > [class^="col-"] { 
-    background-color: rgb(120, 152, 141);
+    background-color: rgba(144, 171, 184, 0.219);
     border-block-color: rgb(17, 26, 29);
     border-style: solid;
     border-width: 1px;
@@ -76,7 +76,7 @@ export default {
 
 }
 .profile-session .row .col {
-    background-color: rgb(185, 209, 218);
+    background-color: rgba(243, 149, 48, 0.139);
     border-block-color: rgb(17, 26, 29);
     border-style: solid;
     border-width: 1px;

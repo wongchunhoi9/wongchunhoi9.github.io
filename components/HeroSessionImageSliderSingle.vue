@@ -1,10 +1,13 @@
 <template>
-                      <b-carousel-slide
+  
+    <b-carousel-slide
                      
                       :text="ImageCaption"
                       :caption="ImageTitle"
                       :img-src="postImage"
                       ></b-carousel-slide>
+  
+                      
 </template>
 
 <script>
@@ -37,8 +40,9 @@ export default {
       },
       postImage () { 
         const fileName = this.imageSource.toLowerCase()
-        console.log(this.imageSource)
-        return require('~/assets/images/' + this.imageSource + '.jpg');
+        // console.log(this.imageSource)
+            //  return require('~/assets/images/' + this.imageSource + '.jpg');
+        return require('~/assets/images/' + this.imageSource);
         // return require('~/assets/images/' +${fileName} + '.jpg');
       },
       ImageTitle() { 
@@ -51,3 +55,9 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.carousel-caption {
+    color:black !important;
+}
+</style>

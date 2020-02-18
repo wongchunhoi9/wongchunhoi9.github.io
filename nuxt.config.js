@@ -17,13 +17,22 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet' , href: "https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap"}
+      { rel: 'stylesheet' , href: "https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap"},
+      { rel: 'stylesheet' , href: "https://fonts.googleapis.com/css?family=Cutive+Mono|Rajdhani:300|Raleway:200&display=swap" }
     ]
   },
   /*
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },
+  // pageTransition: {
+  //   name: 'page',
+  //   mode: 'out-in',
+  //   type:"animation",
+  //   beforeEnter (el) {
+  //     console.log('Before enter...');
+  //   }
+  // },
   /*
   ** Global CSS
   */

@@ -56,9 +56,9 @@ export default {
 .Hero-session-container {
 background-color: cadetblue;
 height: 100%;
-max-width: 1100px;
-padding: 10px;
-margin: 10px;
+max-width: 900px;
+padding: 20px;
+
 
 display: flex;
 flex-wrap: wrap;
@@ -72,6 +72,7 @@ margin: auto;
 flex:35%;
 padding: 20px;
 background-color: beige;
+
 /* max-width: 309px; */
 }
 
