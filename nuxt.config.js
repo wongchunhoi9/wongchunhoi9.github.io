@@ -4,7 +4,7 @@ import path from 'path'
 // const baseUrl = 'https://wongchunhoi9.github.io';
 
 export default {
-  mode: 'universal',
+  mode: 'spa',
   /*
   ** Headers of the page
   */
