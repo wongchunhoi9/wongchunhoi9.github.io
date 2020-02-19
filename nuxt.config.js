@@ -1,7 +1,7 @@
 
 import path from 'path'
  import FMMode from "frontmatter-markdown-loader/mode";
-const baseUrl = 'https://wongchunhoi9.github.io';
+// const baseUrl = 'https://wongchunhoi9.github.io';
 
 export default {
   mode: 'universal',

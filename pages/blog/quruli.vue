@@ -12,7 +12,7 @@
 
   export default {
     components: {
-      'quruli-article': fm.vue.component
+      'article-quruli': fm.vue.component
     },
     data () {
       return {

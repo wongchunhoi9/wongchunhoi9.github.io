@@ -7,7 +7,7 @@
                <div>
               <b-form-input v-model="filterValue" placeholder="search work category" class="mb-2"></b-form-input>
               <p>filterValue: {{ filterValue }}</p>
-            
+              
              </div>
             </b-col>
           </b-row>
