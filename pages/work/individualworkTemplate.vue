@@ -9,7 +9,7 @@
             <b-row>
                 <b-col>     
                     <!-- Feature Image : -->
-                    <b-img  src="~/assets/images/webblogbackgroundimage.jpg" fluid > </b-img>
+                    <b-img  src="" fluid > </b-img>
                     <figcaption class="figure-caption"> A Caption </figcaption>
                 </b-col>
                 
