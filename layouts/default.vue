@@ -29,7 +29,7 @@ html {
 
     font-family: 'Raleway', sans-serif; */
 
-    font-family: 'Cutive Mono', monospace;
+    /* font-family: 'Cutive Mono', monospace; */
 
 
   margin: 0;

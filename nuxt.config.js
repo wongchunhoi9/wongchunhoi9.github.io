@@ -18,7 +18,7 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet' , href: "https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap"},
-      { rel: 'stylesheet' , href: "https://fonts.googleapis.com/css?family=Cutive+Mono|Rajdhani:300|Raleway:200&display=swap" }
+      { rel: 'stylesheet' , href: "https://fonts.googleapis.com/css?family=Cutive+Mono|Rajdhani:500|Raleway:400&display=swap" }
     ]
   },
   /*

@@ -3,7 +3,7 @@
         <b-container class="profile-session">
             <b-row >
                 <b-col md="4" >
-                    <b-img src="~/assets/images/About/profile-picture-wong-chun-hoi-2.jpg" fluid-grow> </b-img>
+                    <b-img src="~assets/images/About/profile-picture-draw.svg" fluid-grow=""> </b-img>
                 </b-col>
                 
                 <b-col  md="8">
