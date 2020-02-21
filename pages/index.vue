@@ -4,7 +4,7 @@
     <b-container fluid class="home-page-heroSession-backgroundcolor ">
       <b-row > 
         <b-col md="4">
-          <img src="~/assets/images/those-orange-work-sketch-copy-300px-width.png">
+         -->
             <div class="" style="margin:10px;">
               <h5>update</h5>
               <br>

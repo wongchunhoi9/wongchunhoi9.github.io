@@ -4,7 +4,7 @@ import path from 'path'
 // const baseUrl = 'https://wongchunhoi9.github.io';
 
 export default {
-  mode: 'spa',
+  mode: 'universal',
   /*
   ** Headers of the page
   */
@@ -38,6 +38,8 @@ export default {
   */
   css: ['github-markdown-css' ,
         '~/assets/styles/main.css' ],
+
+        buildDir: 'nuxt-dist',
   /*
   ** Plugins to load before mounting the App
   */
