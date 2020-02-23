@@ -4,7 +4,7 @@
     <b-container fluid class="home-page-heroSession-backgroundcolor ">
       <b-row > 
         <b-col md="4">
-         -->
+         
             <div class="" style="margin:10px;">
               <h5>update</h5>
               <br>

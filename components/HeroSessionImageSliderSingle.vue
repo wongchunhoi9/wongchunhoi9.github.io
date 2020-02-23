@@ -39,7 +39,7 @@ export default {
         return this.id
       },
       postImage () { 
-        const fileName = this.imageSource.toLowerCase()
+        // const fileName = this.imageSource.toLowerCase()
         // console.log(this.imageSource)
             //  return require('~/assets/images/' + this.imageSource + '.jpg');
         return require('~/assets/images/' + this.imageSource);

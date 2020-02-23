@@ -39,7 +39,7 @@ export default {
   css: ['github-markdown-css' ,
         '~/assets/styles/main.css' ],
 
-        buildDir: 'nuxt-dist',
+        
   /*
   ** Plugins to load before mounting the App
   */

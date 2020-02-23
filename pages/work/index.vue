@@ -6,11 +6,11 @@
               <h3>works</h3>
                <div>
               <b-form-input v-model="filterValue" placeholder="search work category" class="mb-2"></b-form-input>
-              <p>filterValue: {{ filterValue }}</p>
+              <p>filterValue: {{ filterValue }}  </p>
               
              </div>
             </b-col>
-          </b-row>
+          </b-row >
           
 
             <b-row>
@@ -163,6 +163,8 @@ export default {
       }
     },
     computed: {
+  
+
       filterdWorks: function() {
         return this.WorkloadedPosts.filter((WorkloadedPost) =>{
           return WorkloadedPost.category.match(this.filterValue) 

@@ -2,7 +2,7 @@
 <div class="header-container">
     <header class="the-header">
         <b-navbar toggleable="md" type="light" variant="light" fixed="top" >
-            <b-navbar-brand to="/" class="nav-brand"> wongchunhoi9</b-navbar-brand>
+            <b-navbar-brand to="/" class="nav-brand">  wongchunhoi9</b-navbar-brand>
 
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
