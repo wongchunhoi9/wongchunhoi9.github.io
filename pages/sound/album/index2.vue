@@ -2,7 +2,8 @@
     <div>
         
         <b-container  class="album-container">
-            
+          <b-row><b-col> <h3 class="album-session-intro"> Album </h3>  </b-col></b-row>
+           
               <albumGrid :posts="albumList"/>
                 
         </b-container>
@@ -24,7 +25,7 @@ export default {
 
              albumList: [
         {
-          id: 'soundsheepsheep-ep-1',
+          id: 'album/soundsheepsheep-ep-1',
           title: "坐這山 望這山",
           previewText: "",
           thumbnail:
@@ -46,29 +47,16 @@ export default {
           category:"compilation"
         },
         {
-        id: 'hardworking-circuit-1-4',
-          title: "hardworking circuit #1.4 勤力電路＃1.4",
+        id: 'day-after',
+          title: "DAY AFTER 翌日 [2014. 9.29 - 12.12",
           previewText: "",
           thumbnail:
-            "soundyoung-ep-1-album-cover.png",
-          albumArtist:"electronics",
-          year:"2018",
-          medium:"installation | electronics | stupid  | toy",
-          category:"XXX"
+            "day-after-cd-front.png",
+          albumArtist:"Publisher 出版｜soundpocket 聲音掏腰包",
+          year:"2015",
+          medium:"CD",
+          category:"compilation"
         },
-        {
-        id: 'hardworking-circuit-1-4',
-          title: "hardworking circuit #1.4 勤力電路＃1.4",
-          previewText: "",
-          thumbnail:
-            "soundyoung-ep-1-album-cover.png",
-          albumArtist:"electronics",
-          year:"2018",
-          medium:"installation | electronics | stupid  | toy",
-          category:"XXX"
-        }
-       
-
       ]
         }
     }
@@ -81,11 +69,12 @@ export default {
       background-image: linear-gradient(to right top, #90abb8, #6daba8, #72a67d, #99984e, #c87c42);
       justify-content: center;
       height: 100%;
-      /* max-width: 1200px; */
-      
-      
-    
-    
-    
+      /* max-width: 1200px; */    
+}
+
+.album-session-intro {
+  color: azure;
+  
+  margin: 5px;
 }
 </style>

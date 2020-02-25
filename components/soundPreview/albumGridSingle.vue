@@ -97,6 +97,7 @@ export default {
     background-color: rgba(202, 208, 215, 0.74);
     
     
+    
 }
 .album-title{
     padding-top: 5px;
@@ -117,6 +118,7 @@ export default {
     border-width: 3px;
     border-color: white;
     margin:1px;
+    background-color: rgba(238, 223, 212, 0.548);
 }
 
 
