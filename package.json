@@ -20,5 +20,7 @@
     "github-markdown-css": "^3.0.1",
     "nuxt": "^2.0.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "push-dir": "^0.4.1"
+  }
 }
