@@ -12,7 +12,7 @@
                 <b-nav-item class="nav-item"><nuxt-link to="/work">work</nuxt-link></b-nav-item>
                 <b-nav-item class="nav-item" disabled><nuxt-link to="/inProgress">in progress</nuxt-link></b-nav-item>
                 <b-nav-item class="nav-item"><nuxt-link to="/sound">sound</nuxt-link></b-nav-item>
-                <b-nav-item class="nav-item" disabled><nuxt-link to="/3dmodel">3d</nuxt-link></b-nav-item>
+                <b-nav-item class="nav-item" ><nuxt-link to="/models">3d</nuxt-link></b-nav-item>
                 <b-nav-item class="nav-item" disabled ><nuxt-link to="/blog">blog</nuxt-link></b-nav-item>
                 <b-nav-item class="nav-item"><nuxt-link to="/about">about</nuxt-link></b-nav-item>
                 <b-nav-item class="nav-item"><nuxt-link to="/contact">contact</nuxt-link></b-nav-item>

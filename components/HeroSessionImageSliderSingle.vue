@@ -1,7 +1,6 @@
 <template>
   
-    <b-carousel-slide
-                     
+    <b-carousel-slide 
                       :text="ImageCaption"
                       :caption="ImageTitle"
                       :img-src="postImage"
@@ -57,7 +56,7 @@ export default {
 </script>
 
 <style scoped>
-.carousel-caption {
-    color:black !important;
+b-carousel-slide {
+    max-height: 
 }
 </style>

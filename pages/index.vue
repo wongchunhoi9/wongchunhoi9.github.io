@@ -15,8 +15,15 @@
           </b-col>
         <b-col md="8"> 
           <div class="" style="margin:10px;">
-             
+             <b-carousel
+              id="carousel-fade"
+              style="text-shadow: 0px 0px 2px #000"
+              indicators
+              img-width="1024"
+              img-height="480"
+            >
             <HeroSessionImageSlider :ImageSlider="HeroImageSlider"/>
+             </b-carousel>
           </div>
           </b-col>
       </b-row>
@@ -119,7 +126,7 @@ export default {
               },
               {
                 id:'sliderimage2',
-                title:' ',
+                title:'BV',
                 subtitle:'Nothing',
                 imageSource:'hardworking-circuit-1p3sketch-03-770x232.png'
               }
