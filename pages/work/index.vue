@@ -10,6 +10,7 @@
               
              </div>
             </b-col>
+            
           </b-row >
           
 
@@ -167,9 +168,10 @@ export default {
 
       filterdWorks: function() {
         return this.WorkloadedPosts.filter((WorkloadedPost) =>{
-          return WorkloadedPost.category.match(this.filterValue) 
-        }
-        );
+          return WorkloadedPost.category.match(this.filterValue)
+          
+        } 
+        )
         
       }
     }

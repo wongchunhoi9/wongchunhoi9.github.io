@@ -11,11 +11,21 @@
                 <b-nav-text>    ----   </b-nav-text>
                 <b-nav-item class="nav-item"><nuxt-link to="/work">work</nuxt-link></b-nav-item>
                 <b-nav-item class="nav-item" disabled><nuxt-link to="/inProgress">in progress</nuxt-link></b-nav-item>
-                <b-nav-item class="nav-item"><nuxt-link to="/sound">sound</nuxt-link></b-nav-item>
-                <b-nav-item class="nav-item" ><nuxt-link to="/models">3d</nuxt-link></b-nav-item>
-                <b-nav-item class="nav-item" disabled ><nuxt-link to="/blog">blog</nuxt-link></b-nav-item>
-                <b-nav-item class="nav-item"><nuxt-link to="/about">about</nuxt-link></b-nav-item>
-                <b-nav-item class="nav-item"><nuxt-link to="/contact">contact</nuxt-link></b-nav-item>
+                <!-- <b-nav-item class="nav-item"><nuxt-link to="/sound">sound</nuxt-link> -->
+                    <nuxt-link to="/sound">
+                    <b-nav-item-dropdown text="sound">
+                        <b-dropdown-item><nuxt-link to="/sound/album">Album</nuxt-link></b-dropdown-item>
+                        <b-dropdown-item><nuxt-link to="/sound/album">Sound design</nuxt-link> </b-dropdown-item>
+                        <b-dropdown-divider></b-dropdown-divider>
+                        <b-dropdown-item>instrument</b-dropdown-item>
+                        <b-dropdown-item>performance</b-dropdown-item>
+                    </b-nav-item-dropdown>
+                    </nuxt-link>
+                <!-- </b-nav-item> -->
+                <b-nav-item class="nav-item" to="/models">3Dmodel</b-nav-item>
+                <b-nav-item class="nav-item" disabled to="/blog" >blog</b-nav-item>
+                <b-nav-item class="nav-item" to="/about">about</b-nav-item>
+                <b-nav-item class="nav-item" to="/contact">contact</b-nav-item>
                 <!-- //disabled="" -->
             </b-navbar-nav>
 

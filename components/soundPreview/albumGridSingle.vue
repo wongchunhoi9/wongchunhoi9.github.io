@@ -101,16 +101,16 @@ export default {
 }
 .album-title{
     padding-top: 5px;
-    font-size: 2vmax;
+    font-size: 3vmin;
 }
-/* @media only screen and (max-width: 320px) {
+@media only screen and (max-width: 900px) {
 
 .album-title{
     padding-top: 5px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
-} */
+}
 .album-image-preview {
     border-style: solid;
     /* padding-left: 3px;
