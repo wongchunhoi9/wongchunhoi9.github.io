@@ -10,7 +10,6 @@
               
              </div>
             </b-col>
-            
           </b-row >
           
 
@@ -156,6 +155,36 @@ export default {
           medium:"electronics | servo motos, micro controller, wood, magnetic glass",
           year:"2016",
           category: "electronics | installation | burn "
+        },
+        {
+          id: 'extremely-useful-system-1-firewood',
+          title: "extremely useful system #1 – firewood ｜終極有用系統 #1 – 柴火",
+          previewText: "",
+          thumbnail:
+            "tnps-2-cstmumbai-thumbnail.png",
+          medium:"electronics | servo motos, micro controller, wood, magnetic glass",
+          year:"2016",
+          category: "streaming | radio | boardcast | public "
+        },
+        {
+          id: 'extremely-useful-system-1-firewood',
+          title: "extremely useful system #1 – firewood ｜終極有用系統 #1 – 柴火",
+          previewText: "",
+          thumbnail:
+            "hwc220v_thumbnail.svg",
+          medium:"electronics | servo motos, micro controller, wood, magnetic glass",
+          year:"2016",
+          category: "electronics | installation | burn "
+        },
+        {
+          id: 'hardworking-circuit-1-0',
+          title: "hardworking circuit #1.0 XXXXXß", 
+          previewText: "",
+          thumbnail:
+            "hardworking-circuit-1-sketch.svg",
+          medium:"electronics ",
+          year:"2014",
+          category: "electronics | installation |  "
         }
       ],
         
@@ -168,10 +197,9 @@ export default {
 
       filterdWorks: function() {
         return this.WorkloadedPosts.filter((WorkloadedPost) =>{
-          return WorkloadedPost.category.match(this.filterValue)
-          
-        } 
-        )
+          return WorkloadedPost.category.match(this.filterValue) 
+        }
+        );
         
       }
     }
