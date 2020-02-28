@@ -2,9 +2,9 @@
     <div>
         
         <b-container  class="album-container">
-          <b-row><b-col> <h3 class="album-session-intro"> Album </h3>  </b-col></b-row>
+          <b-row><b-col> <h3 class="album-session-intro"> Sound Design / Engineering </h3>  </b-col></b-row>
            
-              <albumGrid :posts="albumList"/>
+              <soundDesignGrid :posts="albumList"/>
                 
         </b-container>
         <br>
@@ -14,11 +14,11 @@
 </template>
 
 <script>
-import albumGrid from "@/components/soundPreview/albumGrid";
+import soundDesignGrid from "@/components/soundPreview/soundDesignGrid";
 
 export default {
   components: {
-        albumGrid
+        soundDesignGrid
     }, 
     
     data () { 
@@ -27,38 +27,92 @@ export default {
 
              albumList: [
         {
-          id: 'album/soundsheepsheep-ep-1',
-          title: "坐這山 望這山",
-          previewText: "",
+          id: 'sound-design/ghost',
+          title: "小鬼 – Ghost",
           thumbnail:
-            "soundyoung-ep-1-album-cover.png",
-          albumArtist:"sound羊",
-          year:"2016",
-          medium:"EP | CD",
-          category:"anti-folk?"
+            "ghost-thumbnail.jpg",
+          soundTask:"Sound design Wong Chun Hoi ",
+          collaborateArtist:"Animation by Morph Workshop: Aplise Lee, Anna Li",
+          year:"2018",
+          medium:"Animation",
+          previewText: " ",
+          
         },
         {
-        id: 'album/half-hour-exercise-1',
-          title: "half-hour exercise #1",
-          previewText: "I spent around 30mins to twist each freelance job session and play",
+          id: 'sound-design/myhiddenwatcher',
+          title: "靈動之窗 – dancing eye",
           thumbnail:
-            "halfhour-exercise-set.svg",
-          albumArtist:"wongchunhoi9",
+            "dancingeye-thumbnail.jpg",
+          soundTask:"Sound made by: Wong Chun Hoi ,Hody Law Sin Yan",
+          collaborateArtist:"Animation by Morph Workshop: Aplise Lee, Anna Li",
           year:"2016",
-          medium:"CD",
-          category:"compilation"
+          medium:"Animation",
+          previewText: " ",
+          
         },
         {
-        id: 'album/day-after',
-          title: "DAY AFTER 翌日 [2014. 9.29 - 12.12",
-          previewText: "",
+          id: 'sound-design/myhiddenwatcher',
+          title: "Luna Park",
           thumbnail:
-            "day-after-cd-front.png",
-          albumArtist:"Publisher 出版｜soundpocket 聲音掏腰包",
-          year:"2015",
-          medium:"CD",
-          category:"compilation"
+            "lunapark-thumbnail.jpg",
+          soundTask:"Sound Design",
+          collaborateArtist:"Artwork by Kingsley Ng",
+          year:"2014",
+          medium:"Multi-channel video and sound installation",
+          previewText: " ",
+          
         },
+        {
+          id: 'sound-design/myhiddenwatcher',
+          title: "守宮物語 – My Hidden Watcher",
+          thumbnail:
+            "thehiddenwatcher-thumbnail.jpg",
+          soundTask:"Sound Designer",
+          collaborateArtist:"Animation by Morph Workshop",
+          year:"2014",
+          medium:"Animation",
+          previewText: " ",
+          
+        },
+        {
+          id: 'sound-design/inbertywetrust',
+          title: "In Berty We Trust!",
+          thumbnail:
+            "inbertywetrust-thumbnail.jpg",
+          soundTask:"Sound Designer & Technical Supoort",
+          collaborateArtist:"Concept and Visual: Angela Su || Animator: Flyingpig Wong",
+          year:"2013",
+          medium:"3-channel Video Installation",
+          previewText: " ",
+          
+        },
+        {
+          id: 'sound-design/yeti',
+          title: "Yeti",
+          thumbnail:
+            "yeti-thumbnail.jpg",
+          soundTask:"Original music and sound design",
+          collaborateArtist:"Animation by Joe Kwun, Treehouse Studio",
+          year:"2013",
+          medium:"Animation",
+          previewText: " ",
+          
+        },
+        {
+          id: 'sound-design/1st-february',
+          title: "1st February",
+          thumbnail:
+            "1stfeb-thumbnail.jpg",
+          soundTask:"Sound design and Music ",
+          collaborateArtist:"Directed and Animated by FlyingPig Wong Wing Shan",
+          year:"2012",
+          medium:"Animation",
+          previewText: " ",
+          
+        },
+        
+        
+        
       ]
         }
     }

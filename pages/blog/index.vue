@@ -8,9 +8,17 @@
         <ul>
           <li><nuxt-link to="/blog/article?name=blog234">akg.md</nuxt-link></li>
           <li><nuxt-link to="/blog/article?name=quruli">quruli.md</nuxt-link></li>
+          <li><nuxt-link to="/blog/article?name=hardworking_circuit_1to4">hardworking_circuit_1to4.md</nuxt-link></li>
         </ul>
       </li>
       <li><nuxt-link to="/blog/quruli">Run component on markdown</nuxt-link></li>
     </ol>
   </div>
+  <!-- https://github.com/jennapederson/starter-for-nuxt-markdown-blog -->
 </template>
+
+<script>
+export default {
+  
+}
+</script>

@@ -1,7 +1,8 @@
 <template>
   <div class="error-page">
-    <h1>Oops, something went wrong!</h1>
-    <p>Back to <a href="/">safety</a>!</p>
+    <h1>sorry </h1>
+    <p>this page is not ready</p>
+    <b-img src="~/assets/images/orange5-p1-200px.gif" fluid-grow=""></b-img>
   </div>
 </template>
 

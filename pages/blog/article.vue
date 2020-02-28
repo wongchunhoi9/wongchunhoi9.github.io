@@ -1,10 +1,29 @@
 <template>
-  <div>
+  <div class="blog-container">
     <small>This component mounts <code>~/articles/${file name which is passed through "name" query on URL}.md</code> as Vue component dynamically</small>
-    <h2>{{ attributes.title }}</h2>
+    <h2 class="blog-title-container">{{ attributes.title }}</h2>
+     <h4 class="blog-date">{{ attributes.date }}</h4>
     <component :is="selectedArticle" />
   </div>
 </template>
+
+<style scoped>
+.blog-container { 
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.blog-title-container { 
+  color: rgb(27, 19, 17);
+  padding: 10px;
+}
+
+.blog-date {
+  text-align:right; 
+}
+.blog-content{
+
+}
+</style>
 
 <script>
   export default {
