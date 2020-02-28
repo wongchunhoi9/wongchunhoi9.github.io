@@ -157,8 +157,8 @@ export default {
           category: "electronics | installation | burn "
         },
         {
-          id: 'extremely-useful-system-1-firewood',
-          title: "extremely useful system #1 – firewood ｜終極有用系統 #1 – 柴火",
+          id: 'Temporary non-locatable public space',
+          title: "Temporary non-locatable public space",
           previewText: "",
           thumbnail:
             "tnps-2-cstmumbai-thumbnail.png",
@@ -167,8 +167,8 @@ export default {
           category: "streaming | radio | boardcast | public "
         },
         {
-          id: 'extremely-useful-system-1-firewood',
-          title: "extremely useful system #1 – firewood ｜終極有用系統 #1 – 柴火",
+          id: 'hardworking-circuit-1-1-220vac',
+          title: "hardworking circuit #1.1 220V AC",
           previewText: "",
           thumbnail:
             "hwc220v_thumbnail.svg",
@@ -182,7 +182,7 @@ export default {
           previewText: "",
           thumbnail:
             "hardworking-circuit-1-sketch.svg",
-          medium:"electronics ",
+          medium:"electronics | installation",
           year:"2014",
           category: "electronics | installation |  "
         }
