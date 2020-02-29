@@ -9,8 +9,8 @@
 
 <style scoped>
 .blog-container { 
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 12%;
+  padding-right: 12%;
 }
 .blog-title-container { 
   color: rgb(27, 19, 17);
@@ -23,6 +23,14 @@
 .blog-content{
 
 }
+
+@media only screen and (max-width: 900px) {
+  .blog-container { 
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+}
+
 </style>
 
 <script>
@@ -44,6 +52,11 @@
       // Use Async Components for the benefit of code splitting
       // https://vuejs.org/v2/guide/components-dynamic-async.html#Async-Components
       // this.selectedArticle = () => import(`~/articles/${this.$route.query.name}.md`).then(({ vue }) => vue.component)
-    }
+    },
+    // head () {
+    //   return {
+    //     title: markdown.attributes.title
+    //   }
+    // }
   }
 </script>
