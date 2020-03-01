@@ -69,7 +69,7 @@ export default {
   },
   methods: {
     imgSrc (post) {
-      return require(`~/assets/images/blogtest/${post.attributes.hero}`)
+      return require(`~/assets/images/blog/${post.attributes.hero}`)
     },
     PostDateConvertion (){
       // return SimpleDateFormat(`${post.attributes.date}`)

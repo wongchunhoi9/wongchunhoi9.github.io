@@ -2,23 +2,28 @@
 title: 勤力電路#1.0 -#1.4
 date: 2019-12-15
 excerpt: 我很肯定，勤力電路＃1 是源於我對現今媒體藝術極度封建、光鮮為大，那種「說了算」的態度令人火大，黑盒裡他們做什麼都可以，就是不讓你看見真理。我費解，決意創建一個較坦白的真理。 ....
-hero: carrots.jpg
+hero: hardworking-circuit-1-early-sketch.jpg
 tags: artnote 創作筆記
 ---
 
-https://www.jennapederson.com/blog/2019/10/8/building-a-playground-with-nuxt-and-markdown
-Image folder:
-https://drive.google.com/open?id=18OAxNER9sGNSkEj-7QGNOXxLS3ghkUem
+
+<!-- https://drive.google.com/open?id=18OAxNER9sGNSkEj-7QGNOXxLS3ghkUem -->
 
 我很肯定，勤力電路＃1 是源於我對現今媒體藝術極度封建、光鮮為大，那種「說了算」的態度令人火大，黑盒裡他們做什麼都可以，就是不讓你看見真理。我費解，決意創建一個較坦白的真理。
 但那只是我假想的敵人，我並沒有真的要宣戰，我只覺得我有向山谷咆哮的必要，而且不能光說，要身體力行帶著大聲公走到山谷附近，向谷底投下一顆小石。現在看起來真的是一個俗套的里程碑。但無論如何那是我著手認真看待冷冰冰的電路中的獨特生命力。
 
 ### 我在趕路，卻又強行把最便捷的路砍掉成崎嶇的路，
-某天我拿起當時有份策展的宣傳海報，因為那是我工作室內最重磅數的紙張，手執一支幼身箱頭筆，一口氣繪畫了十多個簡單的電路圖 (schematic)，說簡單的意思是指我根本就只懂得最基本的電路概念，我只有一個命題作幾近automatic drawing 的推論：「電路可以多愚蠢地運作？」
+某天我拿起當時有份策展的宣傳海報，因為那是我工作室內最重磅數的紙張，手執一支幼身箱頭筆，一口氣繪畫了十多個簡單的電路圖 (schematic)，說簡單的意思是指我根本就只懂得最基本的電路概念，我只有一個命題作幾近automatic drawing 的推論：*「電路可以多愚蠢地運作？」*
 不到一小時畫畢，鬆一口氣，會心傻笑，把紙本跟衣服掛在一起，每天曬太陽。紙上的其中一個電路圖就是勤力電路#1的藍本，也是唯一一個要以省略號的電路。
 
-<img src= "require('~/assets/images/blog/1-concept_sketch-with-other-circuit-covered.jpg')"
+<figure>
+<img :src= "require('~/assets/images/blog/hardworking-circuit-1-early-sketch.jpg')"
      alt="早期草圖" />
+<figcaption style='color:#AAAAAA; float:right;'>早期草圖 </figcaption>     
+</figure>
+     
+    
+
 
 
 

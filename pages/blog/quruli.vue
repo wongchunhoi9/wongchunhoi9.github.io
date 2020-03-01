@@ -7,17 +7,17 @@
 </template>
 
 <script>
-  import fm from '~/contents/quruli.md'
+  // import fm from '~/contents/quruli.md'
 
 
-  export default {
-    components: {
-      'article-quruli': fm.vue.component
-    },
-    data () {
-      return {
-        title: fm.attributes.title
-      }
-    }
-  }
+  // export default {
+  //   components: {
+  //     'article-quruli': fm.vue.component
+  //   },
+  //   data () {
+  //     return {
+  //       title: fm.attributes.title
+  //     }
+  //   }
+  // }
 </script>

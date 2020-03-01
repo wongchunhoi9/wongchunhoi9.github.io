@@ -1,8 +1,8 @@
 <template>
   <div class="blog-container">
-    <small>This component mounts <code>~/articles/${file name which is passed through "name" query on URL}.md</code> as Vue component dynamically</small>
+    <!-- <small>This component mounts <code>~/articles/${file name which is passed through "name" query on URL}.md</code> as Vue component dynamically</small> -->
     <h2 class="blog-title-container">{{ attributes.title }}</h2>
-     <h4 class="blog-date">{{ attributes.date }}</h4>
+     <h4 class="blog-date">{{ attributes.date | date}}</h4>
     <component :is="selectedArticle" />
   </div>
 </template>
@@ -31,6 +31,10 @@
   }
 }
 
+
+
+
+
 </style>
 
 <script>
@@ -45,7 +49,7 @@
       }
     },
     created () {
-      const markdown = require(`~/contents/${this.$route.query.name}.md`)
+      const markdown = require(`~/contents/blog/${this.$route.query.name}.md`)
       this.attributes = markdown.attributes
       this.selectedArticle = markdown.vue.component
 
@@ -55,7 +59,7 @@
     },
     head () {
       return {
-        title: "wongchunhoi9blog"
+        title: "blog-wongchunhoi9"
       }
     }
   }

@@ -7,16 +7,16 @@
 </template>
 
 <script>
-  import fm from '~/contents/blog234.md'
+  // import fm from '~/contents/blog234.md'
 
-  export default {
-    components: {
-      'article-akg': fm.vue.component
-    },
-    data () {
-      return {
-        title: fm.attributes.title
-      }
-    }
-  }
+  // export default {
+  //   components: {
+  //     'article-akg': fm.vue.component
+  //   },
+  //   data () {
+  //     return {
+  //       title: fm.attributes.title
+  //     }
+  //   }
+  // }
 </script>
