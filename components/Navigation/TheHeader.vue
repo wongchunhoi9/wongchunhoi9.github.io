@@ -23,7 +23,7 @@
                     </nuxt-link>
                 <!-- </b-nav-item> -->
                 <b-nav-item class="nav-item" to="/models">3Dmodel</b-nav-item>
-                <b-nav-item class="nav-item" disabled to="/blog" >blog</b-nav-item>
+                <b-nav-item class="nav-item"  to="/blog" >blog</b-nav-item>
                 <b-nav-item class="nav-item" to="/about">about</b-nav-item>
                 <b-nav-item class="nav-item" to="/contact">contact</b-nav-item>
                 <!-- //disabled="" -->

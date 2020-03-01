@@ -1,8 +1,9 @@
 ---
 title: 勤力電路#1.0 -#1.4
-date: 2019-09-21
-excerpt: 我很肯定，勤力電路＃1 是源於我對現今媒體藝術極度封建、光鮮為大，那種「說了算」的態度令人火大，黑盒裡他們做什麼都可以，就是不讓你看見真理。我費解，決意創建一個較坦白的真理。
+date: 2019-12-15
+excerpt: 我很肯定，勤力電路＃1 是源於我對現今媒體藝術極度封建、光鮮為大，那種「說了算」的態度令人火大，黑盒裡他們做什麼都可以，就是不讓你看見真理。我費解，決意創建一個較坦白的真理。 ....
 hero: carrots.jpg
+tags: artnote 創作筆記
 ---
 
 https://www.jennapederson.com/blog/2019/10/8/building-a-playground-with-nuxt-and-markdown

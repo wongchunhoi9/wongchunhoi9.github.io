@@ -1,6 +1,6 @@
 <template>
-<div>
-  <div class="markdown-body">
+<div class="">
+  <!-- <div class="markdown-body">
     <h1>frontmatter-markdown-loader-nuxt-sample</h1>
     <ol type="A">
       <li><nuxt-link to="/blog/blog234">Import synchronously</nuxt-link></li>
@@ -14,24 +14,45 @@
       </li>
       <li><nuxt-link to="/blog/quruli">Run component on markdown</nuxt-link></li>
     </ol>
-  </div>
+  </div> -->
   <!-- https://github.com/jennapederson/starter-for-nuxt-markdown-blog -->
 
-<!-- 
-Try another list and using article queriy instead -->
-  <div class="Blog-list">
+<!-- Try another list and using article queriy instead -->
 
-  </div>
-    <div v-for="post in posts" :key="post.attributes.title" class="columns">
-      <ul>
-        <li><nuxt-link :to="post.path">  {{ post.attributes.title }} </nuxt-link></li>
-        <li>     {{ post.attributes.tags }}     </li>
-           <p>{{ post.attributes.excerpt }}</p>
-            <p>{{ post.attributes.date }}</p>
-            <img :src="imgSrc(post)" :alt="post.attributes.title">
-      </ul>
-    </div>
-
+    <b-container class="blog-page-container">
+      <b-row>
+        <b-col> <h3 class="blog-intro">Blog</h3> </b-col>
+        <b-col>
+          <b-form-input v-model="filterValue" placeholder="[not yet functioning!] :search work category" class="mb-2"></b-form-input>
+                
+        </b-col>
+      </b-row>
+    
+      <div v-for="post in posts" :key="post.attributes.title" class="blog-post">
+      <nuxt-link :to="post.path">
+        <b-container>
+          <b-row>
+            
+            <b-col md="4">
+              <div  class="blog-image-container">
+              <img :src="imgSrc(post)" :alt="post.attributes.title" class="blog-image" ></b-img>
+              </div>
+              
+            </b-col>
+            <b-col >
+              <h3>{{ post.attributes.title }} </h3>
+              <h5 class="blog-date">{{ post.attributes.date }} </h5>
+              <!-- <h5> {{PostDateConvertion(post.attributes.date)}}</h5> -->
+              <br>
+              <p>{{ post.attributes.excerpt }} </p>
+              <p>{{ post.attributes.tags }}</p>
+            </b-col>
+          </b-row>
+    
+        </b-container> 
+        </nuxt-link>
+      </div>
+    </b-container>
   </div>
 
 </template>
@@ -41,14 +62,75 @@ export default {
     const context = await require.context('~/contents/blog', true, /\.md$/)
     const posts = await context.keys().map(key => ({
       ...context(key),
-      path: `/blog/article?name=${key.replace('.md', '').replace('./', '')}`
+      path: `/blog/article?name=${key.replace('.md', '').replace('./', '')}`,
+      
     }))
     return { posts: posts.reverse() }
   },
   methods: {
     imgSrc (post) {
       return require(`~/assets/images/blogtest/${post.attributes.hero}`)
+    },
+    PostDateConvertion (){
+      // return SimpleDateFormat(`${post.attributes.date}`)
+      // return SimpleDateFormat("yyyy-mm-dd")
+      
+    }
+  },
+  data () {
+    return {
+      filterValue:""
     }
   }
+  
+  
 }
 </script>
+
+<style scoped>
+
+.blog-page-container {
+      background-image: linear-gradient(to right top, #90abb8, #6daba8, #72a67d, #99984e, #c87c42);
+      justify-content: center;
+      height: 100%;
+      /* max-width: 1200px; */    
+}
+
+.blog-intro {
+  margin: 5px;
+}
+.blog-list {
+  width: 100%;
+  background-color:rgb(145, 222, 135);
+
+
+}
+.blog-post {
+  background-color:rgb(218, 218, 218);
+  padding-top:10px;
+  margin-top: 10px;
+
+}
+
+.blog-title{
+
+}
+
+.blog-date{
+  font-size: 15px;
+}
+
+.blog-image-container{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+.blog-image{
+  width: 100%;
+  overflow: hidden;
+  display: block;
+}
+.blog-except{
+
+}
+</style>

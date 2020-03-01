@@ -53,10 +53,10 @@
       // https://vuejs.org/v2/guide/components-dynamic-async.html#Async-Components
       // this.selectedArticle = () => import(`~/articles/${this.$route.query.name}.md`).then(({ vue }) => vue.component)
     },
-    // head () {
-    //   return {
-    //     title: markdown.attributes.title
-    //   }
-    // }
+    head () {
+      return {
+        title: "wongchunhoi9blog"
+      }
+    }
   }
 </script>
