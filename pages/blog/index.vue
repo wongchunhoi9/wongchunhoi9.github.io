@@ -41,7 +41,7 @@
             </b-col>
             <b-col >
               <h3>{{ post.attributes.title }} </h3>
-              <h5 class="blog-date">{{ post.attributes.date }} </h5>
+              <h5 class="blog-date">{{ post.attributes.date | date}} </h5>
               <!-- <h5> {{PostDateConvertion(post.attributes.date)}}</h5> -->
               <br>
               <p>{{ post.attributes.excerpt }} </p>
