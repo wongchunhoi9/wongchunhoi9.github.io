@@ -94,7 +94,7 @@ export default {
             "Dream-machine-conceptsketch-thumbnail.svg",
           medium:"installation",
           year:"2019",
-          category:"video | sound | patching"
+          category:"video | sound | patching | Collaboration"
         },
         {
           id: 'hardworking-circuit-1-3',

@@ -9,8 +9,8 @@
             <b-row>
                 <b-col>     
                     <!-- Feature Image : -->
-                    <b-img  src="~/assets/images/Dream-machine-conceptsketch-thumbnail.svg" fluid-grow > </b-img>
-                    <figcaption class="figure-caption"> sketch for setting up 25th IFVA award finalist exhibition </figcaption>
+                    <b-img  src="" fluid > </b-img>
+                    <figcaption class="figure-caption"> A Caption </figcaption>
                 </b-col>
                 
             </b-row>
@@ -57,13 +57,13 @@ export default {
         return {
             WorkInfo: [
                 {
-                    title: "Dream Machine 夢幻機器 ",
-                    previewText: "by L305D Dream Team Collectives",
+                    title: "hardworking circuit #1 - surplus 勤力電路＃1 剩物 ",
+                    previewText: "scan the flakes of the works",
                     thumbnail:
-                        "Dream-machine-conceptsketch-thumbnail.svg",
-                    medium:"installation",
-                    year:"2019",
-                    category:"video | sound | patching | Collaboration"
+                        "hardworkingcircuitsurplus-thumbnail.svg",
+                    medium:"digital image",
+                    year:"2016",
+                    category: "electronics | rubbish | scan | image | 2D"
                 }
             ]
         }
