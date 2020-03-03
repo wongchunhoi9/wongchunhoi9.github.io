@@ -29,7 +29,7 @@
                         <br>
                         {{(WorkInfo[0].year)}}
                     </p>                        
-                    <p> category:
+                    <p> <small>tag:</small>
                         <br>
                         {{(WorkInfo[0].category)}}
                     </p>
@@ -63,6 +63,16 @@ export default {
                     year:"2018",
                     category:"installation | electronics | stupid  | toy"
                 }
+            ]
+        }
+    },
+    head() {
+        return{
+            title: this.WorkInfo[0].title,
+            meta: [
+                { hid: 'description', name: this.WorkInfo[0].title , content: this.WorkInfo[0].previewText },
+                { hid: 'keywords', name: this.WorkInfo[0].medium , content: this.WorkInfo[0].category }
+      
             ]
         }
     }
