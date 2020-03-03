@@ -9,7 +9,7 @@
             <b-row>
                 <b-col>     
                     <!-- Feature Image : -->
-                    <b-img  src="" fluid > </b-img>
+                    <b-img  src="~/assets/images/work/thoseOrangeInstallation/1K4A2961X.jpg" fluid > </b-img>
                     <figcaption class="figure-caption"> A Caption </figcaption>
                 </b-col>
                 
@@ -29,7 +29,7 @@
                         <br>
                         {{(WorkInfo[0].year)}}
                     </p>                        
-                    <p> category:
+                    <p> tag:
                         <br>
                         {{(WorkInfo[0].category)}}
                     </p>
@@ -39,7 +39,13 @@
             <!-- WORK CONTENT -->
             <b-row>
                 <b-col>
-                   
+                   <h4> Video Documentation - Exhibition View </h4>
+                   <b-embed
+                        type="iframe"
+                        aspect="16by9"
+                        src="https://www.youtube.com/embed/aKBhCTduh_4"
+                        allowfullscreen
+                    ></b-embed>
                    <!--here to write-->
                 </b-col>
             </b-row>
@@ -57,11 +63,11 @@ export default {
         return {
             WorkInfo: [
                 {
-                    title: "Artwork Title",
-                    previewText: "PreviewText",
-                    medium:"electronics",
-                    year:"2018",
-                    category:"installation | electronics | stupid  | toy"
+                    title: "冚街橙  | Those oranges you cannot eat ",
+                    previewText: "An assemblage I did during C3A Residency @ Cordoba, Spain",
+                    medium:"electronics, found objects",
+                    year:"2019",
+                    category:"sound | electronics | installation | assemblage"
                 }
             ]
         }

@@ -16,10 +16,10 @@ tags: artnote 創作筆記
 某天我拿起當時有份策展的宣傳海報，因為那是我工作室內最重磅數的紙張，手執一支幼身箱頭筆，一口氣繪畫了十多個簡單的電路圖 (schematic)，說簡單的意思是指我根本就只懂得最基本的電路概念，我只有一個命題作幾近automatic drawing 的推論：*「電路可以多愚蠢地運作？」*
 不到一小時畫畢，鬆一口氣，會心傻笑，把紙本跟衣服掛在一起，每天曬太陽。紙上的其中一個電路圖就是勤力電路#1的藍本，也是唯一一個要以省略號的電路。
 
-<figure>
+<figure >
 <img :src= "require('~/assets/images/blog/hardworking-circuit-1-early-sketch.jpg')"
-     alt="早期草圖" />
-<figcaption style='color:#AAAAAA; float:right;'>早期草圖 </figcaption>     
+     alt="早期草圖" style="display:block;" />
+<figcaption style='color:#AAAAAA; float:right; width:100%'>早期草圖 </figcaption>     
 </figure>
      
     

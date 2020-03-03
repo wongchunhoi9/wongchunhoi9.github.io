@@ -25,7 +25,7 @@ function formatDate(inputDate) {
   const month = date.getMonth();
   const day = date.getDate();
 //   const formattedDate = day + ". " + months[month] + " " + year;
-  const formattedDate = day + ". " + (month+1) + ", " + year;
+  const formattedDate = day + ". " + (month+1) + ". " + year;
   return formattedDate;
 }
 

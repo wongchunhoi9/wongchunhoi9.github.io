@@ -69,7 +69,7 @@ export default {
         {
           id: 'those-oranges-you-cannot-eat-installation',
           title: "冚街橙  | Those oranges you cannot eat  ",
-          previewText: "A assemblage I did during C3A Residency @ Cordoba, Spain",
+          previewText: "An assemblage I did during C3A Residency @ Cordoba, Spain",
           thumbnail:
             "those-orange-work-sketch-copy-300px-width.png",
           medium:"electronics , found objects",

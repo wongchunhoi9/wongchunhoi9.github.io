@@ -6,10 +6,27 @@
         <b-col md="4">
          
             <div class="" style="margin:10px;">
-              <h5>update</h5>
+              <h4>update</h4>
               <br>
+              <h5>Blog:</h5>
               <p>
-                writing: <a href="http://floatingprojectscollective.net/art-notes/hardworking-electricity-1-4/">勤力電路 #1.0 – #1.4 Hardworking electricity #1.0-#1.4</a>
+                
+                 <nuxt-link to="/blog/article?name=2019-12-15-hardworking_circuit_1to4">勤力電路 #1.0 – #1.4 Hardworking electricity #1.0-#1.4 </nuxt-link>
+                
+              </p>
+              <h5> coming exhibition / event: </h5>
+              <p>
+                <a href="http://www.ifva.com/page/?langcode=tc&id=DTTjDKYSnOA">
+                25th ifva Award, Media Art Category - Finalist Exhibition [Cancelled]
+                </a>
+              </p>
+              <h5> outreach:</h5>
+              <p>
+                <a href="https://www.lcsd.gov.hk/CE/Museum/APO/zh_TW/web/apo/va_hardworking_circuit.html">
+                Workshop @ HKVAC 勤力電路 #1.0 – 創做必要的「無用」
+                </a>
+
+
               </p>
             </div>
           </b-col>
@@ -120,15 +137,15 @@ export default {
             HeroImageSlider: [
               {
                 id:'sliderimage1',
-                title:' ',
-                subtitle:'Whatever subtitle here',
-                imageSource:'hardworking-circuit-1p3sketch-03-770x232.png'
+                title:'工作坊 ： 勤力電路 #1.0 – 創做必要的「無用」 ',
+                subtitle:'',
+                imageSource:'update-vacworkshophwc1.jpg'
               },
               {
                 id:'sliderimage2',
-                title:'BV',
-                subtitle:'Nothing',
-                imageSource:'hardworking-circuit-1p3sketch-03-770x232.png'
+                title:'Dream Machine Exhibition @ 25th ifva',
+                subtitle:'cancelled',
+                imageSource:'update-dreammachineifva.jpg'
               }
             ]
         }
