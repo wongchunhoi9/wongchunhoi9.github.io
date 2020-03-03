@@ -9,8 +9,8 @@
             <b-row>
                 <b-col>     
                     <!-- Feature Image : -->
-                    <b-img  src="" fluid > </b-img>
-                    <figcaption class="figure-caption"> A Caption </figcaption>
+                    <b-img  src="~/assets/images/work/hardworingcircuit1surplus/Scanned-Image-22.jpg" fluid > </b-img>
+                    <figcaption class="figure-caption"> Scanned Image #22 </figcaption>
                 </b-col>
                 
             </b-row>
@@ -18,7 +18,16 @@
                 
                 <b-col md='9' order="1" order-md="2"> 
                     <p>
-                        {{(WorkInfo[0].previewText)}} 
+                        I scanned a batch of flakes and surplus when I was in the production of hardworking circuit #1 series
+                    </p>
+                    <hr>
+                    <p>
+                        related work:
+                        <ul>
+                            <li><nuxt-link to="hardworking-circuit-1-0">hardworking circuit #1.0</nuxt-link></li>
+                            <li><nuxt-link to="hardworking-circuit-1-1">hardworking circuit #1.1</nuxt-link></li>
+                            <li><nuxt-link to="hardworking-circuit-1-2">hardworking circuit #1.2</nuxt-link></li>
+                        </ul>
                     </p>
                     
 
@@ -28,7 +37,8 @@
                     <p> {{(WorkInfo[0].medium)}} 
                         <br>
                         {{(WorkInfo[0].year)}}
-                    </p>                        
+                    </p>                      
+                    <hr>  
                     <p> <small>tag:</small>
                         <br>
                         {{(WorkInfo[0].category)}}
@@ -39,8 +49,11 @@
             <!-- WORK CONTENT -->
             <b-row>
                 <b-col>
-                   
+                   <h5>Making of </h5>
                    <!--here to write-->
+                   <b-img  src="~/assets/images/work/hardworingcircuit1surplus/DSC06110.jpg" fluid > </b-img>
+                   <b-img  src="~/assets/images/hardworkingcircuitsurplus-thumbnail.svg" fluid-grow> </b-img>
+
                 </b-col>
             </b-row>
 

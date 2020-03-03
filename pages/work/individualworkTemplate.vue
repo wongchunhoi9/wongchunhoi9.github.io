@@ -29,6 +29,7 @@
                         <br>
                         {{(WorkInfo[0].year)}}
                     </p>                        
+                    <hr>
                     <p> <small>tag:</small>
                         <br>
                         {{(WorkInfo[0].category)}}
