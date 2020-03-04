@@ -75,7 +75,7 @@
                 <b-col>
                     <h4> Sample Model: Orange #3</h4>
                     <b-container fluid class="model-container">
-                      <div class="demo" style="background: linear-gradient(#ffffff, #EEEEEE);">
+                      <div class="demo" style="background: linear-gradient(#ffffff, #E68429);">
                         <!-- Orange 3 by Wong Chun Hoi -->
                         <model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1583318362013016/deBlyR6vhqQ/0nUdQsugAUG/Orange%203.gltf" ios-src="https://poly.googleusercontent.com/downloads/c/fp/1583318362013016/deBlyR6vhqQ/4KEUqtAGmKo/Orange%203.usdz" alt="Orange 3 by Wong Chun Hoi" background-color="##e0a57d" camera-controls auto-rotate > </model-viewer>
                         <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>

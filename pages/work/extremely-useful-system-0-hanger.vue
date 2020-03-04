@@ -56,21 +56,21 @@
             </b-row>
 
             <b-row>
-                <b-col>
+                <b-col md="6">
                  
-                   <b-img  class="image-wrapper" src="~/assets/images/work/extremelyusefulsystem0/extremelyusefulsystem_00_gloves_01.jpg" fluid></b-img>
+                   <b-img   src="~/assets/images/work/extremelyusefulsystem0/extremelyusefulsystem_00_gloves_01.jpg" fluid></b-img>
                 </b-col>
-                <b-col>
-                   <b-img  class="image-wrapper" src="~/assets/images/work/extremelyusefulsystem0/extremelyusefulsystem_00_gloves_02.jpg" fluid></b-img>
+                <b-col md="6">
+                   <b-img   src="~/assets/images/work/extremelyusefulsystem0/extremelyusefulsystem_00_gloves_02.jpg" fluid></b-img>
                 </b-col>
             </b-row>
             <b-row>
-                <b-col>
+                <b-col md="6">
                  
-                   <b-img  class="image-wrapper" src="~/assets/images/work/extremelyusefulsystem0/extremelyusefulsystem_00_gloves_03.jpg" fluid></b-img>
+                   <b-img   src="~/assets/images/work/extremelyusefulsystem0/extremelyusefulsystem_00_gloves_03.jpg" fluid></b-img>
                 </b-col>
-                <b-col>
-                   <b-img  class="image-wrapper" src="~/assets/images/work/extremelyusefulsystem0/extremelyusefulsystem_00_gloves_04.jpg" fluid></b-img>
+                <b-col md="6">
+                   <b-img   src="~/assets/images/work/extremelyusefulsystem0/extremelyusefulsystem_00_gloves_04.jpg" fluid></b-img>
                 </b-col>
             </b-row>
 
@@ -85,14 +85,14 @@
             </b-row>
 
              <b-row>
-                <b-col>
+                <b-col md="6">
                     <h5>making of</h5>
                    <div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/145536752" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
                 </b-col>
                 <b-col>
                    <div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/145536756" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-                </b-col>
+                </b-col md="6">
             </b-row>
 
              <b-row>
@@ -104,13 +104,13 @@
                 
             </b-row>
             <b-row>
-                <b-col>
+                <b-col md="6">
                 <div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/145536754" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/145536754">#0 + #1</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
                  
 
                 </b-col>
-                <b-col>
+                <b-col md="6">
                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/152048545" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 <p><a href="https://vimeo.com/152048545">extremely useful system #0 @hardworking burning electricity (part1)</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
                 </b-col>
@@ -158,7 +158,7 @@ export default {
 <style scoped>
 @media screen and (max-width: 1000px) {
   .image-wrapper { 
-    max-width: 500px;
+    /* max-width: 500px; */
 }
 }
 
