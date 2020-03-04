@@ -10,7 +10,7 @@
                 <b-col>     
                     <!-- Feature Image : -->
                     <div>
-                    <iframe width="720" height="405" src="https://videopress.com/embed/ObPncCQr" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="1080" height="720" src="https://videopress.com/embed/ObPncCQr" frameborder="0" allowfullscreen></iframe>
                     <script src="https://videopress.com/videopress-iframe.js"></script>
                     </div>
 
@@ -19,8 +19,7 @@
                     </div>
 
 
-                    <b-img  src="~/assets/images/Dream-machine-conceptsketch-thumbnail.svg" fluid > </b-img>
-                    <figcaption class="figure-caption"> sketch for setting up 25th IFVA award finalist exhibition </figcaption>
+                    
                 </b-col>
                 
             </b-row>
@@ -122,16 +121,39 @@
 
                     <p>除了建構夢景的多緯度空間外，另一關鍵的側重點便是裝置內的模擬控制室，以及室內的夢境監視系統。系統的運作模式與規則根據原著作為參考基礎，再按照香港信息技術和廣播局的規定想像一套曾不存在的規條。儘管確立了這些簡潔的指示，翦夢者的存在無疑暗示系統並非追求完美精確的狀態。甚樣可以成為一名專業的翦夢者？何時是釋放龍的最佳時刻，掩蓋了有違道德的夢景？龍的畫面與自主規制音的作用對於翦夢有甚麼作用呢？自主規制音的音源有從何而來？音源本身是一個「嗶」聲，還是可以容許一個更具特色的聲音效果，可以在不喚醒用戶的情況下平滑地模糊夢想與現實之間的界限呢？這套夢境監視系統的規劃和安排不僅旨在創造一種閱讀原著的方向，當中通過以視覺和音頻剪接與重塑夢境的手法，幾乎試圖提倡一套另類的美學。</p>
                     <p>從美學、技術和結構上來說，這種複合裝置是一組模塊化機器系統，分為五個模塊（子系統）。首先是家居模塊，透過參考原著的描述，這單元模擬訂閱者如何在家中連繫網絡。第二是監控模塊，這模塊帶有一個處理視聽內容的編程，允許用戶聽取被審查的夢境。第三以及主要模塊則是控制室，也是複合裝置的中央處理器，負責將夢境分配或傳達至各個監視介面和屏幕。控制室具有一組連繫視頻混合器的類比修補機器而供模擬翦夢者的操作模式。第四組模塊是一組夢景的展示幕，當中亦包含各種影像介面的裝置結構。每組模塊各自都是整套複合裝置的錨點，將較小的組件整合橋接到整個系統之中，從而容許觀眾透過不同視角參與討論。透過抽取對原著的一些想像裝嵌這些模塊塑造夢（或接通夢想控制台）成為一種消費與大眾社交媒體服務的形式。</p>
-                    機器的設置理論上可以解釋為以混合媒介與各種數位與類比設備拼貼而成的機械裝置。每個模塊區域的設計均是團隊成員通過討論、試驗、安裝組件的物理組合錯誤進行動態協作的結果，記錄了一個對於機器美學、軟件、媒體藝術（動態圖像和聲音處理）等種種概念進行仔細檢查並徹底解決的過程。</p>
+                    <p>機器的設置理論上可以解釋為以混合媒介與各種數位與類比設備拼貼而成的機械裝置。每個模塊區域的設計均是團隊成員通過討論、試驗、安裝組件的物理組合錯誤進行動態協作的結果，記錄了一個對於機器美學、軟件、媒體藝術（動態圖像和聲音處理）等種種概念進行仔細檢查並徹底解決的過程。</p>
 
 
                 </b-col>
             </b-row>
+            
+             <b-row>
+                <b-col>
+                   <b-img fluid src="~/assets/images/work/dreammachine/Dream-Machine-schematics-and-example-patch.svg"></b-img>
+                   <b-img fluid src="~/assets/images/work/dreammachine/dream-machine-setup-sketch3d.svg"></b-img>
+                   <!--here to write-->
+                   <b-img  src="~/assets/images/Dream-machine-conceptsketch-thumbnail.svg" fluid-grow > </b-img>
+                    <figcaption class="figure-caption"> sketch for setting up 25th IFVA award finalist exhibition </figcaption>
+                </b-col>
+            </b-row>
+
+              <b-row>
+                <b-col>
+                   <h5>Concept Sketches </h5>
+                   <b-img fluid src="~/assets/images/work/dreammachine/IMG_1296.jpg"></b-img>
+                   <b-img fluid src="~/assets/images/work/dreammachine/IMG_1297.jpg"></b-img>
+                   <b-img fluid src="~/assets/images/work/dreammachine/IMG_1298.jpg"></b-img>
+                   <b-img fluid src="~/assets/images/work/dreammachine/IMG_1299.jpg"></b-img>
+                   <b-img fluid src="~/assets/images/work/dreammachine/IMG_1300.jpg"></b-img>
+                   <!--here to write-->
+                </b-col>
+            </b-row>
+
 
             <b-row>
                 <b-col>
                     <h5> About Dream Team L306D  翦夢小隊 L306D </h5>
-                    <div class="image-wrapper">
+                    <div class="">
                    <b-img fluid src="~/assets/images/work/dreammachine/dreamteamProfilepic.jpg"></b-img></div>
                    <br>
                     <p>Dream Team L306D comprises 8 members with a wide palette of skills ranging from painting, woodcraft, film and photography to programming, music composition and interactive system design.</p>

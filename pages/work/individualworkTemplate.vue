@@ -21,6 +21,7 @@
                         {{(WorkInfo[0].previewText)}} 
                     </p>
                     
+                    
 
                 </b-col>
 
@@ -42,6 +43,7 @@
                 <b-col>
                    
                    <!--here to write-->
+                  
                 </b-col>
             </b-row>
 

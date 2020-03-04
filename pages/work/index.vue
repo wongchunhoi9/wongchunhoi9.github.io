@@ -157,9 +157,9 @@ export default {
           category: "electronics | installation | burn "
         },
         {
-          id: 'Temporary non-locatable public space',
-          title: "Temporary non-locatable public space",
-          previewText: "",
+          id: 'Temporary-non-locatable-public-space-2-MumbaiCST',
+          title: "Temporary non-locatable public space #2 Mumbai CST",
+          previewText: "A radio broadcasting event at public space",
           thumbnail:
             "tnps-2-cstmumbai-thumbnail.png",
           medium:"electronics | servo motos, micro controller, wood, magnetic glass",
