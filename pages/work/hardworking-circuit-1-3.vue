@@ -38,9 +38,25 @@
                 </b-col>
             </b-row>
             
+            <b-row>
+                
+                <b-col> 
+                <p>Page content:</p>
+                <ul>
+                    <li> <nuxt-link :to="{path: '#', hash: 'schematic'}">Schematic diagram 電路圖</nuxt-link></li>
+                    <li> <nuxt-link :to="{path: '#', hash: 'installation'}">installation version</nuxt-link></li>
+                    <li> <nuxt-link :to="{path: '#', hash: 'performance'}">performance version</nuxt-link></li>
+                    
+                    <li> <nuxt-link :to="{path: '#', hash: 'statement'}">artist statement</nuxt-link></li>
+                    
+                </ul>
 
+
+                </b-col>
+            </b-row>
                
                 <!-- Schematic and Principle -->
+            <hr id="schematic" style="padding-top:30px;">
              <b-row>
                    <b-col>
                        <h5>Schematic diagram</h5>
@@ -51,14 +67,11 @@
 
 
             
-            <b-row>
-                <b-col>
-                   <br/>
-                  <b-tabs content-class="mt-3" fill pills active-nav-item-class="font-weight-bold text-uppercase text-danger">
-                        <b-tab title="installation @ 23rd IFVA" active><!-- WORK CONTENT -->
-                            <b-container>
-                                <b-row>
-                                <b-col>
+            
+                  <hr id="installation" style="padding-top:30px;"> 
+
+                                <b-row >
+                                <b-col >
                                     <h4> Exhibition View @23rd IFVA Award - finalist exhibition  Media Art Category</h4>
                                 <b-img src="~/assets/images/work/hardworkingcircuit13/DSC08661.jpg" fluid> </b-img>
                                 <b-img src="~/assets/images/work/hardworkingcircuit13/DSC08651.jpg" fluid> </b-img>
@@ -95,7 +108,28 @@
                                 <b-col >
                                 
                                 <b-img src="~/assets/images/work/hardworkingcircuit13/DSC08638.jpg" fluid> </b-img>
-                                    
+                                <b-img src="~/assets/images/work/hardworkingcircuit13/DSC08654.jpg" fluid> </b-img> 
+                                <hr>
+                                <h4>  hardworking circuit #1 is sponsered & supported by </h4>
+                                <p>Andio Lai 
+                                    <br>Angela Su 
+                                    <br>Cheuk Wing Nam 
+                                    <br>Dennis Wong (sin:ned) 
+                                    <br>Eason Page 
+                                    <br>Fiona Lee 
+                                    <br> Floating Projects Collective
+                                    <br>Gigi Leung Ching wan 
+                                    <br>Hody Law Sin Yan 
+                                    <br>Kel Lok 
+                                    <br>Man Mei To
+                                    <br>Pan Lau Yan 
+                                    <br>Samson Cheung Choi Sang 
+                                    <br>Self fish wild - Yukmui Law + So Wai Lam + Kwong Wing Ka
+                                    <br>Solomon Yu
+                                    <br>Susi Law
+                                    <br>Vivian Fung
+                                    <br>Zoiee Yung
+                                    </p>                
                                 
                                 </b-col>
                             </b-row>
@@ -134,11 +168,9 @@
                                     
                                 </b-col>
                             </b-row>
-                        </b-container>
-                    </b-tab>
+                        
 
-                    <b-tab title="Performance @Sonic Anchor #29">
-                        <b-container>
+                   <hr id="performance" style="padding-top:30px;">
                            <b-row>
                                 <b-col >
                                     <p>A live event for discovering and extending the possibilities of hardworking circuit #1. [hardworking circuit #1.0] [hardworking circuit #1.1] [hardworking circuit #1.2]</p>
@@ -152,7 +184,7 @@
                            </b-row>
 
                              <b-row> 
-                                <b-col>  Performance Video (fragment)</b-col>
+                                <b-col> <h4> Performance Video (fragment)</h4></b-col>
                            </b-row>
 
                              <b-row>
@@ -211,16 +243,16 @@
                                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit13/hardworking-circuit-sonic-anchor-07.jpg" fluid> </b-img>
                                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit13/hardworking-circuit-sonic-anchor-08.jpg" fluid> </b-img>
                                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit13/hardworking-circuit-sonic-anchor-09.jpg" fluid> </b-img>
-                                   <b-img thumbnail src="~/assets/images/work/hardworkingcircuit13/DSC08638.jpg" fluid> </b-img>
-                                   <b-img thumbnail src="~/assets/images/work/hardworkingcircuit13/DSC08638.jpg" fluid> </b-img>
+                                   
+                                   
                                     
                                 </b-col>
                             </b-row>
-
+                            
                             <b-row>
                                <b-col>
                                     
-                                    <h4> sketches </h4>
+                                    <h4 class=""> sketches </h4>
                                    
                                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit13/hardworking-circuit-1p3sketch-03-copyweb.jpg" fluid> </b-img>
                                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit13/hardworking-circuit-13-onsite-map.jpg" fluid> </b-img>
@@ -229,16 +261,43 @@
                                     
                                 </b-col>
                             </b-row>
-                        </b-container>
+<hr id="statement" style="padding-top:30px;">
+                            <b-row>
+                               <b-col>
+                                    
+                                    <h4 class=""> Artist Statement </h4>
+                                 <h3>About hardworking circuit #1 series</h3>
+                                    <p>hardworking circuit#1 is a realization of a schema of monotonous, repetitive circuit, using as many units as possible of relay switch to bridge up the sequential extension of cables, merely for the purpose of electricity connection.</p>
+                                    <h4>The initiation of making hardworking circuit #1</h4>
+                                    <p>My work is invoked by my dissatisfaction with the overly spectacular appearance and total black-boxing of the algorithm and internal mechanisms in many media art works nowadays.</p>
+                                    <p>Trained in a media art curriculum, I have a strong, even desperate, urge to maximize the potential of tools and raw materials in my hands, to push them in order to feel their limits. &ldquo;How dumb can an electronic circuit function?&rdquo; This question has always been lingering in my mind. Conventions of circuit design predicate primarily upon functionality and economic return. In response, in hardworking circuit #1, I have created an overtly excessive, and almost unnecessary circuit system, just to turn on some LED lights.</p>
+                                    <p>I begin with plotting a schema of monotonous, repetitive circuit, using as many units as possible of relay switch to bridge up the sequential extension of cables, merely for the purpose of electricity connection. As I advance the connections and reach the 50th relay switch, the intensifying resistance of the growing cables and disorder in the relay switch cause the whole system to break down. Forced to stop by the circuit I have made, I review the &lsquo;paper concept&rsquo; to reconsider what has happened by calculation, measurement and analysis, followed by a series of trial and error. Numbers and hardware &ndash; cold and inhuman they are &ndash; tell me a lot: why the system needs warming up, how much jam I have created, how much energy I have wasted, and when and where I should stop. Driven by the need to compensate for the wastage I have generated which I have also meant to critique, I make the next work. I turn to sound, an amazing by-product of my excessive, doomed-to-fail generative circuit machine.</p>
+                                    <p>The circuit system I have made gives off patterns of sound as a result of the domino effect of the bridging-up connections processing. These sounds, generated by electronics in the circuit, and the mechanically accumulated delay time are valuable to me. This machine of mine is no longer as monotonous as it looks on paper. The apparent &lsquo;waste&rsquo; and &lsquo;excess&rsquo; force open its (often forgotten) functional purpose (i.e. the blackbox of an electronic circuit) to generate a 2nd-generation schematic state. By opening the blackbox of the electronic circuit, I call attention to what lies between the input and output state. It seems the algorithm and intense soldering exercises I have done present a surprising artistic meaning.</p>
+                                    <h3>勤力電路＃1</h3>
+                                    <p>概念始於對現今媒體藝術的華麗外殼及背後黑盒子運作規則的不滿。</p>
+                                    <p>一直以來在媒體藝術學院受訓、浮游,絕望的總想把手上的材料和工具推到不知哪一個極限。「電路可以有多愚蠢地運作」是老是常出現在腦海的問題。由於電路的設計似乎多是以經濟效益為原則,我才想製作一個過量、沒必要得顯然易見的電路來開啟一些發光二極管(LED),作為回應先前提及的不滿。</p>
+                                    <p>首先是繪畫了一個圖面上重複單調的電路圖,在單一電線管道用上了海量的繼電器作為橋樑來延續電線的長度而已。當要把 電路圖變成實體,接駁第五十個繼電器時,愈來愈長的電線內的電阻和繼電器的失效令整個電路「功能」報廢,我不得不停下來審視自己在之前的紙上談兵,從一輪考量實際情況的計算、量度和試錯反省,算式上數字和冰冷的電子零件的姿態在告訴我 更多這件作品的事實:為什麼他們運作前要熱身,製造了多少混帳,浪費了多少能量,而我什麼時候在哪裡就好要停。一時間有感自己根本在製造本來要批判的對象。</p>
+                                    <p>同一時間我卻又發覺這電路衍生的「副產品」是很有價值的,骨牌般的繼電器聲音有點搔得著耳朵癢處,每個繼電器運作時累積耽擱的時間好像出奇地珍貴。這個電路在實體化後好像沒有本來在紙上的單調。</p>
+                                    <p>我只是用大量焊接填補了在輸入和輸出中間黑盒子般的轉化法則而已,而這也偶然帶來了一點驚喜的美學 。</p>
+                                </b-col>
+                            </b-row>
 
-                    </b-tab>
-                       
-                    </b-tabs>
+                            <b-row>
+                               <b-col>
+                                    
+                                   <h4> Related Link </h4>
+                                   <p> <a href="http://www.academy.arts-news.net/artsnap/%E3%80%8A%E5%8B%A4%E5%8A%9B%E9%9B%BB%E8%B7%AF13%E3%80%8B-%E2%80%94-%E7%8E%8B%E9%8E%AE%E6%B5%B7-wong-chun-hoi" target="blank">[interview[ Art News 藝頻 訪尋藝術作品我的作品（藝術家視頻獨白）《勤力電路#1.3》 — 王鎮海 (Wong Chun Hoi) </a>
+                                   <p><nuxt-link to="/blog/article?name=2019-12-15-hardworking_circuit_1to4">[Blog] Art Note: 勤力電路#1.0 -#1.4</nuxt-link></p>
+                                   <p><nuxt-link to="/work/hardworking-circuit-1-4">hardworking circuit #1.4 勤力電路#1.4</nuxt-link></p>
+                                   <p><nuxt-link to="/work/hardworking-circuit-1-2">hardworking circuit #1.4 勤力電路#1.2</nuxt-link></p>
+                                   <p><nuxt-link to="/work/hardworking-circuit-1-1">hardworking circuit #1.4 勤力電路#1.1</nuxt-link></p>
+                                   <p><nuxt-link to="/work/hardworking-circuit-1-0">hardworking circuit #1.4 勤力電路#1.0</nuxt-link></p>
+                                </b-col>
+                            </b-row>
                   
-                </b-col>
-            </b-row>
+             
             
-            <!-- WORK CONTENT -->
+           
             
             
                   
@@ -287,5 +346,9 @@ export default {
   padding: 2px;
   height: auto;
   
+}
+
+.session-title { 
+    background-color: rgba(149, 226, 200, 0.954);
 }
 </style>

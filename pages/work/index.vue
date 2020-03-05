@@ -89,7 +89,7 @@ export default {
         {
           id: 'Dream-Machine-L306D-Dream-team',
           title: "Dream Machine 夢幻機器 ",
-          previewText: "by L305D Dream Team Collectives",
+          previewText: "A physical object collage by L305D Dream Team Collectives, inspired by one story from Chang Shi-kuo’s Nebula Suite (1980) | 是一組具物質性的現成物拼貼，其靈感源於張系國《星雲組曲》（1980）中的一個故事",
           thumbnail:
             "Dream-machine-conceptsketch-thumbnail.svg",
           medium:"installation",
@@ -167,7 +167,7 @@ export default {
           category: "streaming | radio | boardcast | public "
         },
         {
-          id: 'hardworking-circuit-1-1-220vac',
+          id: 'hardworking-circuit-1-1',
           title: "hardworking circuit #1.1 220V AC",
           previewText: "",
           thumbnail:

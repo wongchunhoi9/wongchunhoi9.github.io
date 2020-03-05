@@ -27,6 +27,17 @@ export default {
 
              albumList: [
         {
+          id: 'album/about-a-stalker',
+          title: "about a stalker 路人崇拜",
+          previewText: "",
+          thumbnail:
+            "about-a-stalker.jpg",
+          albumArtist:"王和平 PEACE",
+          year:"2019",
+          medium:"CD",
+          category:" ? ..  track 3: clarinet by hoi9 ...  "
+        },
+        {
           id: 'album/soundsheepsheep-ep-1',
           title: "坐這山 望這山",
           previewText: "",
