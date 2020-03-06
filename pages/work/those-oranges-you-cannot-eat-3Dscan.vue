@@ -91,6 +91,16 @@
                      <b-img src="~/assets/images/work/thoseOrange3dscan/orange33 photos at a glance_1.gif" fluid-grow></b-img>
                    <figcaption> captured by bare camera , render by <a href="https://www.agisoft.com/">Agisoft metashape</a></figcaption>
                    <!--here to write-->
+                   <hr>
+                   <h4>more orange model preview</h4>
+                   <b-embed
+                        type="iframe"
+                        aspect="16by9"
+                        src="https://www.youtube.com/embed/videoseries?list=PLCEj7r8U6CrPqiGucJRpF1gvHmB63wXPp"
+                        allowfullscreen    
+                    ></b-embed>
+
+                    
                 </b-col>
             </b-row>
 

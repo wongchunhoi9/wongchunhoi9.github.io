@@ -92,16 +92,16 @@ export default {
   data () { 
         return {
              HeroWorkloadedPosts: [
-        {
-          id: 'hardworking-circuit-1-4',
-          title: "hardworking circuit #1.4 勤力電路＃1.4",
-          previewText: "",
-          thumbnail:
-            "hardworking-circuit-1-4-conceptsketch.svg",
-          medium:"electronics",
-          year:"2018",
-          category:"installation | electronics | stupid  | toy"
-        },
+        // {
+        //   id: 'hardworking-circuit-1-4',
+        //   title: "hardworking circuit #1.4 勤力電路＃1.4",
+        //   previewText: "",
+        //   thumbnail:
+        //     "hardworking-circuit-1-4-conceptsketch.svg",
+        //   medium:"electronics",
+        //   year:"2018",
+        //   category:"installation | electronics | stupid  | toy"
+        // },
         {
           id: 'those-oranges-you-cannot-eat-installation',
           title: "冚街橙  | Those oranges you cannot eat  ",
@@ -131,6 +131,16 @@ export default {
           medium:"installation",
           year:"2019",
           category:"video | sound | patching"
+        },
+        {
+          id: 'automatic-editing-20180910',
+          title: "Floating Projects 2.0 Stream of Framed Consciousness Automatic Editing 20180910 ",
+          previewText: "A video exercise that I gathered during FP 1.0 and bring it to 2.0",
+          thumbnail:
+            "automatic-editing-20180910.jpg",
+          medium:"video",
+          year:"2018",
+          category:"video "
         }
        
       ],

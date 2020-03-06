@@ -107,6 +107,16 @@ export default {
           category: "nstallation | electronics | stupid  | toy | performance"
         },
         {
+           id: 'automatic-editing-20180910',
+          title: "Floating Projects 2.0 Stream of Framed Consciousness Automatic Editing 20180910 ",
+          previewText: "A video exercise that I gathered during FP 1.0 and bring it to 2.0",
+          thumbnail:
+            "automatic-editing-20180910.jpg",
+          medium:"video",
+          year:"2018",
+          category:"video "
+        },
+        {
           id: 'hardworking-circuit-1-surplus',
           title: "hardworking circuit #1 - surplus 勤力電路＃1 剩物 ",
           previewText: "",

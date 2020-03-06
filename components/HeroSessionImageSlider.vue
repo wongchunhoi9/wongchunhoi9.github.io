@@ -9,10 +9,12 @@
      <b-carousel
                     id="carousel-no-animation"
                     style="text-shadow: 1px 1px 4px #000;"
+                     
                     no-animation
+                    indicators
                     
-                    img-width="1024"
-                    img-height="480"
+                    img-width="700"
+                    img-height="350"
                     controls
                     
                 >
