@@ -53,6 +53,13 @@
                 </b-col>
             </b-row>
 
+            <b-row>
+                <b-col>
+                   
+                   <!--here to write-->
+                </b-col>
+            </b-row>
+
         </b-container>
            
             

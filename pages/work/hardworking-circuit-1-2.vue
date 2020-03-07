@@ -15,6 +15,8 @@
                     <figcaption class="figure-caption">  </figcaption>
                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/152048528" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
                     <p><a href="https://vimeo.com/152048528">hardworking circuit #1.2 (24VDC) @hardworking burning electricity (part2)</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+                    
                 </b-col>
                 
             </b-row>
@@ -24,8 +26,20 @@
                     <p>
                         {{(WorkInfo[0].previewText)}} 
                     </p>
-                    
-
+                    <p>
+                         <p>Page content:</p>
+                            <ul>
+                               
+                                <li> <nuxt-link :to="{path: '#', hash: 'hardworkingBurningElectricity'}">Exhibition @ hardworking burning electricity : wongchunhoi solo exhibition 2016 JAN</nuxt-link></li>
+                                <li> <nuxt-link :to="{path: '#', hash: 'schematicDraft'}">schematic draft</nuxt-link></li>
+                                <li> <nuxt-link :to="{path: '#', hash: 'makingOf'}"> making of (assemble the repetitive circuit)</nuxt-link></li>
+                                <li> <nuxt-link :to="{path: '#', hash: 'mereExistence'}"> Exhibition @Mere Existence 僅僅在場, Canton Gallery ,2016 March</nuxt-link></li>
+                                <li> <nuxt-link :to="{path: '#', hash: 'projectRoomH'}"> Exhibition @ Microwave 2016: Project Room Exhibition 實驗H場</nuxt-link></li>
+                                <li> <nuxt-link :to="{path: '#', hash: 'note'}"> 勤力電路＃1 後記 Afterword &ndash; after debugging hardworking circuit #1 series</nuxt-link></li>
+                                
+                                
+                            </ul>
+                    </p>
                 </b-col>
 
                 <b-col md="3"> 
@@ -41,18 +55,36 @@
                 </b-col>
             </b-row>
 
+            
+<hr id="hardworkingBurningElectricity" style="padding-top:30px;">
             <!-- WORK CONTENT -->
             <b-row>
                 <b-col>
                    
                    <!--here to write-->
-                    <b-img  src="~/assets/images/work/hardworkingcircuit12/hardworking-circuit-12VDC-output-trial-1.png" fluid > </b-img>
+                    <h4>@ hardworking burning electricity : wongchunhoi solo exhibition 2016 JAN</h4>
+                    <h5>IMAGE</h5>
+                    <p>Flow om this set :hidden black button on broken piano -> 360 pcs of DC 24V relays -> 50rpm motor -> drive a music box （on LAPUTA ost)----> ?</p>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/hardworkingcircuit1_24VDC_01_overview.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/hardworkingcircuit1_24VDC_01_overview2.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/hardworkingcircuit1_24VDC_02_relaysequence.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/hardworkingcircuit1_24VDC_03_endpoint_musicbox.jpg" fluid > </b-img>
+
+                    
+
                 </b-col>
             </b-row>
-
+ <hr id="schematicDraft" style="padding-top:30px;">
+            <b-row>
+                <b-col> <h4>schematic draft</h4>
+                    <b-img  src="~/assets/images/work/hardworkingcircuit12/hardworking-circuit-12VDC-output-trial-1.png" fluid > </b-img>
+                    <b-img  src="~/assets/images/work/hardworkingcircuit12/hardworking-circuit-explain.gif" fluid-grow> </b-img>
+                </b-col>
+            </b-row>
+ <hr id="makingOf" style="padding-top:30px;">
             <b-row>
                 <b-col md="6">
-                   
+                   <h4>making of (assemble the repetitive circuit)</h4>
                     <div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/147564987" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
                     <p><a href="https://vimeo.com/147564987">hardworking circuit #1.2 (24VDC)  work in progress day 1</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
                 </b-col>
@@ -86,21 +118,63 @@
                     <p><a href="https://vimeo.com/150610637">hardworking circuit #1.2 (24VDC) work in progress day 6</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
                 </b-col>
             </b-row>
-
+            <b-row>
+                <b-col>
+                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/24dc_WIP_1.jpg" fluid > </b-img>
+                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/24dc_WIP_2.jpg" fluid > </b-img>
+                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/24dc_WIP_3.jpg" fluid > </b-img>
+                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/DSC05832-resize.jpg" fluid > </b-img>
+                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/DSC05833.jpg" fluid > </b-img>
+                     
+                </b-col>
+            </b-row>
+<hr id="mereExistence" style="padding-top:30px;">
             <b-row align-h="center">
-                <b-col md="9">
+                <b-col>
+                    <h5>@<a href="http://cantongallery.com.cn/exhibition.php?exhibition=2" target="_blank" >Mere Existence 僅僅在場</a>, Canton Gallery ,2016 March</h5> 
                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/162643185" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                     <p><a href="https://vimeo.com/162643185">hardworking circuit #1.2 (24VDC) @ Mere existence, Canton Gallery</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_2607.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_2608.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_2610.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_2615.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_2616.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_2618.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_2619.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_2621.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_2622.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_2624.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_2625.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_2626.jpg" fluid > </b-img>
+
+                    <p> // ...  艺术家以继电器这个初代电子元件，制造一个低科技的小革命。当电流通过大量电路组，继电器就会如多米诺骨牌一样，开始向后倒，因为电量能量有限，到后面越来越慢。而发出的声音如室内雷暴，是低科技对理所当然的样板房的一个小怒吼。</p> 
+                    <a href="http://cantongallery.com.cn/works.php?works=18">Canton Gallery Website</a>
+                    <a href="https://news.artron.net/20160320/n823483.html"> </a>
+                    
                 </b-col>
             </b-row>
-
+<hr id="projectRoomH" style="padding-top:30px;">
             <b-row >
                 <b-col >
+                    <h5>@Microwave 2016: Project Room Exhibition 實驗H場</h5>
+                    <p>2016 May</p>
                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/168784743" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                     <p><a href="https://vimeo.com/168784743">hardworking circuit #1.2  @Mcrowave project room  , floating projects</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/169444907" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+                    <p><a href="https://vimeo.com/169444907">hardworking circuit #1.2  (close up) @Mcrowave project room  , floating projects</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_7225.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_7226.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_7238.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_7247.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_7249.jpg" fluid > </b-img>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_7252.jpg" fluid > </b-img>
+                   
                 </b-col>
             </b-row>
-
+        <hr id="note" style="padding-top:30px;">
             <b-row>
                 <b-col>
                     <h4>勤力電路＃1 後記</h4>
@@ -129,12 +203,12 @@ export default {
             WorkInfo: [
                 {
                     title: "hardworking circuit #1.2 24VDC  勤力電路＃1.2 直流電24伏特 ",
-                    previewText: "",
+                    previewText: "version 1.2 of hardworking circuit #1",
                     thumbnail:
                         "hardworking-circuit-1-2-connectionsketch.svg",
                     medium:"electronics",
                     year:"2016",
-                    category: "electronics | "
+                    category: "electronics | toy fish | music box "
                 }
             ]
         }
