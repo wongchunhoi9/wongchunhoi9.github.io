@@ -188,7 +188,7 @@ export default {
         },
         {
           id: 'hardworking-circuit-1-0',
-          title: "hardworking circuit #1.0 XXXXXß", 
+          title: "hardworking circuit #1.0 ", 
           previewText: "",
           thumbnail:
             "hardworking-circuit-1-sketch.svg",

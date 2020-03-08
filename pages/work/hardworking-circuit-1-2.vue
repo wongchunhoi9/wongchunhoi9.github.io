@@ -27,7 +27,7 @@
                         {{(WorkInfo[0].previewText)}} 
                     </p>
                     <p>
-                         <p>Page content:</p>
+                          <h5>Page Content:</h5>
                             <ul>
                                
                                 <li> <nuxt-link :to="{path: '#', hash: 'hardworkingBurningElectricity'}">Exhibition @ hardworking burning electricity : wongchunhoi solo exhibition 2016 JAN</nuxt-link></li>
@@ -64,12 +64,21 @@
                    <!--here to write-->
                     <h4>@ hardworking burning electricity : wongchunhoi solo exhibition 2016 JAN</h4>
                     <h5>IMAGE</h5>
-                    <p>Flow om this set :hidden black button on broken piano -> 360 pcs of DC 24V relays -> 50rpm motor -> drive a music box （on LAPUTA ost)----> ?</p>
+                    
                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/hardworkingcircuit1_24VDC_01_overview.jpg" fluid > </b-img>
                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/hardworkingcircuit1_24VDC_01_overview2.jpg" fluid > </b-img>
                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/hardworkingcircuit1_24VDC_02_relaysequence.jpg" fluid > </b-img>
                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/hardworkingcircuit1_24VDC_03_endpoint_musicbox.jpg" fluid > </b-img>
-
+                    <hr>
+                    <h4> Flow on this set : </h4>
+                    <p>
+                        
+                        <b-button>hidden black <b-badge variant="info">button</b-badge>   on broken piano</b-button>  
+                    &rarr;
+                    <b-button variant="info"> 360 pcs of DC 24V relays  <a href="http://https://www.se.com/ww/en/product/RXM2LB2BD/miniature-plug-in-relay---zelio-rxm2l---2-c-o---24-v-dc---5-a---with-led/" target="_blank" rel="noopener noreferrer">  <b-badge variant="light">(Schneider  RXM2LB2BD DC24V </b-badge>)</a></b-button> &rarr;
+                    <b-button variant="success">120rpm motor</b-button>  &rarr;
+                    <b-button variant="success">drive a music box <b-badge variant="light">天空の城ラピュタ LAPUTA ost</b-badge></b-button> &rarr;&rarr;&rarr;?'
+                     </p>
                     
 
                 </b-col>
@@ -79,6 +88,7 @@
                 <b-col> <h4>schematic draft</h4>
                     <b-img  src="~/assets/images/work/hardworkingcircuit12/hardworking-circuit-12VDC-output-trial-1.png" fluid > </b-img>
                     <b-img  src="~/assets/images/work/hardworkingcircuit12/hardworking-circuit-explain.gif" fluid-grow> </b-img>
+                    <b-img src="~/assets/images/hardworking-circuit-1-2-connectionsketch.svg" fluid-grow></b-img>
                 </b-col>
             </b-row>
  <hr id="makingOf" style="padding-top:30px;">
@@ -150,7 +160,17 @@
 
                     <p> // ...  艺术家以继电器这个初代电子元件，制造一个低科技的小革命。当电流通过大量电路组，继电器就会如多米诺骨牌一样，开始向后倒，因为电量能量有限，到后面越来越慢。而发出的声音如室内雷暴，是低科技对理所当然的样板房的一个小怒吼。</p> 
                     <a href="http://cantongallery.com.cn/works.php?works=18">Canton Gallery Website</a>
-                    <a href="https://news.artron.net/20160320/n823483.html"> </a>
+                    <a href="https://news.artron.net/20160320/n823483.html"> event news</a>
+
+                    <hr>
+                    <h4> Flow on this set : </h4>
+                    <p>
+                        <b-button> <b-badge variant="info">button</b-badge>   </b-button>  
+                    &rarr;
+                    <b-button variant="info"> 360 pcs of DC 24V relays  <a href="http://https://www.se.com/ww/en/product/RXM2LB2BD/miniature-plug-in-relay---zelio-rxm2l---2-c-o---24-v-dc---5-a---with-led/" target="_blank" rel="noopener noreferrer">  <b-badge variant="light">(Schneider  RXM2LB2BD DC24V </b-badge>)</a></b-button> &rarr;
+                    <b-button variant="success">Toy fish</b-button>  &rarr;
+                   
+                     </p>
                     
                 </b-col>
             </b-row>
@@ -172,6 +192,14 @@
                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_7249.jpg" fluid > </b-img>
                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_7252.jpg" fluid > </b-img>
                    
+                        <h4> Flow on this set : </h4>
+                    <p>
+                        <b-button> <b-badge variant="info">button</b-badge>   </b-button>  
+                    &rarr;
+                    <b-button variant="info"> 360 pcs of DC 24V relays  <a href="http://https://www.se.com/ww/en/product/RXM2LB2BD/miniature-plug-in-relay---zelio-rxm2l---2-c-o---24-v-dc---5-a---with-led/" target="_blank" rel="noopener noreferrer">  <b-badge variant="light">(Schneider  RXM2LB2BD DC24V </b-badge>)</a></b-button> &rarr;
+                    <b-button variant="success">Toy fish</b-button>  &rarr;
+                   
+                     </p>
                 </b-col>
             </b-row>
         <hr id="note" style="padding-top:30px;">
