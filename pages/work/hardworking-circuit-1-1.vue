@@ -81,7 +81,8 @@
                         <b-button> <b-badge variant="light">button</b-badge>   </b-button>  
                     &rarr;
                     <b-button variant="warning"> 120 pcs of AC 220V relays  <a href="http://us.idec.com/Common/Download.aspx?d=30172" target="_blank" rel="noopener noreferrer">  <b-badge variant="light">(IDEC  RR2P-U  AC220V </b-badge>)</a></b-button> &rarr;
-                    <a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.90.8002621aDRshLR&id=613218371763&ns=1&abbucket=15&sku_properties=1627207:3232483" target="blank"><b-button variant="success"> toy fish  儿童戏水玩具鱼宝宝电动会游泳的小鱼电子水里发光洗澡玩具男女孩  </b-button> </a> + <b-button variant="danger"> pink flourcent tube </b-button>
+                    <a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.90.8002621aDRshLR&id=613218371763&ns=1&abbucket=15&sku_properties=1627207:3232483" target="blank"><b-button variant="success"> toy fish  儿童戏水玩具鱼宝宝电动会游泳的小鱼电子水里发光洗澡玩具男女孩   </b-button> </a> + <b-button variant="danger"> pink flourcent tube </b-button>
+                    <img src="~/assets/images/work/hardworkingcircuit11/toyfish.jpg" alt="">
                     
                      </p>
                      

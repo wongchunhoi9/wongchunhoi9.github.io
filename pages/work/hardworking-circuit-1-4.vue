@@ -38,10 +38,41 @@
             </b-row>
 
             <!-- WORK CONTENT -->
+
             <b-row>
                 <b-col>
-                   
-                   <!--here to write-->
+                    <h4>Idea Sketch</h4>
+                    <b-img src="~/assets/images/hardworking-circuit-1-4-conceptsketch.svg" fluid></b-img>
+                    <b-img src="~/assets/images/work/hardworkingcircuit14/hardworking_circuit_1_4_case1.svg" fluid></b-img>
+                    <b-img src="~/assets/images/work/hardworkingcircuit14/hardworking_circuit_1_4_case2_motor.svg" fluid></b-img>
+                    <b-img src="~/assets/images/work/hardworkingcircuit14/hwc14-part1-synnmotor-1.svg" fluid-grow></b-img>
+                    <b-img src="~/assets/images/work/hardworkingcircuit14/hwc14-part1-synnmotor-2.svg" fluid-grow></b-img>
+                    <b-img src="~/assets/images/work/hardworkingcircuit14/part 2-01.svg" fluid></b-img>
+
+                </b-col>
+            </b-row>
+            <b-row>
+                <b-col>
+                    <h4>Making Of </h4>
+                    <b-img thumbnail src="~/assets/images/work/hardworkingcircuit14/hardworking circuit 1 650x460 version4_15fps_loop.gif" fluid></b-img>
+                   <b-embed
+                        type="iframe"
+                        aspect="16by9"
+                        src="https://www.youtube.com/embed/nBv6Izqv3kA"
+                        allowfullscreen    
+                    ></b-embed>
+                    <b-embed
+                        type="iframe"
+                        aspect="16by9"
+                        src="https://www.youtube.com/embed/c15BY4rMkLI"
+                        allowfullscreen    
+                    ></b-embed>
+                    <b-embed
+                        type="iframe"
+                        aspect="16by9"
+                        src="https://www.youtube.com/embed/yOnaUXHsb3U"
+                        allowfullscreen    
+                    ></b-embed>
                 </b-col>
             </b-row>
 
@@ -59,7 +90,7 @@ export default {
             WorkInfo: [
                 {
                     id: 'hardworking-circuit-1-4',
-                    title: "hardworking circuit #1.4 勤力電路＃1.4",
+                    title: "hardworking circuit #1.4 勤力電路＃1.4  A switched-on projector [work-in-progress] (2018)" ,
                     previewText: "",
                     thumbnail:
                         "hardworking-circuit-1-4-conceptsketch.svg",

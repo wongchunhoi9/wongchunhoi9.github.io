@@ -135,6 +135,9 @@
                      <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/24dc_WIP_3.jpg" fluid > </b-img>
                      <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/DSC05832-resize.jpg" fluid > </b-img>
                      <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/DSC05833.jpg" fluid > </b-img>
+                    <br> <br>
+                     <h5>Technical Spec of the 24VDC relay: <a href="https://pdf1.alldatasheet.net/datasheet-pdf/view/520598/ETC1/RXM2LB2BD.html" target="_blank" rel="noopener noreferrer">[here] <b-img style="width:400px;" thumbnail src="~/assets/images/work/hardworkingcircuit12/RXMLB-1.jpg" fluid > </b-img></a> </h5>
+                     
                      
                 </b-col>
             </b-row>
@@ -185,6 +188,7 @@
                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/169444907" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                     <p><a href="https://vimeo.com/169444907">hardworking circuit #1.2  (close up) @Mcrowave project room  , floating projects</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+                    <iframe width="315" height="560" src="https://www.youtube.com/embed/e27c03bwSNw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_7225.jpg" fluid > </b-img>
                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_7226.jpg" fluid > </b-img>
                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_7238.jpg" fluid > </b-img>
@@ -198,6 +202,7 @@
                     &rarr;
                     <b-button variant="info"> 360 pcs of DC 24V relays  <a href="http://https://www.se.com/ww/en/product/RXM2LB2BD/miniature-plug-in-relay---zelio-rxm2l---2-c-o---24-v-dc---5-a---with-led/" target="_blank" rel="noopener noreferrer">  <b-badge variant="light">(Schneider  RXM2LB2BD DC24V </b-badge>)</a></b-button> &rarr;
                     <b-button variant="success">Toy fish</b-button>  &rarr;
+                   
                    
                      </p>
                 </b-col>

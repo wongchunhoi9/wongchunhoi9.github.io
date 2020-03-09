@@ -5,9 +5,21 @@
             <b-col md="6">
               <h3>works</h3>
                <div>
-              <b-form-input v-model="filterValue" placeholder="search work category" class="mb-2"></b-form-input>
-              <p>filterValue: {{ filterValue }}  </p>
+              <!-- <b-form-input v-model="filterValue" placeholder="search work category" class="mb-2"></b-form-input>
+              <p>filterValue: {{ filterValue }}  </p> -->
               
+             </div>
+             <div>
+               <b-form-group label="a rough catergorization:">
+                <b-form-radio-group
+                  id="btn-radios-1"
+                  v-model="selected"
+                  :options="options"
+                  size="sm"
+                ></b-form-radio-group>
+                <!-- <p>selected : {{selected}}</p> -->
+
+              </b-form-group>
              </div>
             </b-col>
           </b-row >
@@ -54,6 +66,19 @@ export default {
               {}
 
               ],
+              selected: '',
+              options: [
+                { text: 'everything', value: '' },
+                { text: 'electronics', value: 'electronics' },
+                { text: 'installation / objects', value: 'installation' },
+                { text: 'video', value: 'video' },
+                { text: 'sound', value: 'sound' },
+                { text: 'assemblage', value: 'assemblage' },
+                { text: 'toy', value: 'toy' },
+                { text: 'stupid', value: 'stupid' },
+                { text: 'image', value: 'image' },
+                { text: '3D', value: '3D' },
+              ],
 
              WorkloadedPosts: [
         {
@@ -61,7 +86,7 @@ export default {
           title: "hardworking circuit #1.4 勤力電路＃1.4",
           previewText: "",
           thumbnail:
-            "hardworking-circuit-1-4-conceptsketch.svg",
+            "hardworking-circuit-1-400-animate-width.gif",
           medium:"electronics",
           year:"2018",
           category:"installation | electronics | stupid  | toy"
@@ -207,7 +232,7 @@ export default {
 
       filterdWorks: function() {
         return this.WorkloadedPosts.filter((WorkloadedPost) =>{
-          return WorkloadedPost.category.match(this.filterValue) 
+          return WorkloadedPost.category.match(this.selected) 
         }
         );
         

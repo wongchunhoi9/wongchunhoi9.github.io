@@ -108,6 +108,8 @@
                                 <b-col >
                                 
                                 <b-img src="~/assets/images/work/hardworkingcircuit13/DSC08638.jpg" fluid> </b-img>
+                                <b-img src="~/assets/images/work/hardworkingcircuit13/tally-count.jpg" fluid> </b-img> 
+                                <p>The terminal has been activated for 2502 times during the exhibition period</p>
                                 <b-img src="~/assets/images/work/hardworkingcircuit13/DSC08654.jpg" fluid> </b-img> 
                                 <hr>
                                 <h4>  hardworking circuit #1 is sponsered & supported by </h4>
