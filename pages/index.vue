@@ -92,16 +92,16 @@ export default {
   data () { 
         return {
              HeroWorkloadedPosts: [
-        // {
-        //   id: 'hardworking-circuit-1-4',
-        //   title: "hardworking circuit #1.4 勤力電路＃1.4",
-        //   previewText: "",
-        //   thumbnail:
-        //     "hardworking-circuit-1-4-conceptsketch.svg",
-        //   medium:"electronics",
-        //   year:"2018",
-        //   category:"installation | electronics | stupid  | toy"
-        // },
+        {
+          id: 'hardworking-circuit-1-4',
+          title: "hardworking circuit #1.4 勤力電路＃1.4",
+          previewText: "",
+          thumbnail:
+            "hardworking-circuit-1-400-animate-width.gif",
+          medium:"electronics",
+          year:"2018",
+          category:"installation | electronics | stupid  | toy"
+        },
         {
           id: 'those-oranges-you-cannot-eat-installation',
           title: "冚街橙  | Those oranges you cannot eat  ",
