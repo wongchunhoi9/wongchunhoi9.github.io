@@ -1,7 +1,7 @@
 <template>
     <div class="individual-work-page-container">
        
-        <b-container  class="work-session-backgroundcolor">
+        <b-container fluid class="work-session-backgroundcolor" style="max-width: 1500px;">
             <b-row>
                 <!-- Work Title -->
                 <b-col> <h3> {{(WorkInfo[0].title)}}</h3> </b-col>
@@ -17,7 +17,7 @@
                         allowfullscreen
                     ></b-embed>
                     
-                    <figcaption class="figure-caption"> A Caption </figcaption>
+                    <figcaption class="figure-caption"> swift the circuit </figcaption>
                 </b-col>
                 
             </b-row>
@@ -57,9 +57,9 @@
 
                     <hr>
                     <h5>Exhibition Record</h5>
-                    <p><a href="https://www.writingmachine-collective.net/wordpress/wmc_e6/" target="_blank" rel="noopener noreferrer">【文字機器創作集第六輯 WMC_e6】</a></p>
+                    <p><a href="https://www.writingmachine-collective.net/wordpress/wmc_e6/" target="_blank" rel="noopener noreferrer">【文字機器創作集第六輯 WMC_e6】</a>
                     <br>
-                    <a href="https://www.writingmachine-collective.net/wordpress/wmc_e6_p22_open-this-friday_running-walking/" target="_blank" rel="noopener noreferrer">“Running, walking, jogging along a timeline with the same speed” by Wong Chun-hoi and Hugo Yeung 假如速度與跑姿換腳幅度無關</a>
+                    <a href="https://www.writingmachine-collective.net/wordpress/wmc_e6_p22_open-this-friday_running-walking/" target="_blank" rel="noopener noreferrer">“Running, walking, jogging along a timeline with the same speed” by Wong Chun-hoi and Hugo Yeung 假如速度與跑姿換腳幅度無關</a></p>
                     
                 </b-col>
 

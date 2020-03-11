@@ -11,6 +11,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    
 
 }
 .work-session-backgroundcolor .row > [class^="col-"] { 
@@ -19,6 +20,7 @@
     border-style: solid;
     border-width: 1px;
     padding-block: 5px;
+   
 
 }
 .work-session-backgroundcolor .row .col {
