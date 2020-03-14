@@ -139,7 +139,7 @@
                     <figcaption> view from my Studio @C3A residency</figcaption>
                    <b-img src="~/assets/images/work/thoseOrange3dscan/1K4A1687.jpg" fluid></b-img>
                    <figcaption> orange on street @Cordoba, Spring season</figcaption>
-                   <b-img src="~/assets/images/work/thoseOrange3dscan/1K4A1687.jpg" fluid></b-img>
+                   <b-img src="~/assets/images/work/thoseOrange3dscan/1K4A1685.jpg" fluid></b-img>
                    <figcaption> orange on street @Cordoba, Spring season</figcaption>
                    <!--here to write-->
                 </b-col>

@@ -132,7 +132,7 @@
                    <b-img fluid src="~/assets/images/work/dreammachine/Dream-Machine-schematics-and-example-patch.svg"></b-img>
                    <b-img fluid src="~/assets/images/work/dreammachine/dream-machine-setup-sketch3d.svg"></b-img>
                    <!--here to write-->
-                   <b-img  src="~/assets/images/Dream-machine-conceptsketch-thumbnail.svg" fluid-grow > </b-img>
+                   <b-img  src="~/assets/images/work/dreammachine/Dream-machine-conceptsketch-thumbnail.svg" fluid-grow > </b-img>
                     <figcaption class="figure-caption"> sketch for setting up 25th IFVA award finalist exhibition </figcaption>
                 </b-col>
             </b-row>

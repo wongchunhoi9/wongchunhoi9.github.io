@@ -52,7 +52,7 @@
                    <h5>Making of </h5>
                    <!--here to write-->
                    <b-img  src="~/assets/images/work/hardworingcircuit1surplus/DSC06110.jpg" fluid > </b-img>
-                   <b-img  src="~/assets/images/hardworkingcircuitsurplus-thumbnail.svg" fluid-grow> </b-img>
+                   <b-img  src="~/assets/images/work/hardworingcircuit1surplus/hardworkingcircuitsurplus-thumbnail.svg" fluid-grow> </b-img>
 
                 </b-col>
             </b-row>

@@ -2,7 +2,7 @@
   <div class="error-page">
     <h1>sorry </h1>
     <p>this page is not ready</p>
-    <b-img src="~/assets/images/orange5-p1-200px.gif" fluid-grow=""></b-img>
+    <b-img src="~/assets/images/error-orange5-p1-200px.gif" fluid-grow=""></b-img>
   </div>
 </template>
 

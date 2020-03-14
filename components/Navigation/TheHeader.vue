@@ -81,7 +81,8 @@
 }
 
 .nav-item a.nuxt-link-active {
-  color:#c87c42
+  color:#c87c42;
+  text-decoration:underline;
 }
 </style>
 

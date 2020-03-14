@@ -9,7 +9,7 @@
             <b-row>
                 <b-col>     
                     <!-- Feature Image : -->
-                    <b-img fluid-grow src="~/assets/images/hardworking-circuit-1p3sketch-03.svg" fluid > </b-img>
+                    <b-img fluid-grow src="~/assets/images/work/hardworkingcircuit13/hardworking-circuit-1p3sketch-03.svg" fluid > </b-img>
                     <figcaption class="figure-caption"> hardworking circuit #1 - the refined schematic on circuit concept</figcaption>
                 </b-col>
                 

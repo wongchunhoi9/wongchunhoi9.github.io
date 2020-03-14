@@ -74,7 +74,7 @@
             <b-row>
                 <b-col>
                    <h5>connection sketch</h5>
-                   <b-img fluid src="~/assets/images/hwc220v_thumbnail.svg"></b-img>
+                   <b-img fluid src="~/assets/images/workpreviewcard/hwc220v_thumbnail.svg"></b-img>
                    <b-img  fluid src="~/assets/images/work/hardworkingcircuit11/DSC06195_web.svg"></b-img>
                     <p>
                         <h4> Flow on this set : </h4>

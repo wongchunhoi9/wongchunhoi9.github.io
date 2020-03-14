@@ -86,7 +86,7 @@ export default {
         const fileName = this.thumbnail.toLowerCase()
         // console.log(this.thumbnail)
           // return require('~/assets/images/' + this.thumbnail + '.jpg');
-        return require('~/assets/images/' + this.thumbnail);
+        return require('~/assets/images/workpreviewcard/' + this.thumbnail);
         // return require('~/assets/images/' +${fileName} + '.jpg');
       },
       postPreviewTitle() { 

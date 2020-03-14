@@ -69,6 +69,7 @@ export default {
               selected: '',
               options: [
                 { text: 'everything', value: '' },
+                { text: 'hardworking circuit #1 series', value: 'hardworkingcircuit#1' },
                 { text: 'electronics', value: 'electronics' },
                 { text: 'installation / objects', value: 'installation' },
                 { text: 'video', value: 'video' },
@@ -89,7 +90,7 @@ export default {
             "hardworking-circuit-1-400-animate-width.gif",
           medium:"electronics",
           year:"2018",
-          category:"installation | electronics | stupid  | toy"
+          category:"installation | electronics | stupid  | toy | hardworkingcircuit#1"
         },
         {
           id: 'those-oranges-you-cannot-eat-installation',
@@ -129,7 +130,7 @@ export default {
             "hardworking-circuit-1p3sketch-03-770x232.png",
           medium:"electronics",
           year:"2017-2019",
-          category: "nstallation | electronics | stupid  | toy | performance"
+          category: "nstallation | electronics | stupid  | toy | performance | hardworkingcircuit#1"
         },
         {
            id: 'automatic-editing-20180910',
@@ -149,7 +150,7 @@ export default {
             "hardworkingcircuitsurplus-thumbnail.svg",
           medium:"digital image",
           year:"2016",
-          category: "electronics | rubbish | scan | image | 2D"
+          category: "electronics | rubbish | scan | image | 2D | hardworkingcircuit#1"
         },
         {
           id: 'hardworking-circuit-1-2',
@@ -159,7 +160,7 @@ export default {
             "hardworking-circuit-1-2-connectionsketch.svg",
           medium:"electronics",
           year:"2016",
-          category: "electronics | "
+          category: "electronics | hardworkingcircuit#1 "
         },
          {
           id: 'let-hard-plastic-get-electrocuted',
@@ -193,33 +194,43 @@ export default {
         },
         {
           id: 'Temporary-non-locatable-public-space-2-MumbaiCST',
-          title: "Temporary non-locatable public space #2 Mumbai CST",
+          title: "Temporary non-locatable public space #2 Mumbai CST 臨時無定空間＃2 － 印度 孟買 CST 火車站",
           previewText: "A radio broadcasting event at public space",
           thumbnail:
             "tnps-2-cstmumbai-thumbnail.png",
-          medium:"electronics | servo motos, micro controller, wood, magnetic glass",
+          medium:"streaming | boardcasting | sound | public | field recording ",
           year:"2016",
           category: "streaming | radio | boardcast | public "
         },
         {
           id: 'hardworking-circuit-1-1',
-          title: "hardworking circuit #1.1 220V AC",
+          title: "hardworking circuit #1.1 220V AC 勤力電路＃1.1 ",
           previewText: "",
           thumbnail:
             "hwc220v_thumbnail.svg",
           medium:"electronics | servo motos, micro controller, wood, magnetic glass",
           year:"2016",
-          category: "electronics | installation | burn "
+          category: "electronics | installation | hardworkingcircuit#1 "
+        },
+        {
+            id: 'Temporary-non-locatable-public-space-1-nullahRoad',
+            title: "Temporary non-locatable public space #1- Nullah Road Sitting-out Area  臨時無定空間＃1－水渠道休憩處",
+            previewText: "A radio broadcasting event at public space",
+            thumbnail:
+                "nullahroad.jpg",
+            medium:"streaming | boardcasting | sound | public | field recording ",
+            year:"2014",
+            category: "streaming | radio | boardcast | public | FM Transmission"
         },
         {
           id: 'hardworking-circuit-1-0',
-          title: "hardworking circuit #1.0 ", 
+          title: "hardworking circuit #1.0   勤力電路＃1.0", 
           previewText: "",
           thumbnail:
             "hardworking-circuit-1-sketch.svg",
           medium:"electronics | installation",
           year:"2014",
-          category: "electronics | installation |  "
+          category: "electronics | installation | hardworkingcircuit#1 "
         }
       ],
         

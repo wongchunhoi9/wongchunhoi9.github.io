@@ -88,7 +88,7 @@
                 <b-col> <h4>schematic draft</h4>
                     <b-img  src="~/assets/images/work/hardworkingcircuit12/hardworking-circuit-12VDC-output-trial-1.png" fluid > </b-img>
                     <b-img  src="~/assets/images/work/hardworkingcircuit12/hardworking-circuit-explain.gif" fluid-grow> </b-img>
-                    <b-img src="~/assets/images/hardworking-circuit-1-2-connectionsketch.svg" fluid-grow></b-img>
+                    <b-img src="~/assets/images/work/hardworkingcircuit12/hardworking-circuit-1-2-connectionsketch.svg" fluid-grow></b-img>
                 </b-col>
             </b-row>
  <hr id="makingOf" style="padding-top:30px;">

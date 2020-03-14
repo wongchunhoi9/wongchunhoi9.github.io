@@ -58,7 +58,7 @@ tags: artnote 創作筆記
 <figcaption style='color:#AAAAAA; float:right; width:100%'>勤力電路#1 電路修正 草圖 </figcaption>     
 </figure>
 <figure style="display:inline-block;" >
-<img :src= "require('~/assets/images/hardworking-circuit-1p3sketch-03.svg')"
+<img :src= "require('~/assets/images/work/hardworkingcircuit13/hardworking-circuit-1p3sketch-03.svg')"
      alt="勤力電路#1 電路修正 草圖" style="width:100%;" />
 <figcaption style='color:#AAAAAA; float:right; width:100%'>勤力電路#1 系列 電路圖  </figcaption>     
 </figure>

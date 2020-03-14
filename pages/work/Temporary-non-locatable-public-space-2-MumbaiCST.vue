@@ -176,11 +176,11 @@ export default {
             WorkInfo: [
                 {
                     
-                    title: "Temporary non-locatable public space #2 Mumbai CST",
+                    title: "Temporary non-locatable public space #2 Mumbai CST 臨時無定空間＃2 － 印度 孟買 CST 火車站",
                     previewText: "A radio broadcasting event at public space",
                     thumbnail:
                         "tnps-2-cstmumbai-thumbnail.png",
-                    medium:"electronics | servo motos, micro controller, wood, magnetic glass",
+                    medium:"estreaming | boardcasting | sound | public | field recording",
                     year:"2016",
                     category: "streaming | radio | boardcast | public "
                 }

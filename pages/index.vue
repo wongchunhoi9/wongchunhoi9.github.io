@@ -100,7 +100,7 @@ export default {
             "hardworking-circuit-1-400-animate-width.gif",
           medium:"electronics",
           year:"2018",
-          category:"installation | electronics | stupid  | toy"
+          category:"installation | electronics | stupid  | toy | hardworkingcircuit#1"
         },
         {
           id: 'those-oranges-you-cannot-eat-installation',
@@ -110,7 +110,7 @@ export default {
             "those-orange-work-sketch-copy-300px-width.png",
           medium:"electronics , found objects",
           year:"2019",
-          category:"sound | electronics | installation | assemblage"
+          category:"sound | electronics | installation | assemblage |"
         },
         {
           id: 'those-oranges-you-cannot-eat-3Dscan',

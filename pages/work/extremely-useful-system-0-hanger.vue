@@ -80,7 +80,7 @@
                    <b-img   src="~/assets/images/work/extremelyusefulsystem0/extremelyusefulsystem_00_sketchingthumbnail.svg" fluid-grow></b-img>
                 </b-col>
                 <b-col>
-                   <b-img   src="~/assets/images/Extremelyusefulsystem0_sketch.svg" fluid></b-img>
+                   <b-img   src="~/assets/images/work/extremelyusefulsystem0/Extremelyusefulsystem0_sketch.svg" fluid></b-img>
                 </b-col>
             </b-row>
 
