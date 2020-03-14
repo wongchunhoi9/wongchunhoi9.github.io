@@ -1,7 +1,7 @@
 <template>
     <div class="individual-work-page-container">
        
-        <b-container fluid class="work-session-backgroundcolor" style="max-width: 1500px;">
+        <b-container fluid class="work-session-backgroundcolor" style="max-width: 1300px;">
             <b-row>
                 <!-- Work Title -->
                 <b-col> <h3> {{(WorkInfo[0].title)}}</h3> </b-col>
@@ -97,6 +97,8 @@
                         src="https://www.youtube.com/embed/3KwEVJS7svw"
                         allowfullscreen
                     ></b-embed>
+
+                    <b-img src="~/assets/images/work/hardworkingcircuit14/1K4A1027.jpg"  thumbnail fluid> </b-img>
                     <br>
                     
                 </b-col>
@@ -104,7 +106,7 @@
 
             <b-row>
                 <b-col>
-                    <h4>detail set up Components</h4>
+                    <h4>more detail set up Components</h4>
 
                     <h5>First we go through all the components when they are static</h5>
                     <b-embed
@@ -117,7 +119,7 @@
             </b-row>
 
             <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -125,12 +127,13 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                     Stop watch
+                    <b-img src="~/assets/images/work/hardworkingcircuit14/hwc4-stopwatch.jpg"  thumbnail fluid> </b-img>
                 </b-col>
             </b-row>
             <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -138,13 +141,14 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                     This is the position where you should be able to access the on/off button
+                    <b-img src="~/assets/images/work/hardworkingcircuit14/hwc4-startingset.jpg"  thumbnail fluid> </b-img>
                 </b-col>
             </b-row>
 
             <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -152,13 +156,13 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                     A closer look CCTV monitor.  There are 4 channels of unknown video clips that show the live feed of some camera image capture along the circuit
                 </b-col>
             </b-row>
 
             <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -166,13 +170,13 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                     Then here's start the relay sequence
                 </b-col>
             </b-row>
 
             <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -180,13 +184,13 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                     a closer look on the circular relay sequence on floor, there's a motor inside
                 </b-col>
             </b-row>
 
             <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -194,13 +198,13 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                     on the wall side, here's a series of synchrozing motors. Each motors has a acylic strip attached on the rotation axis that swing like a clock ?
                 </b-col>
             </b-row>
             
             <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -208,13 +212,13 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                     the relay sequence circuit continue along the wall. Here's the 2nd part of the wall.
                 </b-col>
             </b-row>
 
             <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -222,13 +226,13 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                     A camera is pointing to a toy fish on floor. While the pink toy fish occasinally flip its tail
                 </b-col>
             </b-row>
 
             <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -236,7 +240,7 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                     towards the end of this wall (right hand side), A sheep sound noise maker toy is rotated by a motor.
                 </b-col>
             </b-row>
@@ -244,7 +248,7 @@
            
 
             <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -252,13 +256,13 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                     the relay circuit continues......
                 </b-col>
             </b-row>
 
             <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -266,13 +270,14 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                     when the electricity trigger reach the kitchen, it turns on a tripple (or double?) pendulum that drived by a almost-malfunctioned stepper motor. Another camera is pointing to this pendulum as well.
+                
                 </b-col>
             </b-row>
 
                   <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -280,13 +285,13 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                     it comes back to the room. A camera is pointing to the relays
                 </b-col>
             </b-row>
 
                   <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -294,13 +299,13 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                     how the relays push forward ... almost to the end
                 </b-col>
             </b-row>
 
                   <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -308,13 +313,13 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                    another angle
                 </b-col>
             </b-row>
 
             <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -322,13 +327,13 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                    Tally Counter , it is indeed drived by a string that attached to a solenoid.   +1 when the electricital reach to the end of the circuit. Yes.  That's the end point triggering #1.
                 </b-col>
             </b-row>
 
             <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -336,13 +341,13 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                    Close up on the flip clock that hacked by a stepper motor.   I pasted a flipping animation sequence on the clock.  (60 frames  [#00-#59]). This is trying to show how the electricity flow.
                 </b-col>
             </b-row>
 
             <b-row>
-                <b-col md="8">
+                <b-col md="7">
                     <b-embed
                         type="iframe"
                         aspect="16by9"
@@ -350,8 +355,10 @@
                         allowfullscreen
                     ></b-embed>
                 </b-col>
-                <b-col md="4">
+                <b-col md="5">
                   Last ending triggering (#3): I hacked a spinning Gym toy. When it is triggered, it is like you press the yellow button on that toy.
+                  <b-img src="~/assets/images/work/hardworkingcircuit14/hwc4-gymtoy.jpg"  thumbnail fluid> </b-img>
+                  <b-img src="~/assets/images/work/hardworkingcircuit14/hwc4-gymtoymoving.jpg"  thumbnail fluid> </b-img>
                 </b-col>
             </b-row>
 
@@ -434,4 +441,3 @@ export default {
 
 <style scoped>
 
-</style>
