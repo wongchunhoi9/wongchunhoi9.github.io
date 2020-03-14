@@ -33,11 +33,11 @@
         <b-col md="8"> 
           <div class="" style="margin:10px;">
              <b-carousel
-              id="carousel-fade"
               style="text-shadow: 0px 0px 2px #000"
               indicators
               img-width="1024"
               img-height="480"
+              no-animation
             >
             <HeroSessionImageSlider :ImageSlider="HeroImageSlider"/>
              </b-carousel>

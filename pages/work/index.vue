@@ -79,6 +79,8 @@ export default {
                 { text: 'stupid', value: 'stupid' },
                 { text: 'image', value: 'image' },
                 { text: '3D', value: '3D' },
+                { text: 'boardcast', value: 'boardcast' },
+                
               ],
 
              WorkloadedPosts: [
@@ -200,7 +202,7 @@ export default {
             "tnps-2-cstmumbai-thumbnail.png",
           medium:"streaming | boardcasting | sound | public | field recording ",
           year:"2016",
-          category: "streaming | radio | boardcast | public "
+          category: "streaming |sound | radio | boardcast | public | FM Transmission "
         },
         {
           id: 'hardworking-circuit-1-1',
@@ -220,7 +222,7 @@ export default {
                 "nullahroad.jpg",
             medium:"streaming | boardcasting | sound | public | field recording ",
             year:"2014",
-            category: "streaming | radio | boardcast | public | FM Transmission"
+            category: "streaming |sound | radio | boardcast | public | FM Transmission"
         },
         {
           id: 'hardworking-circuit-1-0',

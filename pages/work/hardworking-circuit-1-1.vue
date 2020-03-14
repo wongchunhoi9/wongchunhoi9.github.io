@@ -84,7 +84,7 @@
                     <a href="https://detail.tmall.com/item.htm?spm=a230r.1.14.90.8002621aDRshLR&id=613218371763&ns=1&abbucket=15&sku_properties=1627207:3232483" target="blank"><b-button variant="success"> toy fish  儿童戏水玩具鱼宝宝电动会游泳的小鱼电子水里发光洗澡玩具男女孩   </b-button> </a> + <b-button variant="danger"> pink flourcent tube </b-button>
                     <img src="~/assets/images/work/hardworkingcircuit11/toyfish.jpg" alt="">
                     
-                     </p>
+                     
                      
                    <div class="scroll-container"> 
                         <img class="" src="~/assets/images/work/hardworkingcircuit11/hardworking-circuit-220V-output-trial-2.jpg" alt="">

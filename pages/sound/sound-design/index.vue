@@ -27,6 +27,18 @@ export default {
 
              albumList: [
         {
+          id: 'sound-design/balanceBreaker',
+          title: "Balance Breaker",
+          thumbnail:
+            "Boss_Compress-compress.gif",
+          soundTask:"Sound design Wong Chun Hoi ",
+          collaborateArtist:"Game developed by Gamestry Lab",
+          year:"2019",
+          medium:"computer Game",
+          previewText: " ",
+          
+        },
+        {
           id: 'sound-design/ghost',
           title: "小鬼 – Ghost",
           thumbnail:
@@ -39,7 +51,7 @@ export default {
           
         },
         {
-          id: 'sound-design/myhiddenwatcher',
+          id: 'sound-design/dancingeye',
           title: "靈動之窗 – dancing eye",
           thumbnail:
             "dancingeye-thumbnail.jpg",
@@ -51,7 +63,7 @@ export default {
           
         },
         {
-          id: 'sound-design/myhiddenwatcher',
+          id: 'sound-design/lunapark',
           title: "Luna Park",
           thumbnail:
             "lunapark-thumbnail.jpg",

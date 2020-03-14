@@ -56,7 +56,5 @@ export default {
 </script>
 
 <style scoped>
-b-carousel-slide {
-    max-height: 
-}
+
 </style>

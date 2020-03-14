@@ -26,8 +26,9 @@
                     <p>
                         {{(WorkInfo[0].previewText)}} 
                     </p>
-                    <p>
+                    
                           <h5>Page Content:</h5>
+                          <p>
                             <ul>
                                
                                 <li> <nuxt-link :to="{path: '#', hash: 'hardworkingBurningElectricity'}">Exhibition @ hardworking burning electricity : wongchunhoi solo exhibition 2016 JAN</nuxt-link></li>
@@ -39,7 +40,7 @@
                                 
                                 
                             </ul>
-                    </p>
+                         </p>
                 </b-col>
 
                 <b-col md="3"> 
