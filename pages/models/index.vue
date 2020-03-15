@@ -9,7 +9,8 @@
             <!-- BOTTLE by Wong Chun Hoi -->
             <div class="demo" style="background: linear-gradient(#ffffff, #EEEEEE);">
              <div> <!-- assemblage 1 by Wong Chun Hoi -->
-                <model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1583513057631283/ctt8tPO_7An/ey6mrKd26j8/20191022%20model.gltf" ios-src="https://poly.googleusercontent.com/downloads/c/fp/1583513057631283/ctt8tPO_7An/5mZ16EgpOVZ/20191022%20model.usdz" alt="assemblage 1 by Wong Chun Hoi" background-color="##eeeeee" camera-controls auto-rotate ar> </model-viewer>      
+                <model-viewer    src="https://poly.googleusercontent.com/downloads/c/fp/1583513057631283/ctt8tPO_7An/ey6mrKd26j8/20191022%20model.gltf" ios-src="https://poly.googleusercontent.com/downloads/c/fp/1583513057631283/ctt8tPO_7An/5mZ16EgpOVZ/20191022%20model.usdz" alt="assemblage 1 by Wong Chun Hoi" background-color="##eeeeee" camera-controls auto-rotate ar> </model-viewer>      
+             
             </div> 
             </div>
 

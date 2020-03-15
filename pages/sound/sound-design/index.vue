@@ -99,6 +99,30 @@ export default {
           
         },
         {
+          id: 'sound-design/tenyears',
+          title: "冬蟬 － 《十年》 | Season of the end - Ten Years",
+          thumbnail:
+            "TenYearsRegularPoster.jpg",
+          soundTask:"oroginal music & sound design",
+          collaborateArtist:"Directed by Wong Fei-pang 黃飛鵬",
+          year:"2015",
+          medium:"short film / video",
+          previewText: " ",
+          
+        },
+        {
+          id: 'sound-design/tenyears',
+          title: "《後來怎麼了 》 | And Afterwards",
+          thumbnail:
+            "andafterwards.jpg",
+          soundTask:"sound design and mixing",
+          collaborateArtist:"Video by Law Sin Yan 羅倩欣",
+          year:"2015",
+          medium:"short film / video",
+          previewText: " ",
+          
+        },
+        {
           id: 'sound-design/lunapark',
           title: "Luna Park",
           thumbnail:
