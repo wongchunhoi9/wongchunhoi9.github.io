@@ -78,7 +78,7 @@ export default {
         return '/sound/' + this.id
       },
       postImage () { 
-        const fileName = this.thumbnail.toLowerCase()
+        const fileName = this.thumbnail.toLowerCase();
         // console.log(this.thumbnail)
           // return require('~/assets/images/' + this.thumbnail + '.jpg');
         return require('~/assets/images/sound/' + this.thumbnail);

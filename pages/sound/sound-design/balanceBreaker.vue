@@ -8,7 +8,7 @@
                 <b-col>     
                     <!-- Feature Image : -->
                     <a href="https://store.steampowered.com/app/1069750/Balance_Breakers/" target="blamk">
-                        <b-img  src="~/assets/images/sound/Boss_Compress-compress.gif" fluid-grow > </b-img>
+                        <b-img  src="~/assets/images/sound/boss-ompress-compress.gif" fluid-grow > </b-img>
                     </a>
                       
                     <figcaption class="figure-caption"> <a href="https://store.steampowered.com/app/1069750/Balance_Breakers/" target="blamk"> Game </a> screen shot </figcaption>

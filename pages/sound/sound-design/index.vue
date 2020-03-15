@@ -3,8 +3,22 @@
         
         <b-container  class="album-container">
           <b-row><b-col> <h3 class="album-session-intro"> Sound Design / Engineering </h3>  </b-col></b-row>
-           
-              <soundDesignGrid :posts="albumList"/>
+            
+            <div>
+               <b-form-group label="sort by medium::" >
+                <b-form-radio-group
+                  
+                  v-model="filterValue"
+                  :options="filteroptions"
+                  size="md"
+                  style="color:#000A00"
+                ></b-form-radio-group>
+               
+
+              </b-form-group>
+             </div>
+
+              <soundDesignGrid :posts="filterSoundDesignPosts"/>
                 
         </b-container>
         <br>
@@ -23,18 +37,28 @@ export default {
     
     data () { 
         return {
+             filterValue: '',
+             filterSoundDesignPost: [{}],
              
+              
+              filteroptions: [
+                { text: 'everything', value: '' },
+                { text: 'Animation', value: 'animation' },
+                { text: 'video', value: 'video' },
+                { text: 'installation ', value: 'installation' },
+              
+              ],
 
-             albumList: [
+             SoundDesignPosts: [
         {
           id: 'sound-design/balanceBreaker',
           title: "Balance Breaker",
           thumbnail:
-            "Boss_Compress-compress.gif",
+            "boss-ompress-compress.gif",
           soundTask:"Sound design Wong Chun Hoi ",
           collaborateArtist:"Game developed by Gamestry Lab",
           year:"2019",
-          medium:"computer Game",
+          medium:"computer game",
           previewText: " ",
           
         },
@@ -46,7 +70,19 @@ export default {
           soundTask:"Sound design Wong Chun Hoi ",
           collaborateArtist:"Animation by Morph Workshop: Aplise Lee, Anna Li",
           year:"2018",
-          medium:"Animation",
+          medium:"animation",
+          previewText: " ",
+          
+        },
+        {
+          id: 'sound-design/lostinthefumes',
+          title: "Lost in the fumes 地厚天高",
+          thumbnail:
+            "lostinthefume.jpg",
+          soundTask:"mixing",
+          collaborateArtist:"Video by Nora Lam Tze Wing",
+          year:"2017",
+          medium:"featured film / video ",
           previewText: " ",
           
         },
@@ -58,7 +94,7 @@ export default {
           soundTask:"Sound made by: Wong Chun Hoi ,Hody Law Sin Yan",
           collaborateArtist:"Animation by Morph Workshop: Aplise Lee, Anna Li",
           year:"2016",
-          medium:"Animation",
+          medium:"animation",
           previewText: " ",
           
         },
@@ -82,9 +118,20 @@ export default {
           soundTask:"Sound Designer",
           collaborateArtist:"Animation by Morph Workshop",
           year:"2014",
-          medium:"Animation",
+          medium:"animation",
           previewText: " ",
           
+        },
+        {
+          id: 'sound-design/foodfacist',
+          title: "《飲食法西斯》 Food Facist",
+          thumbnail:
+            "foodfacist-220x140.jpg",
+          soundTask:"music",
+          collaborateArtist:"導演：葉文希 Director: Yip Man-hay",
+          year:"2014",
+          medium:"short film / video",
+          previewText: " 澳門 香港 Macau Hong Kong / 2012"
         },
         {
           id: 'sound-design/inbertywetrust',
@@ -94,7 +141,7 @@ export default {
           soundTask:"Sound Designer & Technical Supoort",
           collaborateArtist:"Concept and Visual: Angela Su || Animator: Flyingpig Wong",
           year:"2013",
-          medium:"3-channel Video Installation",
+          medium:"3-channel video installation",
           previewText: " ",
           
         },
@@ -106,8 +153,33 @@ export default {
           soundTask:"Original music and sound design",
           collaborateArtist:"Animation by Joe Kwun, Treehouse Studio",
           year:"2013",
-          medium:"Animation",
+          medium:"animation",
           previewText: " ",
+          
+        },
+        {
+          id: 'sound-design/fig',
+          title: "《無花果》fig",
+          thumbnail:
+            "fig.png",
+          soundTask:"sound design and Mixing ",
+          collaborateArtist:"導演Director : 崔允信Vincent Chui",
+          year:"2012",
+          medium:"featured film / video",
+          previewText: " 澳門 香港 Macau Hong Kong / 2012",
+          
+        },
+
+        {
+          id: 'sound-design/before-friday',
+          title: "Before Friday《星期四》",
+          thumbnail:
+            "beforefriday.png",
+          soundTask:"mixing ",
+          collaborateArtist:"Directed by Cheng Tak-yan Enoch ",
+          year:"2012",
+          medium:"short film / video",
+          previewText: " / Hong Kong / Col / 30′ / In Cantonese with English subtitles",
           
         },
         {
@@ -118,19 +190,33 @@ export default {
           soundTask:"Sound design and Music ",
           collaborateArtist:"Directed and Animated by FlyingPig Wong Wing Shan",
           year:"2012",
-          medium:"Animation",
+          medium:"animation",
           previewText: " ",
           
         },
         
         
         
-      ]
+      ],
         }
+    },
+
+    computed: {
+  
+
+      filterSoundDesignPosts: function() {
+        return this.SoundDesignPosts.filter((SoundDesignPost) =>{
+          return SoundDesignPost.medium.match(this.filterValue) 
+        }
+        );
+        
+      }
     }
     
 }
 </script>
+
+
 <style scoped>
 
 .album-container {
