@@ -7,17 +7,17 @@
 </template>
 
 <script>
-  // import fm from '~/contents/quruli.md'
+  import fm from '~/contents/work-in-progress/2020-03-16-level3soundNote.md'
 
 
-  // export default {
-  //   components: {
-  //     'article-quruli': fm.vue.component
-  //   },
-  //   data () {
-  //     return {
-  //       title: fm.attributes.title
-  //     }
-  //   }
-  // }
+  export default {
+    components: {
+      'article-quruli': fm.vue.component
+    },
+    data () {
+      return {
+        title: fm.attributes.title
+      }
+    }
+  }
 </script>

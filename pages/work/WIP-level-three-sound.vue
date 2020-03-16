@@ -43,7 +43,7 @@
                 <b-col>
                    
                    <!--here to write-->
-                  
+                  <temp-note />
                 </b-col>
             </b-row>
 
@@ -55,7 +55,13 @@
 </template>
 
 <script>
+
+  import fm from '~/contents/work-in-progress/2020-03-16-level3soundNote.md'
 export default {
+    components: {
+      'temp-note': fm.vue.component
+    },
+
     data() {
         return {
             WorkInfo: [
@@ -66,7 +72,13 @@ export default {
                     year:"work in progress | not complete",
                     category:"sound | picture rating system work-in-progress "
                 }
-            ]
+            ],
+            TempTitle: fm.attributes.title ,
+            TempUpdateDate: fm.attributes.update ,
+            TempExcerpt: fm.attributes.excerpt,
+
+
+            
         }
     },
     head() {
@@ -81,6 +93,9 @@ export default {
     }
 }
 </script>
+
+
+
 
 <style scoped>
 .X { 

@@ -1,7 +1,12 @@
+---
+title: Level 3 sound note
+update: 2020-03-17
+excerpt: An audio project that aimed as getting a LEVEL III rating (Person Aged 18 or above only) by submitting a film with no visual (just black screen() but just sound
+tags: artnote 創作筆記
+---
 
-# New page 2
 
-What triggered me:
+## What triggered me:
 
 - 聲音工作者咖唔甘心之 復仇計劃其中之一，明明就cinema入面一半半既野
 - 我做聲，我只想賣聲
