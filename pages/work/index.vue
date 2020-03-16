@@ -48,17 +48,11 @@
 
 
 <script>
-import workPreviewList from "@/components/workPreview/workPreviewList";
-import TheRoute from "@/components/Navigation/TheRoute";
+
 
 
 export default {
-    components: {
-        workPreviewList,
-        TheRoute,
 
-
-    }, 
     data () { 
         return {
              filterValue: '',
@@ -80,10 +74,21 @@ export default {
                 { text: 'image', value: 'image' },
                 { text: '3D', value: '3D' },
                 { text: 'boardcast', value: 'boardcast' },
-                
+                { text: 'Work-In-Progress', value: 'work-in-progress' },
               ],
 
              WorkloadedPosts: [
+          {
+          id: 'WIP-level-three-sound',
+          title: "三級音 level three sound",
+          thumbnail:
+            "leve3sound1.png",
+         
+          previewText: "An audio project that aimed as getting a LEVEL III rating (Person Aged 18 or above only) by submitting a film with no visual (just black screen() but just sound",
+          medium:"Audio",
+          year:"work in progress | not complete",
+          category:"sound | picture rating system | work-in-progress"
+        },
         {
           id: 'hardworking-circuit-1-4',
           title: "hardworking circuit #1.4 勤力電路＃1.4",
@@ -240,6 +245,16 @@ export default {
 
       }
     },
+    head () {
+        return {
+            // title: "blog-wongchunhoi9"
+            title: "Work - wongchunhoi9",
+            meta: [
+            // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+            { hid: 'description', name: 'description', content: "work by wongchunhoi9" }
+        ]
+        }
+      },
     computed: {
   
 
@@ -276,24 +291,5 @@ export default {
     margin: auto;
 
 }
-.work-page-grid-backgroundcolor .row > [class^="col-"] { 
-    background-color: rgba(144, 171, 184, 0.219);
-    border-block-color: rgb(108, 124, 129);
-    border-style: solid;
-    border-width: 0px;
-    border-block-width: 1px;
-    padding-block: 5px;
-    
 
-}
-.home-page-row-backgroundcolor .row .col {
-    background-color: rgba(200, 124, 66, 0.192);
-    border-block-color: #E8A87C;
-    border-style: solid;
-    border-width: 0px;
-    padding-block: 5px;
-    margin-bottom: 2px;
-    margin-top: 2px;
-    border-block-width: 1px;
-}
 </style>

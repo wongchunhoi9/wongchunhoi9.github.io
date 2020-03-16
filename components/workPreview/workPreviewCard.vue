@@ -15,16 +15,25 @@
                 :img-src="postImage"
                 >
                
-                <b-card-sub-title aligh="right"> {{medium}}
-                  <br>
-                  {{year}}</b-card-sub-title>
-                <b-card-text>
+                <b-card-sub-title aligh="right" style="color:#481600;"> 
+                  
+                      <!-- {{medium}}
+                      <br>
+                      {{year}} -->
+                  
+                 </b-card-sub-title>
+                <b-card-text style="color:#591b00">
+                   {{medium}}
+                      <br>
+                      {{year}}
+                </b-card-text>
+                      <b-card-text style="color:#003434;">
                   <br>
                  {{PreviewText}}
                 </b-card-text>
                 
-                <b-card-footer>
-                      {{category}}
+                <b-card-footer style="color:#003434" >
+                     <em> {{category}}</em>
                       <!-- <small class="text-muted">{{category}}</small> -->
                 </b-card-footer>
               </b-card>

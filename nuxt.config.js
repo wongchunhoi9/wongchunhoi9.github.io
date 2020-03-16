@@ -45,6 +45,7 @@ export default {
   */
   plugins: [
     '~plugins/date-filter.js',
+    '~plugins/core-component.js'
   ],
   /*
   ** Nuxt.js dev-modules

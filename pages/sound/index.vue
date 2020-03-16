@@ -31,39 +31,7 @@ export default {
              
 
              albumList: [
-        {
-          id: 'album/soundsheepsheep-ep-1',
-          title: "坐這山 望這山",
-          previewText: "",
-          thumbnail:
-            "soundyoung-ep-1-album-cover.png",
-          albumArtist:"sound羊",
-          year:"2016",
-          medium:"EP | CD",
-          category:"anti-folk?"
-        },
-        {
-        id: 'album/half-hour-exercise-1',
-          title: "half-hour exercise #1",
-          previewText: "I spent around 30mins to twist each freelance job session and play",
-          thumbnail:
-            "halfhour-exercise-set.svg",
-          albumArtist:"wongchunhoi9",
-          year:"2016",
-          medium:"CD",
-          category:"compilation"
-        },
-        {
-        id: 'album/day-after',
-          title: "DAY AFTER 翌日 [2014. 9.29 - 12.12",
-          previewText: "",
-          thumbnail:
-            "day-after-cd-front.png",
-          albumArtist:"Publisher 出版｜soundpocket 聲音掏腰包",
-          year:"2015",
-          medium:"CD",
-          category:"compilation"
-        },
+      
       ]
         }
     }

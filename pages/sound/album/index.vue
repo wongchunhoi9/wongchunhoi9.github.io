@@ -21,12 +21,10 @@
 </template>
 
 <script>
-import albumGrid from "@/components/soundPreview/albumGrid";
+
 
 export default {
-  components: {
-        albumGrid
-    }, 
+
     
     data () { 
         return {

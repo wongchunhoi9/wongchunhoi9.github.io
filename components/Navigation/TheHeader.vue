@@ -2,7 +2,7 @@
 <div class="header-container">
     <header class="the-header">
         <b-navbar toggleable="md" type="light" variant="light" fixed="top" >
-            <b-navbar-brand to="/" class="nav-brand">  wongchunhoi9</b-navbar-brand>
+            <b-navbar-brand to="/" class="nav-brand"> <img src="/favicon.ico" alt=""> wongchunhoi9</b-navbar-brand>
 
             <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
 
@@ -10,12 +10,12 @@
             <b-navbar-nav>
                 <b-nav-text>    ----   </b-nav-text>
                 <b-nav-item class="nav-item"><nuxt-link to="/work">work</nuxt-link></b-nav-item>
-                <b-nav-item class="nav-item" disabled><nuxt-link to="/inProgress">in progress</nuxt-link></b-nav-item>
+                <!-- <b-nav-item class="nav-item" disabled><nuxt-link to="/inprogress">in progress</nuxt-link></b-nav-item> -->
                 <!-- <b-nav-item class="nav-item"><nuxt-link to="/sound">sound</nuxt-link> -->
                     <nuxt-link to="/sound">
                     <b-nav-item-dropdown text="sound">
                         <b-dropdown-item><nuxt-link to="/sound/album">Album</nuxt-link></b-dropdown-item>
-                        <b-dropdown-item><nuxt-link to="/sound/sound-design">Sound design</nuxt-link> </b-dropdown-item>
+                        <b-dropdown-item><nuxt-link to="/sound/sound">Sound design</nuxt-link> </b-dropdown-item>
                         <b-dropdown-divider></b-dropdown-divider>
                         <b-dropdown-item>instrument</b-dropdown-item>
                         <b-dropdown-item>performance</b-dropdown-item>

@@ -72,23 +72,14 @@
 </template>
 
 <script>
-import HeroSession from "@/components/HeroSession"
-import HeroWorkSession from "@/components/HeroWorkSession"
-import workPreviewList from "@/components/workPreview/workPreviewList"
-import HeroSessionImageSlider from "~/components/HeroSessionImageSlider"
+
+
 
 
 
 export default {
 
-  
-  components:{
-    HeroSession,
-    HeroWorkSession,
-    workPreviewList,
-    HeroSessionImageSlider
-    
-  },
+
   data () { 
         return {
              HeroWorkloadedPosts: [

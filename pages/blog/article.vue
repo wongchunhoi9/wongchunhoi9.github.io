@@ -3,6 +3,7 @@
   <b-container class="blog-container">
     <!-- <small>This component mounts <code>~/articles/${file name which is passed through "name" query on URL}.md</code> as Vue component dynamically</small> -->
     <h2 class="blog-title-container">{{ attributes.title }}</h2>
+     <h5 class="blog-date">{{ attributes.tags}}</h5>
      <h4 class="blog-date">{{ attributes.date | date}}</h4>
     <component :is="selectedArticle" />
   </b-container>
@@ -64,7 +65,12 @@
     },
     head () {
       return {
-        title: "blog-wongchunhoi9"
+        // title: "blog-wongchunhoi9"
+        title: this.attributes.title,
+         meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        { hid: 'description', name: this.attributes.title, content: this.attributes.excerpt }
+      ]
       }
     }
   }
