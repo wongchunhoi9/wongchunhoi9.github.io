@@ -32,11 +32,10 @@ tags: artnote 創作筆記
 勤力電路#1 由一連串繼電器以上一個啟動下一個的方式接駁，繼電器可以當成為一個用電來控制的開關制，當繼電器的左半邊電路通了電，裡面的電磁石就會把右半邊的電路的開關金屬片「搭橋」般接通了，於是就會一個開著下一個再開著下一個，好像骨脾似的，因為每個繼電器都需要反應時間，並會有「啪」一聲的。而我在一開始接了一個手動的開關，電路未端接了一個可被啟動的電器，當你按下第一個開關，電會先逐一經過所有繼電器，最後那電器就會啟動的了。
 之後的因緣際會下刪一萬字，伯樂們鼓勵我蹣跚地首次以藝術家自居走進展廳，急忙回望一下那曬到有點變黃的電路草圖，實現這幅早已設計好的電路。
 
-<figure style="display:inline-block; width:500px;">
-<img :src= "require('~/assets/images/blog/2-Prototype-set-up-draft-20140914.jpg')" alt="勤力電路#1 原型 草圖" style="display:inline-block; width:500px;" />
+<figure style="display:inline-block; ">
+<img :src= "require('~/assets/images/blog/2-Prototype-set-up-draft-20140914.jpg')" alt="勤力電路#1 原型 草圖" style="display:inline-block; width:800px;" />
 <figcaption style='color:#AAAAAA; float:right; width:100%'>勤力電路#1 原型 草圖 </figcaption>  </figure>
-<figure style="display:inline-block; width:500px;">   
-<img :src= "require('~/assets/images/blog/3-hardworkingcircuit1_workinprogress_1.jpg')" alt="勤力電路#1 原型 試驗中" style="display:inline-block; width:500px;" />
+ <figure style="display:inline-block; "> <img :src= "require('~/assets/images/blog/3-hardworkingcircuit1_workinprogress_1.jpg')" alt="勤力電路#1 原型 試驗中" style="display:inline-block; width:800px;" />
 <figcaption style='color:#AAAAAA; float:right; width:100%'>勤力電路#1 原型 試驗中 </figcaption>     
 </figure>
 

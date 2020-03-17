@@ -21,6 +21,9 @@
   justify-content: center;
   max-width: 1400px;
   background: #fcf3d9;
+  border: solid;
+  border-width: 1px;;
+  border-color: rgba(128, 128, 128, 0.473);
 }
 .blog-title-container { 
   color: rgb(27, 19, 17);

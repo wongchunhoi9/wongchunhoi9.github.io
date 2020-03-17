@@ -89,4 +89,10 @@ export default {
     margin-bottom: 2px;
     margin-top: 2px;
 }
+
+.markdown-body { 
+    color: #041d29;
+
+}
+
 </style>
