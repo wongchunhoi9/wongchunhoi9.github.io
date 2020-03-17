@@ -58,7 +58,7 @@ export default {
   modules: [
     // Doc: https://bootstrap-vue.js.org
     'bootstrap-vue/nuxt',
-    // Doc: https://axios.nuxtjs.org/usage
+    // Doc: https://axiosjs.org/usage
     '@nuxtjs/axios'
   ],
   /*

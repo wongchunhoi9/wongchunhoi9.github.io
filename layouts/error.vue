@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="page-background ">
 
     <b-container class="error-page">
       <h1>sorry </h1>
@@ -11,6 +11,9 @@
 </template>
 
 <style scoped>
+.page-background { 
+  background: white;
+}
 .error-page {
   text-align: center;
   max-width: 1200px;

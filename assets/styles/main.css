@@ -1,7 +1,7 @@
 /* Indivudal Work Page Container */
 
 .individual-work-page-container{
-    background-color:rgba(200, 124, 66, 0.315);
+    background-color:#fcf3d9;
     height: 100%;
     /* max-width: 1100px; */
     padding: 3px;
@@ -71,6 +71,10 @@
   }
 
   /* Global Link  */
+/* 
+body{
+    background: #fcf3d9;;
+} */
 a {
     color:rgb(133, 76, 41);
 }

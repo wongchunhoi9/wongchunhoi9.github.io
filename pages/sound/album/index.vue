@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="album-page">
         
         <b-container  class="album-container">
           <b-row><b-col> <h3 class="album-session-intro">  Album </h3>  </b-col></b-row>
@@ -85,15 +85,20 @@ export default {
 </script>
 <style scoped>
 
+.album-page {
+background-image: linear-gradient(to right top, #90abb8, #6daba8, #72a67d, #99984e, #c87c42);
+/* background: #0e638e6c; */
+}
+
 .album-container {
-      background-image: linear-gradient(to right top, #90abb8c5, #6daba8, #72a67d, #99984e, #c87c42);
+      /* background-image: linear-gradient(to right top, #90abb8c5, #6daba8, #72a67d, #99984e, #c87c42); */
       justify-content: center;
       height: 100%;
       /* max-width: 1200px; */    
 }
 
 .album-session-intro {
-  color: azure;
+  color: white;
   
   margin: 5px;
 }

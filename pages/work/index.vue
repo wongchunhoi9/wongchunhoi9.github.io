@@ -279,7 +279,7 @@ export default {
 
 
 .work-page-container{
-    background-color:rgba(200, 124, 66, 0.062);;
+    background-color:#fcf3d9;
     height: 100%;
     /* max-width: 1100px; */
     padding: 3px;

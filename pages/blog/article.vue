@@ -2,10 +2,14 @@
 <div>
   <b-container class="blog-container">
     <!-- <small>This component mounts <code>~/articles/${file name which is passed through "name" query on URL}.md</code> as Vue component dynamically</small> -->
-    <h2 class="blog-title-container">{{ attributes.title }}</h2>
-     <h5 class="blog-date">{{ attributes.tags}}</h5>
-     <h4 class="blog-date">{{ attributes.date | date}}</h4>
-    <component :is="selectedArticle" />
+     <div class="blog-content">
+        <h2 class="blog-title-container">{{ attributes.title }}</h2>
+        <h5 class="blog-date">{{ attributes.tags}}</h5>
+        <h4 class="blog-date">{{ attributes.date | date}}</h4>
+        
+     </div>
+     <component :is="selectedArticle" />
+    
   </b-container>
 </div>
 </template>
@@ -16,6 +20,7 @@
   padding-right: 4%;
   justify-content: center;
   max-width: 1400px;
+  background: #fcf3d9;
 }
 .blog-title-container { 
   color: rgb(27, 19, 17);
@@ -26,7 +31,7 @@
   text-align:right; 
 }
 .blog-content{
-
+   
 }
 
 @media only screen and (max-width: 900px) {
@@ -34,7 +39,10 @@
     padding-left: 7%;
     padding-right: 7%;
     
+    
   }
+
+  
 }
 
 

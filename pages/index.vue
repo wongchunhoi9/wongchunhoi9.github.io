@@ -157,7 +157,8 @@ export default {
 <style scoped>
 
 .home-page-container{
-    background-color:rgb(238, 242, 242);
+    /* background-color:rgb(238, 242, 242); */
+    background: #fcf3d9;;
     height: 100%;
     /* max-width: 1100px; */
     padding: 3px;
@@ -170,7 +171,7 @@ export default {
 
 }
 .home-page-heroSession-backgroundcolor .row > [class^="col-"] { 
-    background-color: rgba(144, 171, 184, 0.219);
+    /* background-color: rgba(144, 171, 184, 0.219); */
     border-block-color: rgb(108, 124, 129);
     border-style: solid;
     border-width: 0px;
@@ -180,7 +181,7 @@ export default {
 
 }
 .home-page-heroSession-backgroundcolor .row .col {
-    background-color: rgba(200, 124, 66, 0.192);
+    /* background-color: rgba(200, 124, 66, 0.192); */
     border-block-color: #E8A87C;
     border-style: solid;
     border-width: 0px;

@@ -5,16 +5,16 @@
         <!-- <img :src="postImage" :alt="thumbnail"> -->
             <article>             
               <b-card
-                :title="postPreviewTitle"
+                
                 style="max-width: 20rem; 
                       margin-bottom:10px; 
                       position:relative; 
                       display:flex; 
-                      background-color: #E8A87C41;
+                      background-color: #FFFFFFA5;;
                       border-width:5px;"
                 :img-src="postImage"
                 >
-               
+                <h4 class="work-preview-title">{{title}}</h4>
                 <b-card-sub-title aligh="right" style="color:#481600;"> 
                   
                       <!-- {{medium}}
@@ -22,7 +22,7 @@
                       {{year}} -->
                   
                  </b-card-sub-title>
-                <b-card-text style="color:#591b00">
+                <b-card-text style="color:#000">
                    {{medium}}
                       <br>
                       {{year}}
@@ -107,6 +107,9 @@ export default {
 </script>
 
 <style scoped>
+.work-preview-title { 
+  color: black;
+}
 
 
 

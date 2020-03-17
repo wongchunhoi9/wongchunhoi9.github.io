@@ -15,7 +15,7 @@
                     <nuxt-link to="/sound">
                     <b-nav-item-dropdown text="sound">
                         <b-dropdown-item><nuxt-link to="/sound/album">Album</nuxt-link></b-dropdown-item>
-                        <b-dropdown-item><nuxt-link to="/sound/sound">Sound design</nuxt-link> </b-dropdown-item>
+                        <b-dropdown-item><nuxt-link to="/sound/sound-design">Sound design</nuxt-link> </b-dropdown-item>
                         <b-dropdown-divider></b-dropdown-divider>
                         <b-dropdown-item>instrument</b-dropdown-item>
                         <b-dropdown-item>performance</b-dropdown-item>
@@ -83,6 +83,7 @@
 .nav-item a.nuxt-link-active {
   color:#c87c42;
   text-decoration:underline;
+  
 }
 </style>
 

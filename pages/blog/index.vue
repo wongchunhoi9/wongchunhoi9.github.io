@@ -1,5 +1,5 @@
 <template>
-<div class="">
+<div class="blog-page">
   <!-- <div class="markdown-body">
     <h1>frontmatter-markdown-loader-nuxt-sample</h1>
     <ol type="A">
@@ -35,18 +35,18 @@
             
             <b-col md="4">
               <div  class="blog-image-container">
-              <img :src="imgSrc(post)" :alt="post.attributes.title" class="blog-image" ></b-img>
+              <img :src="imgSrc(post)" :alt="post.attributes.title" class="blog-image" >
               </div>
               
             </b-col>
             <b-col >
-              <h3>{{ post.attributes.title }} </h3>
+              <h3 class="blog-title">{{ post.attributes.title }} </h3>
               <h4 class="blog-date">{{ post.attributes.date | date}} </h4>
               <!-- <h5> {{PostDateConvertion(post.attributes.date)}}</h5> -->
               <hr class="solid">
-              <p>{{ post.attributes.excerpt }} </p>
+              <p class="blog-excerpt">{{ post.attributes.excerpt }} </p>
               <hr class="solid">
-              <p>{{ post.attributes.tags }}</p>
+              <p class="blog-tagging">{{ post.attributes.tags }}</p>
             </b-col>
           </b-row>
     
@@ -90,11 +90,15 @@ export default {
 
 <style scoped>
 
+.blog-page{
+  background: #fcf3d9;
+}
 .blog-page-container {
-      background-image: linear-gradient(to right top, #90abb8, #6daba8, #72a67d, #99984e, #c87c42);
+      /* background-image: linear-gradient(to right top, #90abb8, #6daba8, #72a67d, #99984e, #c87c42); */
       justify-content: center;
       height: 100%;
       max-width: 1200px;    
+      ;
 }
 .blog-page-container  .row > [class^="col-"] { 
     /* background-color: rgba(144, 171, 184, 0.219); */
@@ -104,10 +108,11 @@ export default {
     border-block-width: 1px;
     padding-block: 5px;
     
+    
 
 }
 .blog-page-container  .row .col {
-    background-color: rgba(240, 232, 186, 0.221);
+    /* background-color: rgba(240, 232, 186, 0.221); */
     /* border-block-color: #E8A87C; */
     /* border-style: solid; */
     border-width: 0px;
@@ -115,35 +120,41 @@ export default {
     margin-bottom: 5px;
     margin-top: 2px;
     border-block-width: 1px;
- 
+    
+    
 }   
 
 .blog-intro {
   margin: 5px;
+  color: #000;
 }
-.blog-list {
-  width: 100%;
-  background-color:rgb(145, 222, 135);
 
-
-}
 .blog-post {
-  background-color:rgba(218, 218, 218, 0.733);
+  /* background-color:#f7e7ba; */
   padding-top:10px;
   padding-bottom: 5px;
   margin-top: 10px;
   margin-bottom: 5px;
+  border-bottom: dotted;
+  border-width:3px ;
+  border-block-color: #fac22b;
+  
 
 }
 
 .blog-title{
-
+  color: black;
 }
 
 .blog-date{
   /* font-size: 15px; */
+  text-align: right;
+  color: rgba(0, 0, 0, 0.509)
 }
 
+.blog-excerpt{
+  color: #0a374e;
+}
 .blog-image-container{
   width: 100%;
   height: auto;
@@ -155,6 +166,16 @@ export default {
   display: block;
 }
 .blog-except{
+
+}
+.blog-tagging { 
+  color: #503e0e;
+}
+
+a:hover {
+  color:#fac22b;
+  text-decoration: none;
+  
 
 }
 </style>
