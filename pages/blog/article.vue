@@ -59,6 +59,7 @@
     // validate ({ query }) {
     //   return ['blog234', 'quruli'].includes(query.name)
     // },
+    props:['fileName'],
     data () {
       return {
         attributes: {},
