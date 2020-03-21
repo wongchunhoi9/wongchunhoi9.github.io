@@ -1,5 +1,6 @@
 <template>
 <div>
+  <article class="markdown-body">
   <b-container class="blog-container">
     <!-- <small>This component mounts <code>~/articles/${file name which is passed through "name" query on URL}.md</code> as Vue component dynamically</small> -->
      <div class="blog-content">
@@ -11,10 +12,35 @@
      <component :is="selectedArticle" />
     
   </b-container>
+  </article>
 </div>
 </template>
 
-<style scoped>
+<style >
+
+.markdown-body a {
+  color: #16709c;
+  text-decoration: none;
+}
+
+.markdown-body img {
+  background: transparent;
+}
+
+.markdown-body { 
+  margin-bottom: 20px;
+}
+
+.markdown-body table tr {
+  background-color: rgba(255, 255, 255, 0.541);
+  border-top: 1px solid #c6cbd1;
+}
+
+.markdown-body table tr:nth-child(2n) {
+  background-color: #f6f8fa65;
+}
+
+
 .blog-container { 
   padding-left: 4%;
   padding-right: 4%;

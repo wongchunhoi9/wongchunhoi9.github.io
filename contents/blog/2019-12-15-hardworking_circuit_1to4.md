@@ -81,11 +81,11 @@ tags: artnote 創作筆記
 十秒期間，我在電路的中段接駁了所有我幾年來封在箱內的東西，包括一個手持香蕉的猩猩、摩打帶動衣架支的手套、數十條玩具魚、強力電筒、椰子殼、羊鈴、電腦散熱風扇和一卷廁紙。電路的未端連接了一顆破掉外殼的烏絲燈膽，我以魔術火綿包好，所以供電給這個燈膽時，外露空氣的鳥絲會立即自燃斷開，剎那的火種點燃起魔術火綿，會有一瞬間的大火球。這是我為了在安全地在展場以電力放火而想出來的。 火是以燈膽自爆的方法製做的，每放一次火就要更換另一個外露烏絲的燈膽。 演出場地是在灣仔動漫基地的庭園，勤力電路＃1 圍繞了4個直徑六米的圈，貫穿了觀眾席的椅子。
 
 <br>
-<figure style="display:inline-block; width:500px;">
-<img :src= "require('~/assets/images/work/hardworkingcircuit13/hardworking-circuit-13-onsite-view-1.jpg')" alt="勤力電路#1.3 ＠聲音下寨29" style="display:inline-block; width:500px;" />
+<figure style="display:inline-block; ">
+<img :src= "require('~/assets/images/work/hardworkingcircuit13/hardworking-circuit-13-onsite-view-1.jpg')" alt="勤力電路#1.3 ＠聲音下寨29" style="display:inline-block; width:800px " />
 <figcaption style='color:#AAAAAA; float:right; width:100%'>勤力電路#1.3 ＠聲音下寨29</figcaption>  </figure>
-<figure style="display:inline-block; width:500px;">   
-<img :src= "require('~/assets/images/work/hardworkingcircuit13/sonic-anchor-29-hw13-fire.jpg')" alt="勤力電路#1.3 ＠聲音下寨29" style="display:inline-block; width:500px;" />
+<figure style="display:inline-block; ">   
+<img :src= "require('~/assets/images/work/hardworkingcircuit13/sonic-anchor-29-hw13-fire.jpg')" alt="勤力電路#1.3 ＠聲音下寨29" style="display:inline-block; width:800px;" />
 <figcaption style='color:#AAAAAA; float:right; width:100%'>勤力電路#1.3 ＠聲音下寨29 </figcaption>     
 </figure>
 

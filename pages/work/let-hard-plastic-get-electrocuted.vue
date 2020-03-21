@@ -64,7 +64,12 @@
                   
                 </b-col>
             </b-row>
-
+             <b-row>
+                <b-col>
+                    <h4> Schematic diagram</h4>
+                    <b-img src="~/assets/images/work/lethardplasticbeelectrocuted/lethardplasticbeelectrocuted_connectionweb.png" fluid></b-img>
+                </b-col>
+            </b-row>
             <b-row>
                 <b-col>
                     <h4>讓硬塑料被電吧 大戰 } Open Battle &ndash; Let hard plastic get electrocuted</h4>
@@ -75,7 +80,7 @@
 
                 </b-col>
             </b-row>
-
+            
             <b-row> 
                 <b-col md="6">
                    <b-img fluid src="~/assets/images/work/lethardplasticbeelectrocuted/openballte1.jpg"> </b-img>
@@ -106,7 +111,7 @@
                 </b-col>
                 
             </b-row>
-
+           
             
         </b-container>
            

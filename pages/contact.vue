@@ -12,3 +12,18 @@
                 
     
 </template>
+
+<script>
+export default {
+    head () {
+        return {
+            // title: "blog-wongchunhoi9"
+            title: "contact wongchunhoi9",
+            meta: [
+            // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+            { hid: 'description', name: 'description', content: "email me at wongchunhoi9@gmail.com  " }
+        ]
+        }
+        }
+}
+</script>

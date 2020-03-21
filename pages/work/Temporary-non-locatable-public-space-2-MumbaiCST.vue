@@ -91,8 +91,15 @@
                    <b-img fluid thumbnail src="~/assets/images/work/tempnonpublic2/WhatsApp-Image-2016-10-19-at-5.36.jpg"></b-img>
                    <b-img fluid thumbnail src="~/assets/images/work/tempnonpublic2/IMG_3754.jpg"></b-img>
                    <b-img fluid thumbnail src="~/assets/images/work/tempnonpublic2/IMG_3752.jpg"></b-img>
+                   <b-img fluid thumbnail src="~/assets/images/work/tempnonpublic2/mumbai12.jpg"></b-img>
                    <b-img fluid thumbnail src="~/assets/images/work/tempnonpublic2/IMG_3759.jpg"></b-img>
+                   
+                   
+                   <h4>Day 2</h4>
                    <b-img fluid thumbnail src="~/assets/images/work/tempnonpublic2/IMG_37711.jpg"></b-img>
+                   <b-img fluid thumbnail src="~/assets/images/work/tempnonpublic2/mumbai02.jpg"></b-img>
+                   <b-img fluid thumbnail src="~/assets/images/work/tempnonpublic2/mubai11.jpg"></b-img>
+                   <b-img fluid thumbnail src="~/assets/images/work/tempnonpublic2/bcbb59a4-bd47-4fb5-9da2-3f2db2b12a2c.jpg"></b-img>
                    
                   
                 </b-col>

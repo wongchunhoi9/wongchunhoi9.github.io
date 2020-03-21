@@ -137,3 +137,9 @@ Direct Association :
 - **TONSTURM 15 | Gore & Slaughter** [http://www.tonsturm.com/files/a09134c857a7d46b99972a8bc0e21a84-35.html](http://www.tonsturm.com/files/a09134c857a7d46b99972a8bc0e21a84-35.html) featuring all the flesh and blood sound
 - Tagging in the sound library with #violence usually are those hit, punch, metal broken debris, etc.
 - 操鄉音而被discriminate （大圍火車站事件）
+
+Noise Water Meat P.256   After taking LSD Anaïs Nin herself began to feel immersed in a fluid space as the doors , walls and windows began liquefying " It was as if I been plunged to the bottom of the sea, and everything had become undulating and wavering" Through this experience she discovered why women weep: "IT IS THE QUICKEST WAY TO REJOIN THE OCEAN"
+
+＃inspiration 1
+Today I met 2 CUHK fine art students
+Vivian the girl suggest me to go through those pornographic for blind people. 

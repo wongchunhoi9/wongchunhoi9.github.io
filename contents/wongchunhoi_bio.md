@@ -2,7 +2,9 @@
 title: Wong Chun Hoi Biography 2020 Feb
 ---
 
-#### Artist | artistic engineer @ floating projects | sound designer/engineer
+#### Artist 
+#### artistic engineer @ [floating projects](http:///floatingprojectscollective.net) 
+#### sound designer/engineer
 
 
 
