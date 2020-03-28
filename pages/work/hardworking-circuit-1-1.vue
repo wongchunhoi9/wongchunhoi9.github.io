@@ -13,13 +13,20 @@
                     <b-img  src="" fluid > </b-img>
                     <figcaption class="figure-caption">  </figcaption>
                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/152142754" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-                    <p><a href="https://vimeo.com/152142754">hardworking circuit #1.1 (220VAC) @hardworking burning electricity from head to tail</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                    <p><a href="https://vimeo.com/152142754">hardworking circuit #1.1 (220VAC) @hardworking burning electricity from head to tail</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>. |||| <a href="https://youtu.be/wgloZTavVxk" target="_blank" rel="noopener noreferrer">youtube version </a></p>
+
+                    
 
                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/191434942" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-                    <p><a href="https://vimeo.com/191434942">hardworking circuit #1.1 (220VAC) @hardworking burning electricity [in the middle]</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                    <p><a href="https://vimeo.com/191434942">hardworking circuit #1.1 (220VAC) @hardworking burning electricity [in the middle]</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.|||| <a href="https://youtu.be/Mt3MlBq6G20" target="_blank" rel="noopener noreferrer">youtube version </a></p>
+
+                   
 
                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/152048537" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-                    <p><a href="https://vimeo.com/152048537">hardworking circuit #1.1 (220VAC) @hardworking burning electricity (part1)</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                    <p><a href="https://vimeo.com/152048537">hardworking circuit #1.1 (220VAC) @hardworking burning electricity (part1)</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.|||| <a href="https://youtu.be/mRKk6JVb7VY" target="_blank" rel="noopener noreferrer">youtube version </a></p>
+                    
+                    
+
                 </b-col>
                 
             </b-row>
@@ -96,7 +103,21 @@
              <b-row>
                 <b-col>
                    <h4>making of</h4>
-                  
+                   <b-embed
+                   type="iframe"
+                   aspect="16by9"
+                    src="https://www.youtube.com/embed/7Ye8z8zJIoY"
+                    allowfullscreen    
+                   >
+                   </b-embed>
+                   <b-embed
+                   type="iframe"
+                   aspect="16by9"
+                    src="https://www.youtube.com/embed/PEfHzuJmZ9A"
+                    allowfullscreen    
+                   >
+                   </b-embed>
+
                    <b-img thumbnail fluid src="~/assets/images/work/hardworkingcircuit11/DSC05891c.jpg"></b-img>
                    <b-img thumbnail fluid src="~/assets/images/work/hardworkingcircuit11/IMG_2248.jpg"></b-img>
                    <b-img thumbnail fluid src="~/assets/images/work/hardworkingcircuit11/IMG_2349.jpg"></b-img>

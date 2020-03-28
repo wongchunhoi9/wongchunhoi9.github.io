@@ -9,7 +9,7 @@
             <b-row>
                 <b-col>     
                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/159469380" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-                    <p><a href="https://vimeo.com/159469380">extremely useful system #1 &ndash; firewood ｜終極有用系統 #1 &ndash; 柴火</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                    <p><a href="https://vimeo.com/159469380">extremely useful system #1 &ndash; firewood ｜終極有用系統 #1 &ndash; 柴火</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>. | <a href="https://youtu.be/dBJ0lXuQjzM" target="_blank" rel="noopener noreferrer">youtube version</a></p>
                     
                 </b-col>
                 
@@ -50,6 +50,19 @@
                    <!--here to write-->
                     <b-img  src="~/assets/images/work/extremelyusefulsystem1/DSC06011_editing.jpg" fluid-grow> </b-img>
                    <b-img  src="~/assets/images/work/extremelyusefulsystem1/extremelyusefulsystem_01_3.jpg" fluid-grow> </b-img>
+                </b-col>
+            </b-row>
+            <b-row>
+                <b-col>
+                    <h5>making of</h5>
+                   <b-embed
+                    type="iframe"
+                    src="https://www.youtube.com/embed/videoseries?list=PLCEj7r8U6CrPbXCZrWqS2VQcFxTShgqk6"
+                    allowfullscreen
+                    aspect="16by9">
+
+                    </b-embed>
+                    <br>
                    <b-img  src="~/assets/images/work/extremelyusefulsystem1/DSC05513_upload.jpg" fluid-grow> </b-img>
                    <b-img  src="~/assets/images/work/extremelyusefulsystem1/extremelyusefulsystem_01_1_conceptsketch.svg" fluid> </b-img>
                 </b-col>

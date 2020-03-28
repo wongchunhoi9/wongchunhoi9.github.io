@@ -68,7 +68,7 @@
                 <b-col>
                    <h4>@Sparkle! <a href="https://www.lcsd.gov.hk/CE/Museum/APO/en_US/web/apo/oyip_sparkle_regarding_lightness.html" target="_blank" rel="noopener noreferrer">regarding lightness: On Life's Way </a> 2015 Feb</h4> 
                    <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/122240196" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-                    <p><a href="https://vimeo.com/122240196">hardworking circuit #1</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                    <p><a href="https://vimeo.com/122240196">hardworking circuit #1</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>. | <a href="https://youtu.be/asEEJOKzWpA " target="_blank" rel="noopener noreferrer">youtube version</a></p>
                     <b-img src="~/assets/images/work/hardworkingcircuit10/hardworkingcircuit1_oi_1.jpg" fluid></b-img>
                     <b-img src="~/assets/images/work/hardworkingcircuit10/hardworkingcircuit1_exhibitionview3.jpg" fluid></b-img>
                     <b-img src="~/assets/images/work/hardworkingcircuit10/hardworkingcircuit1_exhibitionview5.jpg" fluid></b-img>
@@ -87,7 +87,7 @@
                 <b-col>
                     <h4>The Prototype</h4>
                        <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/114019383" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-                        <p><a href="https://vimeo.com/114019383">hardworking circuit 1 DEMO 20141209</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>  
+                        <p><a href="https://vimeo.com/114019383">hardworking circuit 1 DEMO 20141209</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>. | <a href="https://youtu.be/DxhNkidx4aA " target="_blank" rel="noopener noreferrer">youtube version</a></p>  
 
                         <b-img src="~/assets/images/work/hardworkingcircuit10/hardworking-circuit-1-view-1.jpg" fluid></b-img>
                         <b-img src="~/assets/images/work/hardworkingcircuit10/hardworking-circuit-1-view-2.jpg" fluid></b-img>

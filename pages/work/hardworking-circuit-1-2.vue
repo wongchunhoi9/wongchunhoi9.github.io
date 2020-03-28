@@ -13,8 +13,13 @@
 
                     <p><a href="https://vimeo.com/152048527">hardworking circuit #1.2 (24VDC) @hardworking burning electricity (part1)</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
                     <figcaption class="figure-caption">  </figcaption>
+                    
                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/152048528" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
                     <p><a href="https://vimeo.com/152048528">hardworking circuit #1.2 (24VDC) @hardworking burning electricity (part2)</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                    
+
+                    <h5><a href="https://youtu.be/EoRzRVI1tn4" target="_blank" rel="noopener noreferrer">youtube version video documentation</a></h5>
+
 
                     
                 </b-col>
@@ -93,9 +98,22 @@
                 </b-col>
             </b-row>
  <hr id="makingOf" style="padding-top:30px;">
+
+            <b-row>
+                <b-col>
+                    <h4>making of (assemble the repetitive circuit)</h4>
+                   <b-embed
+                        type="iframe"
+                        aspect="16by9"
+                        src="https://www.youtube.com/embed/videoseries?list=PLCEj7r8U6CrMslGwlSKznPapH05pU0T8-"
+                        allowfullscreen    
+                    ></b-embed>
+                </b-col>                
+            </b-row>
+
             <b-row>
                 <b-col md="6">
-                   <h4>making of (assemble the repetitive circuit)</h4>
+                   
                     <div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/147564987" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
                     <p><a href="https://vimeo.com/147564987">hardworking circuit #1.2 (24VDC)  work in progress day 1</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
                 </b-col>
@@ -149,6 +167,8 @@
                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/162643185" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                     <p><a href="https://vimeo.com/162643185">hardworking circuit #1.2 (24VDC) @ Mere existence, Canton Gallery</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+                    <p><a href="https://youtu.be/X11lz-KYdg8" target="_blank" rel="noopener noreferrer">youtube version video</a></p>
+
                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_2607.jpg" fluid > </b-img>
                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_2608.jpg" fluid > </b-img>
                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_2610.jpg" fluid > </b-img>
@@ -186,8 +206,12 @@
                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/168784743" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                     <p><a href="https://vimeo.com/168784743">hardworking circuit #1.2  @Mcrowave project room  , floating projects</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+                    <p><a href="https://youtu.be/6DbQ-ZZ1vbc" target="_blank" rel="noopener noreferrer">youtube version video link</a></p>
+
                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/169444907" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                     <p><a href="https://vimeo.com/169444907">hardworking circuit #1.2  (close up) @Mcrowave project room  , floating projects</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                       <p><a href="https://youtu.be/I3puoDhfOsQ" target="_blank" rel="noopener noreferrer">youtube version video link</a></p>
+
 
                     <iframe width="315" height="560" src="https://www.youtube.com/embed/e27c03bwSNw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     <b-img thumbnail src="~/assets/images/work/hardworkingcircuit12/IMG_7225.jpg" fluid > </b-img>

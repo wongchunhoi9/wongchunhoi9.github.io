@@ -77,7 +77,7 @@
                     <p>賽制：目標有16位玩家，以淘汰賽進行。<br />最後勝利將獲增<br />請留名或pm報名，或於當晚七時二十九分前即場報名<br />**心臟病、高血壓、有膽但淆底之人仕不宜參戰，請移玉步到花生席。</p>
                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/181967968" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                     
-
+                   <a href=" https://youtu.be/uBOELZIKYY4" target="_blank" rel="noopener noreferrer">youtube version</a>
                 </b-col>
             </b-row>
             

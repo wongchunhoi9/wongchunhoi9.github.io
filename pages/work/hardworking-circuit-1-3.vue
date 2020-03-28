@@ -141,6 +141,7 @@
                                 
                                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/298215822" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                                     <p><a href="https://vimeo.com/298215822">hardworking circuit #1,3 @ IFVA 2018 (1)</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                                    <p><a href="https://youtu.be/yewkf8RlAd8" target="_blank" rel="noopener noreferrer">youtube version</a></p>
                                     
                                 
                                 </b-col>
@@ -148,6 +149,7 @@
                                 
                                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/298215944" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                                     <p><a href="https://vimeo.com/298215944">hardworking circuit #1,3 @ IFVA 2018 (2)</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                                    <p><a href="https://youtu.be/hncMIn7A4WE" target="_blank" rel="noopener noreferrer">youtube version</a></p>
                                     
                                 
                                 </b-col>
@@ -155,8 +157,19 @@
                                 
                                     <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/298228836" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                                     <p><a href="https://vimeo.com/298228836">hardworking circuit #1,3 @ IFVA 2018 (3)</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                                    <p><a href="https://youtu.be/4WBEtw0alus" target="_blank" rel="noopener noreferrer">youtube version</a></p>
                                     
                                 
+                                </b-col>
+                                 <b-col md="6">
+                                     PLAYLIST
+                                     <b-embed
+                                        type="iframe"
+                                        aspect="16by9"
+                                        src="https://www.youtube.com/embed/videoseries?list=PLCEj7r8U6CrMjqxi30KIYfHGgpRNZWTaw"
+                                        allowfullscreen
+                                    ></b-embed>
+                                 
                                 </b-col>
                         
                                 
@@ -167,8 +180,10 @@
                                     <h5>making of</h5>
                                     <div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/293201786" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
                                     <p><a href="https://vimeo.com/293201786">Tally counter triggered by hardworking circuit #1.3</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-                                    
+                                    <p><a href="https://youtu.be/ypU0ClPO7Bg" target="_blank" rel="noopener noreferrer">youtube version</a></p>
                                 </b-col>
+
+                               
                             </b-row>
                         
 
@@ -229,7 +244,20 @@
                                     <b-img src="~/assets/images/work/hardworkingcircuit13/hardworkingcircuit1p3_sonicanchor29_firetrial.gif" fluid-grow></b-img>
                                 </b-col>
                            </b-row>
-                 
+
+                            <b-row>
+                                <b-col>
+                                    <h6><a href="https://www.youtube.com/embed/videoseries?list=PLCEj7r8U6CrP1261v3ztZy6uSEMMZUgjF" target="_blank" rel="noopener noreferrer"> youtube playlist</a></h6>
+                                
+                                     <b-embed
+                                        type="iframe"
+                                        aspect="16by9"
+                                        src="https://www.youtube.com/embed/videoseries?list=PLCEj7r8U6CrP1261v3ztZy6uSEMMZUgjF"
+                                        allowfullscreen
+                                    ></b-embed>
+                                </b-col>
+                               
+                            </b-row>
 
                            <b-row>
                                <b-col>

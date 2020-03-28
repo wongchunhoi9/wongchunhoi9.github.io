@@ -10,7 +10,7 @@
                 <b-col md="6">     
                     <!-- Feature Image : -->
                     <div style="padding:177.78% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/159373022" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-                    <p><a href="https://vimeo.com/159373022">extremely useful system #0 &ndash; hanger | 終極有用系統 #0 &ndash; 衣架</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+                    <p><a href="https://vimeo.com/159373022">extremely useful system #0 &ndash; hanger | 終極有用系統 #0 &ndash; 衣架</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>. |<a href="https://youtu.be/OdTfQ3nZHzI" target="_blank" rel="noopener noreferrer">yotube version</a></p>
                     
                 </b-col>
                 <b-col md="6">     
@@ -118,6 +118,23 @@
 <p><a href="https://vimeo.com/152048545">extremely useful system #0 @hardworking burning electricity (part1)</a> from <a href="https://vimeo.com/user4910473">wongchunhoi9</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
                 </b-col>
                 
+            </b-row>
+
+
+            <b-row>
+                <b-col>
+                    <h4>the playlist</h4>
+
+                    <b-embed
+                    type="iframe"
+                    src="https://www.youtube.com/embed/videoseries?list=PLCEj7r8U6CrOtweAw6Jdj2y-nRPe6COd1"
+                    allowfullscreen
+                    aspect="16by9">
+
+                    </b-embed>
+                  
+
+                </b-col>
             </b-row>
 
         </b-container>
