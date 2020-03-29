@@ -2,7 +2,9 @@
     <div>
         <b-container fluid class="model-container">
             <div class="background-good">
-                 <model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1583318739603526/deBlyR6vhqQ/0nUdQsugAUG/Orange%203.gltf" ios-src="https://poly.googleusercontent.com/downloads/c/fp/1583318739603526/deBlyR6vhqQ/4KEUqtAGmKo/Orange%203.usdz" alt="Orange 3 by Wong Chun Hoi" background-color="##e0a57d" camera-controls auto-rotate ar ar-scale="auto"> </model-viewer>
+                
+                <model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1585473080417957/bsBBS7kqLHG/fZ-jKFTnekw/model.gltf" ios-src="https://poly.googleusercontent.com/downloads/c/fp/1585473080417957/bsBBS7kqLHG/7y1sdN5QFtU/model.usdz" alt="Orange A by Wong Chun Hoi" background-color="##fafafa" camera-controls auto-rotate > </model-viewer>
+
             </div>
         </b-container>
             <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
@@ -10,6 +12,8 @@
     </div> 
 </template>
 
+
+<
 <style scoped>
 model-viewer { 
     width: 100%;
@@ -28,6 +32,7 @@ model-viewer {
 .background-good {
     /* background: linear-gradient(#d78553, #EEEEEE); */
     background:#ffffff00;
+
 }
 
 </style>

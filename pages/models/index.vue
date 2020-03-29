@@ -1,30 +1,85 @@
 <template>
 
     <div>
-        <div>
-            
-        </div>
+          <!-- <b-container>
         
-        <b-container fluid class="model-container">
-            <!-- BOTTLE by Wong Chun Hoi -->
-            <div class="demo" style="background: linear-gradient(#ffffff, #EEEEEE);">
-             <div> <!-- assemblage 1 by Wong Chun Hoi -->
-                <model-viewer    src="https://poly.googleusercontent.com/downloads/c/fp/1583513057631283/ctt8tPO_7An/ey6mrKd26j8/20191022%20model.gltf" ios-src="https://poly.googleusercontent.com/downloads/c/fp/1583513057631283/ctt8tPO_7An/5mZ16EgpOVZ/20191022%20model.usdz" alt="assemblage 1 by Wong Chun Hoi" background-color="##eeeeee" camera-controls auto-rotate ar> </model-viewer>      
-             
-            </div> 
-            </div>
+             <b-row>
+                 <b-col>
+                      <modelPreviewList :posts="modelLoadedPosts"/> 
+                 </b-col>
+             </b-row>
+         </b-container> -->
 
-              <br>
-            
-            
-            <br>
-            
-        </b-container>
-        
-        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
-        <script nomodule src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js"></script>     
+         <modelPreviewList :posts="modelLoadedPosts"/> 
     </div>
+    
+  
+        
+
+
+
+         
+
+
 </template>
+
+<script>
+export default {
+    
+    data() {
+        return {
+            modelLoadedPosts : [
+                {
+                     id: 'orange-3',
+                    title: "Orange 3",
+                    thumbnail:
+                        "orange-3.png",
+                    
+                    previewText: "",
+                    medium:"",
+                    year:"2019",
+                    category:""
+                },
+                 {
+                    id: 'orange-B',
+                    title: "Orange B",
+                    thumbnail:
+                        "orange-b.png",
+                    
+                    previewText: "",
+                    medium:"",
+                    year:"2019",
+                    category:""
+                },
+                {
+                    id: 'orange-A',
+                    title: "Orange A",
+                    thumbnail:
+                        "orange-a.png",
+                    
+                    previewText: "",
+                    medium:"",
+                    year:"2019",
+                    category:""
+                },
+                {
+                    id: 'bottle-1',
+                    title: "bottle-1",
+                    thumbnail:
+                        "bottle-1.png",
+                    
+                    previewText: "",
+                    medium:"",
+                    year:"2019",
+                    category:""
+                }
+             ]
+        }
+        
+    }
+}
+</script>
+
 
 <style scoped>
 model-viewer { 
