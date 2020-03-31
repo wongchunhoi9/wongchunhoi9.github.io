@@ -4,7 +4,7 @@
             <div class="background-good">
                 
                 <!-- Orange A rebuild by Wong Chun Hoi -->
-                <model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1585418282602934/5UeVPCQVZlp/cZvp5fMfFMx/orangeA_rebuild.gltf" ios-src="https://poly.googleusercontent.com/downloads/c/fp/1585418282602934/5UeVPCQVZlp/fccSIAzrmVr/orangeA_rebuild.usdz" alt="Orange A rebuild by Wong Chun Hoi" background-color="##fafafa" camera-controls auto-rotate ar ar-scale="auto" magic-leap unstable-webxr quick-look-browsers> </model-viewer>
+                <model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1585418282602934/5UeVPCQVZlp/cZvp5fMfFMx/orangeA_rebuild.gltf" ios-src="https://poly.googleusercontent.com/downloads/c/fp/1585418282602934/5UeVPCQVZlp/fccSIAzrmVr/orangeA_rebuild.usdz" alt="Orange A rebuild by Wong Chun Hoi" background-color="##fafafa" camera-controls auto-rotate ar ar-scale="auto" quick-look-browsers="chrome safari" unstable-webxr> </model-viewer>
 
             </div>
         </b-container>

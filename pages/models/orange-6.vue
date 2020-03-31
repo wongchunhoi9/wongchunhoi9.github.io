@@ -3,7 +3,7 @@
         <b-container fluid class="model-container">
             <div class="background-good">
                  
-            <model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1585508180180295/alKoozKtdKZ/aKLl3PE_q85/orange6.gltf" ios-src="https://poly.googleusercontent.com/downloads/c/fp/1585508180180295/alKoozKtdKZ/3xAD4xrlZ6B/orange6.usdz" alt="orange6 by Wong Chun Hoi" background-color="##eeeeee" camera-controls auto-rotate magic-leap unstable-webxr quick-look-browsers ar ar-scale="auto"> </model-viewer>
+            <model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1585508180180295/alKoozKtdKZ/aKLl3PE_q85/orange6.gltf" ios-src="https://poly.googleusercontent.com/downloads/c/fp/1585508180180295/alKoozKtdKZ/3xAD4xrlZ6B/orange6.usdz" alt="orange6 by Wong Chun Hoi" background-color="##eeeeee" camera-controls auto-rotate ar ar-scale="auto" quick-look-browsers="chrome safari" unstable-webxr> </model-viewer>
             </div>
         </b-container>
             <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
