@@ -1,18 +1,21 @@
 <template>
     <section>
         <div>
-          <b-card-group deck>
-            <modelPreviewCard 
-            v-for="post in posts"
-            :key="post.id"
-            :id="post.id"
-            :thumbnail="post.thumbnail"
-            :title="post.title"
-            :PreviewText="post.previewText" 
-            :medium="post.medium"
-            :year="post.year" 
-            :category="post.category" />
-          </b-card-group>
+          
+            <b-card-group deck>
+              <modelPreviewCard 
+              v-for="post in posts"
+              :key="post.id"
+              :id="post.id"
+              :thumbnail="post.thumbnail"
+              :title="post.title"
+              :PreviewText="post.previewText" 
+              :medium="post.medium"
+              :year="post.year" 
+              :category="post.category" />
+            </b-card-group>
+          
+          
         </div>
             
     </section>

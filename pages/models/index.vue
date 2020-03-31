@@ -30,6 +30,17 @@ export default {
         return {
             modelLoadedPosts : [
                 {
+                     id: 'orange-6',
+                    title: "Orange 6",
+                    thumbnail:
+                        "orange-6.png",
+                    
+                    previewText: "",
+                    medium:"",
+                    year:"2019",
+                    category:""
+                },
+                {
                      id: 'orange-3',
                     title: "Orange 3",
                     thumbnail:

@@ -2,9 +2,8 @@
     <div>
         <b-container fluid class="model-container">
             <div class="background-good">
-                <!-- Orange B by Wong Chun Hoi -->
-                <model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1585475837775703/7seQO9AGzkB/2IzMN2H3kfF/model.gltf" ios-src="https://poly.googleusercontent.com/downloads/c/fp/1585475837775703/7seQO9AGzkB/91Vm5NgSfKv/model.usdz" alt="Orange B by Wong Chun Hoi" background-color="##ffffff" camera-controls auto-rotate ar ar-scale="auto" magic-leap unstable-webxr quick-look-browsers> </model-viewer>
-
+                 
+            <model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1585508180180295/alKoozKtdKZ/aKLl3PE_q85/orange6.gltf" ios-src="https://poly.googleusercontent.com/downloads/c/fp/1585508180180295/alKoozKtdKZ/3xAD4xrlZ6B/orange6.usdz" alt="orange6 by Wong Chun Hoi" background-color="##eeeeee" camera-controls auto-rotate magic-leap unstable-webxr quick-look-browsers ar ar-scale="auto"> </model-viewer>
             </div>
         </b-container>
             <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.js"></script>
@@ -12,8 +11,6 @@
     </div> 
 </template>
 
-
-<
 <style scoped>
 model-viewer { 
     width: 100%;
@@ -35,3 +32,5 @@ model-viewer {
 }
 
 </style>
+
+<!-- orange6 by Wong Chun Hoi -->

@@ -2,8 +2,9 @@
     <div>
         <b-container fluid class="model-container">
             <div class="background-good">
-                <!-- Orange B by Wong Chun Hoi -->
-                <model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1585475837775703/7seQO9AGzkB/2IzMN2H3kfF/model.gltf" ios-src="https://poly.googleusercontent.com/downloads/c/fp/1585475837775703/7seQO9AGzkB/91Vm5NgSfKv/model.usdz" alt="Orange B by Wong Chun Hoi" background-color="##ffffff" camera-controls auto-rotate ar ar-scale="auto" magic-leap unstable-webxr quick-look-browsers> </model-viewer>
+                
+                <!-- Orange A rebuild by Wong Chun Hoi -->
+                <model-viewer src="https://poly.googleusercontent.com/downloads/c/fp/1585418282602934/5UeVPCQVZlp/cZvp5fMfFMx/orangeA_rebuild.gltf" ios-src="https://poly.googleusercontent.com/downloads/c/fp/1585418282602934/5UeVPCQVZlp/fccSIAzrmVr/orangeA_rebuild.usdz" alt="Orange A rebuild by Wong Chun Hoi" background-color="##fafafa" camera-controls auto-rotate ar ar-scale="auto" magic-leap unstable-webxr quick-look-browsers> </model-viewer>
 
             </div>
         </b-container>
@@ -32,6 +33,7 @@ model-viewer {
 .background-good {
     /* background: linear-gradient(#d78553, #EEEEEE); */
     background:#ffffff00;
+
 }
 
 </style>
