@@ -10,7 +10,11 @@
               <br>
               <h5>Blog:</h5>
               <p>
-                
+                 <nuxt-link to="/blog/article?name=2020-04-24-No-Discipline-Distancing-Exchange-submission">  2020-04-24  一覺醒來，發現世界上的辦公室都消失了
+ </nuxt-link>
+                 <br>
+                 <nuxt-link to="/blog/article?name=2020-04-09-electronic-waste-1">2020-04-09 電子雞肋 - 註定死亡的2011年MBP  </nuxt-link>
+                 <br>
                  <nuxt-link to="/blog/article?name=2019-12-15-hardworking_circuit_1to4">勤力電路 #1.0 – #1.4 Hardworking electricity #1.0-#1.4 </nuxt-link>
                 
               </p>

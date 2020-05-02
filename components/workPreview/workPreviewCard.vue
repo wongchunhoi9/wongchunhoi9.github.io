@@ -6,7 +6,7 @@
             <article>             
               <b-card
                 
-                style="max-width: 20rem; 
+                style="max-width: 18rem; 
                       margin-bottom:10px; 
                       position:relative; 
                       display:flex; 
