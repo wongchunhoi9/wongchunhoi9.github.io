@@ -89,6 +89,14 @@ export default {
           year:"work in progress | not complete",
           category:"sound | picture rating system | work-in-progress"
         },
+        { id:"WIP-random-seeding-generator",
+          title: "Random Seeding Generator 隨種生成器",
+          previewText: "Random number generator based on a video capture of double pendulum system driven by a motor in its threshold",
+          medium:"software thing ",
+          year:"work-in-progress | not complete",
+          category:"work-in-progress ",
+          thumbnail:"randomseedgenerator1.jpg"
+        },
         {
           id: 'hardworking-circuit-1-4',
           title: "hardworking circuit #1.4 勤力電路＃1.4",
