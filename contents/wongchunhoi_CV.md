@@ -19,6 +19,9 @@ title: Wong Chun Hoi CV 2020 Feb
 
 
 ### EXHITBITION & FESTIVAL RECORD 
+2020
+ - Big Wind Blow 大風吹 ,[Rossi & Rossi](http://rossirossi.com/contemporaryexhibit/big-wind-blows/), Hong Kong
+ 
 2018  
  - 假如速度與跑姿換腳幅度無關 Running, Walking, Jogging along the timeline with the same speed |[ Writing Machine Collective Edition 6](http://www.writingmachine-collective.net/wordpress/wmc_e6/) , Hong Kong 
  - The 23nd ifva Awards –Media Art Category Finalist Exhibition Hong Kong Arts Centre, Hong Kong
