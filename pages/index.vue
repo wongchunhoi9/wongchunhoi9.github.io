@@ -8,23 +8,24 @@
             <div class="" style="margin:10px;">
               <h4>update</h4>
               <br>
+              <nuxt-link to="/blog">
               <h5>Blog:</h5>
+              </nuxt-link>
               <p>
                 
-                 <nuxt-link to="/blog/article?name=2019-12-15-hardworking_circuit_1to4">勤力電路 #1.0 – #1.4 Hardworking electricity #1.0-#1.4 </nuxt-link>
+                 <nuxt-link to="/blog/article?name=2020-01-11-Note-artistTalk-myt2"> 最小單位的歷史：麥影彤二 x 賴朗騫 x 王鎮海 x 袁嘉駿  </nuxt-link>
                 
               </p>
-              <h5> coming exhibition / event: </h5>
+              <h5>current activities </h5>
               <p>
-                <a href="http://www.ifva.com/page/?langcode=tc&id=DTTjDKYSnOA">
-                25th ifva Award, Media Art Category - Finalist Exhibition [Cancelled]
+                08-08-2020 -> 145-09-2020 <br>
+                <a href="http://rossirossi.com/contemporaryexhibit/big-wind-blows/">
+                Big Wind Blows 大風吹 @ Rossi & Rossi
                 </a>
               </p>
               <h5> outreach:</h5>
               <p>
-                <a href="https://www.lcsd.gov.hk/CE/Museum/APO/zh_TW/web/apo/va_hardworking_circuit.html">
-                Workshop @ HKVAC 勤力電路 #1.0 – 創做必要的「無用」
-                </a>
+                
 
 
               </p>
@@ -138,15 +139,9 @@ export default {
             HeroImageSlider: [
               {
                 id:'sliderimage1',
-                title:'工作坊 ： 勤力電路 #1.0 – 創做必要的「無用」 ',
+                title:'hardworking circuit #1     @ Big wind blow @ Rossi&Rossi ',
                 subtitle:'',
-                imageSource:'update-vacworkshophwc1.jpg'
-              },
-              {
-                id:'sliderimage2',
-                title:'Dream Machine Exhibition @ 25th ifva',
-                subtitle:'cancelled',
-                imageSource:'update-dreammachineifva.jpg'
+                imageSource:'update-hw1rossirossipreview.jpg'
               }
             ]
         }
