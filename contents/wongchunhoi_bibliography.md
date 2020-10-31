@@ -16,7 +16,10 @@ title: Wong Chun Hoi CV 2020 Feb
 
 勤力電路 #1.3 by Wong Chun Hoi(海狗)@ Sonic Anchor #29 Part II – Feb 2017 : [Read Here](https://namijinamiji.wordpress.com/2017/02/21/%E5%8B%A4%E5%8A%9B%E9%9B%BB%E8%B7%AF-1-3-by-wong-chun-hoi%E6%B5%B7%E7%8B%97-sonic-anchor-29-part-ii/)
 
+weighing sound in space: Wong Chun-hoi and Alex Yiu
+Yang YEUNG  – Feb 2017 : [Read Here](http://www.aicahk.org/eng/reviews.asp?id=293&pg=1&fbclid=IwAR0SnY7AAYvk3fnn34LMnUzX5xY61SDAwx_rBOiaX8fiXZeIFV2M5UhxXNk)
 
+「類聚集 」(ensemble)  [Read Here](https://talks.taishinart.org.tw/event/talks/2017062301)
 
 #### 2016
 Review on “hardworking burning electricity – wong chun hoi solo exhibition ” (2016 Jan, Floating Projects) By Yeung Yang) : [Read here](http://www.aicahk.org/eng/reviews.asp?id=306&pg=1)
@@ -24,3 +27,9 @@ Review on “hardworking burning electricity – wong chun hoi solo exhibition �
 Floating Projects: Wong Chun Hoi “Hardworking Burning Electricity” , By East Contemporary, 2016 Feb : [Read here](http://www.east-contemporary.com/2016/02/03/floating-projects-wong-chun-hoi-hardworking-burning-electricity/)
 
 《勤力費電》不求人展小感 / 陳子傑 : [Read Here](https://www.thestandnews.com/art/%E5%8B%A4%E5%8A%9B%E8%B2%BB%E9%9B%BB-%E4%B8%8D%E6%B1%82%E4%BA%BA%E5%B1%95%E5%B0%8F%E6%84%9F)
+
+
+真愛難求？藝術家也搞Speed Dating！, HK01 2016 Feb [Read Here](https://www.hk01.com/%E5%A5%BD%E7%94%9F%E6%B4%BB/5972/%E7%9C%9F%E6%84%9B%E9%9B%A3%E6%B1%82-%E8%97%9D%E8%A1%93%E5%AE%B6%E4%B9%9F%E6%90%9Espeed-dating)
+
+#### 2014
+【靜土何處尋】喧囂中尋靜 打開耳朵建立我城soundmark 明周文化 03.05.2014   [Read Here](https://www.mpweekly.com/culture/%e9%9d%9c%e5%9c%9f%e4%bd%95%e8%99%95%e5%b0%8b-%e5%99%aa%e9%9f%b3-%e5%af%a7%e9%9d%9c-141861)

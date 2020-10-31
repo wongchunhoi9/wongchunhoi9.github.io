@@ -1,5 +1,5 @@
 ---
-title: Wong Chun Hoi CV 2020 Feb
+title: Wong Chun Hoi CV 2020 Nov
 ---
 
 ## CV
@@ -21,10 +21,11 @@ title: Wong Chun Hoi CV 2020 Feb
 ### EXHITBITION & FESTIVAL RECORD 
 2020
  - Big Wind Blow 大風吹 ,[Rossi & Rossi](http://rossirossi.com/contemporaryexhibit/big-wind-blows/), Hong Kong
- 
+ - [The 23nd ifva Awards –Media Art Category Finalist Exhibitionm](https://www.ifva.com/page/?langcode=tc&id=ajEDY3DhgWc) Hong Kong Arts Centre, Hong Kong 
 2018  
  - 假如速度與跑姿換腳幅度無關 Running, Walking, Jogging along the timeline with the same speed |[ Writing Machine Collective Edition 6](http://www.writingmachine-collective.net/wordpress/wmc_e6/) , Hong Kong 
  - The 23nd ifva Awards –Media Art Category Finalist Exhibition Hong Kong Arts Centre, Hong Kong
+ - [還原頁—藝術家料理本事](https://www.facebook.com/xchangemakeovermakegood/photos/pb.107048060656604.-2207520000.1572933025./131881914839885/?type=3&eid=ARD0QUYc1Uc9eZKmHnr4eFCTps_js9_OaEOkYkEhTRYW0s2ZUwG7Uodd7dIy-e0IP4wDiR3gvNczBRlM),修繕 XCHANGE : Make Over Make Good, Oi!, Hong Kong
 
 2017 
 
