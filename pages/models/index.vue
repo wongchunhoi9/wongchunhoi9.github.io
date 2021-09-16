@@ -1,16 +1,18 @@
 <template>
 
     <div>
-          <!-- <b-container>
+          <b-container>
         
              <b-row>
                  <b-col>
-                      <modelPreviewList :posts="modelLoadedPosts"/> 
+                     <b-jumbotron>
+                         <h1><a href="https://sketchfab.com/wongchunhoi9/" target="_blank">https://sketchfab.com/wongchunhoi9/</a></h1>
+                     </b-jumbotron>
                  </b-col>
              </b-row>
-         </b-container> -->
+         </b-container>
 
-         <modelPreviewList :posts="modelLoadedPosts"/> 
+         <!-- <modelPreviewList :posts="modelLoadedPosts"/>  -->
     </div>
     
   

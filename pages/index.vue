@@ -24,9 +24,9 @@
               </p>
               <h5>current activities </h5>
               <p>
-                08-08-2020 -> 145-09-2020 <br>
-                <a href="http://rossirossi.com/contemporaryexhibit/big-wind-blows/">
-                Big Wind Blows 大風吹 @ Rossi & Rossi
+                07-05-2021 -> 18-10-2021 <br>
+                <a href="https://www.lcsd.gov.hk/CE/Museum/APO/en_US/web/apo/lost_and_found_anything_store.html">
+               Lost and found anything store 失物萬事屋 @Hong Kong Visual Arts Centre, Hong Kong
                 </a>
               </p>
               <h5> outreach:</h5>
@@ -90,6 +90,7 @@ export default {
   data () { 
         return {
              HeroWorkloadedPosts: [
+        
         {
           id: 'hardworking-circuit-1-4',
           title: "hardworking circuit #1.4 勤力電路＃1.4",
@@ -130,24 +131,24 @@ export default {
           year:"2019",
           category:"video | sound | patching"
         },
-        {
-          id: 'automatic-editing-20180910',
-          title: "Floating Projects 2.0 Stream of Framed Consciousness Automatic Editing 20180910 ",
-          previewText: "A video exercise that I gathered during FP 1.0 and bring it to 2.0",
-          thumbnail:
-            "automatic-editing-20180910.jpg",
-          medium:"video",
-          year:"2018",
-          category:"video "
-        }
+        // {
+        //   id: 'automatic-editing-20180910',
+        //   title: "Floating Projects 2.0 Stream of Framed Consciousness Automatic Editing 20180910 ",
+        //   previewText: "A video exercise that I gathered during FP 1.0 and bring it to 2.0",
+        //   thumbnail:
+        //     "automatic-editing-20180910.jpg",
+        //   medium:"video",
+        //   year:"2018",
+        //   category:"video "
+        // }
        
       ],
             HeroImageSlider: [
               {
                 id:'sliderimage1',
-                title:'hardworking circuit #1     @ Big wind blow @ Rossi&Rossi ',
+                title:'Lost and found anything store 失物萬事屋 ',
                 subtitle:'',
-                imageSource:'update-hw1rossirossipreview.jpg'
+                imageSource:'update-lafas.jpg'
               }
             ]
         }
