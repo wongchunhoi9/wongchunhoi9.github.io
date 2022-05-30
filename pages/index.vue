@@ -24,8 +24,8 @@
               </p>
               <h5>current activities </h5>
               <p>
-                07-05-2021 -> 18-10-2021 <br>
-                <a href="https://www.lcsd.gov.hk/CE/Museum/APO/en_US/web/apo/lost_and_found_anything_store.html">
+                07-05-2021 -> 28-02-2022 <br>
+                <a href="https://lostandfoundanythingstore.com/en">
                Lost and found anything store 失物萬事屋 @Hong Kong Visual Arts Centre, Hong Kong
                 </a>
               </p>

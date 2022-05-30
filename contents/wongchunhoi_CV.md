@@ -22,6 +22,8 @@ title: Wong Chun Hoi CV 2020 Nov
 
 2021 
  - [Lost and found anything store 失物萬事屋](https://www.lcsd.gov.hk/CE/Museum/APO/en_US/web/apo/lost_and_found_anything_store.html), Hong Kong Visual Arts Centre, Hong Kong
+ - [Visual Diary Archive 視覺博物誌](visualdiaryarchive.com/) , Online 
+ - [deTour2021 - Use(fu)less](https://detour.hk/2021/en/) , PMQ, Hong Kong  & [Online](https://detour.hk/2021/en/exhibition/hardworking-circuit-1/)
 
 2020
  - Big Wind Blow 大風吹 ,[Rossi & Rossi](http://rossirossi.com/contemporaryexhibit/big-wind-blows/), Hong Kong

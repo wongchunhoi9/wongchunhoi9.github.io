@@ -4,6 +4,8 @@ title: Wong Chun Hoi CV 2020 Feb
 
 ### Bibliography
 
+[藝術家的腦袋 -  #130 終極有用的藝術 (嘉賓：王鎮海)  | 主持人：楊秀卓、杜婷](https://www.rthk.hk/radio/radio5/programme/artistmind/episode/767811?lang=zh-hant)
+
 
 #### 2019
 世紀．五無閒話：精進料理修煉所 / 文．成日／編輯．林凱敏  [Read Here](https://news.mingpao.com/pns/%E4%BD%9C%E5%AE%B6%E5%B0%88%E6%AC%84/article/20191213/s00018/1576174763890/%E4%B8%96%E7%B4%80-%E4%BA%94%E7%84%A1%E9%96%92%E8%A9%B1-%E7%B2%BE%E9%80%B2%E6%96%99%E7%90%86%E4%BF%AE%E7%85%89%E6%89%80)  | <a href="/documents/20191213_MingPao.pdf" target="blank"> Read Here </a>
