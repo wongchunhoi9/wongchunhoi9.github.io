@@ -92,6 +92,18 @@ export default {
              HeroWorkloadedPosts: [
         
         {
+          id: 'lost-and-found-anything-store',
+          title: "Lost and Found Anything Store 失物萬事屋",
+          thumbnail:
+            "lost-and-found-anything-store.jpeg",
+         
+          previewText: " Lost and Found Anything Store is a long term project. The artist take the initiative to uncover and focus on the abandoned lost objects in certain sites, which will be transformed into digital 3D models and re-imagined in a half-realistic, half-inferential free-association. In the midst of the unpredictable objects, a small history is written with these young relics",
+          medium:"physical and digital",
+          year:"2020 onwards",
+          category:"installation | digital 3D models"
+        },
+
+        {
           id: 'hardworking-circuit-1-4',
           title: "hardworking circuit #1.4 勤力電路＃1.4",
           previewText: "",

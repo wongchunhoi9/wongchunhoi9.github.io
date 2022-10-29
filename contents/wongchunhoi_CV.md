@@ -29,6 +29,7 @@ title: Wong Chun Hoi CV 2020 Nov
  - Big Wind Blow 大風吹 ,[Rossi & Rossi](http://rossirossi.com/contemporaryexhibit/big-wind-blows/), Hong Kong
  - Binary Analogy 是不是 是還是 [The Catalyst](https://www.xevarion.org/binary-analogy), Hong Kong
  - [unconstrained tone 亂調, (online event)](http://www.soundpocket.org.hk/v2/uncategorized/unconstrained-tone/),soundpocket
+ - [The 25th ifva Awards Media Art Category Finalist Exhibition 第二十五屆 ifva 比賽 媒體藝術組入圍作品展](https://ifva.com/page/?langcode=tc&id=4PVE4R6Kt8s), Hong Kong Arts Centre, Hong Kong
 
 2019
  - [還原頁—藝術家料理本事](https://www.facebook.com/xchangemakeovermakegood/photos/pb.107048060656604.-2207520000.1572933025./131881914839885/?type=3&eid=ARD0QUYc1Uc9eZKmHnr4eFCTps_js9_OaEOkYkEhTRYW0s2ZUwG7Uodd7dIy-e0IP4wDiR3gvNczBRlM),修繕 XCHANGE : Make Over Make Good, Oi!, Hong Kong
@@ -47,14 +48,10 @@ title: Wong Chun Hoi CV 2020 Nov
 
 2016
 - [[en]counters 2016 :Bori Bunder @ Platform 8 流動倉庫 ─ 香港 x 孟買 藝術交流計劃](http://www.arttogether.org/boribunder.html) Art Together X Art Oxygen CST , Mumbai , India
-
-- ISEA2016 No References: A Revisit of Hong Kong Video and Media Art from 1985  沒有先例：一次重塑香港錄像和新媒體藝術敘述的嘗試 | Cattle Depot Artist Village, Hong Kong
-
-
+- [ISEA2016 No References: A Revisit of Hong Kong Video and Media Art from 1985  沒有先例：一次重塑香港錄像和新媒體藝術敘述的嘗試](http://isea2016.isea-international.org/no-references-a-revisit-of-hong-kong-video-and-media-art-from-1985/) | Cattle Depot Artist Village, Hong Kong
 - [Microwave International New Media Art Festival 2016 －Project Room  微波國際新媒體藝術節－實驗H場](http://www.microwavefest.net/festival2016/ProjectRoom.html) | Floating Projects, Hong Kong
 
-- 僅僅在場 Mere Existence  |  Canton Gallery , GuangZhou , China
-
+- [僅僅在場 Mere Existence](http://www.cantongallery.com.cn/exhibition.php?exhibition=2)  |  Canton Gallery , GuangZhou , China
 - [勤力費電 Hardworking burning electricity –  王鎮海 不求人展 wong chun hoi solo exhibition](http://floatingprojectscollective.net/events/hardworking-burning-electricity/) | Floating Projects, Hong Kong
 
 2015
@@ -73,6 +70,10 @@ title: Wong Chun Hoi CV 2020 Nov
 ----
 
 ### Artist-in-Residency
+
+2022
+- [Tai Kwun - Artists’ Studio Programme](https://www.taikwun.hk/en/programme/detail/open-call-2020-for-artists-studios/634) | Hong Kong
+
 2019
 - RESIDENCIA INVITACIONAL INTERNACIONAL - [Centro de Creación Contemporánea de Andalucía](http://www.c3a.es/) |  Còdorba, Spain
 
