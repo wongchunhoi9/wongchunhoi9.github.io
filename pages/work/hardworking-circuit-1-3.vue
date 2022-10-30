@@ -44,7 +44,9 @@
                 <p>Page content:</p>
                 <ul>
                     <li> <nuxt-link :to="{path: '#', hash: 'schematic'}">Schematic diagram 電路圖</nuxt-link></li>
-                    <li> <nuxt-link :to="{path: '#', hash: 'installation'}">installation version</nuxt-link></li>
+                    <li> <nuxt-link :to="{path: '#', hash: 'installation-detour'}">installation version @ detour 2021</nuxt-link></li>
+                    <li> <nuxt-link :to="{path: '#', hash: 'installation-rossirossi'}">installation version @rossi rossi big wind blow </nuxt-link></li>
+                    <li> <nuxt-link :to="{path: '#', hash: 'installation-ifva'}">installation version @ 23rd ifva </nuxt-link></li>
                     <li> <nuxt-link :to="{path: '#', hash: 'performance'}">performance version</nuxt-link></li>
                     
                     <li> <nuxt-link :to="{path: '#', hash: 'statement'}">artist statement</nuxt-link></li>
@@ -66,9 +68,51 @@
             </b-row>
 
 
+                <hr id="installation-detour" style="padding-top:30px;"></hr>
+                <b-row>
+                    <b-col>
+                        <h4> Exhibition View @detour</h4>
+                        <b-img src="/images/works/hardworkingCircuit1_detour/1K4A0151.JPG" fluid> </b-img>
+                        <b-img src="/images/works/hardworkingCircuit1_detour/1K4A0106.JPG" fluid> </b-img>
+                        <b-img src="/images/works/hardworkingCircuit1_detour/1K4A0143.JPG" fluid> </b-img>
+                        <b-img src="/images/works/hardworkingCircuit1_detour/1K4A0097.JPG" fluid> </b-img>
+                        <b-embed
+                                        type="iframe"
+                                        aspect="16by9"
+                                        src="https://www.youtube.com/embed/GxqtWCML72Y"
+                                        allowfullscreen
+                                    ></b-embed>
+                       
+                        <b-embed
+                                        type="iframe"
+                                        aspect="16by9"
+                                        src="https://www.youtube.com/embed/11qC7Bg3erE"
+                                        allowfullscreen
+                                    ></b-embed>
+                    </b-col>
+                </b-row>
+
+                <hr id="installation-rossirossi" style="padding-top:30px;"></hr>
+                <b-row>
+                    <b-col>
+                        <b-embed
+                            type="iframe"
+                            aspect="16by9"
+                            src="https://www.youtube.com/embed/R078VwY3Nbg"
+                            allowfullscreen
+                        ></b-embed>
+                       
+                        <b-img src="/images/works/hardworkingCircuit1_rossirossi/FSC_8530.jpg" fluid></b-img>
+                        <b-img src="/images/works/hardworkingCircuit1_rossirossi/FSC_8558.jpg" fluid></b-img>
+                        <b-img src="/images/works/hardworkingCircuit1_rossirossi/FSC_8559.jpg" fluid></b-img>
+                        <b-img src="/images/works/hardworkingCircuit1_rossirossi/FSC_8560.jpg" fluid></b-img>
+                        <b-img src="/images/works/hardworkingCircuit1_rossirossi/FSC_8561.jpg" fluid></b-img>
+                        <b-img src="/images/works/hardworkingCircuit1_rossirossi/IMG_2103.JPG" fluid></b-img>
+                        
+                    </b-col>
+                </b-row>
             
-            
-                  <hr id="installation" style="padding-top:30px;"> 
+                  <hr id="installation-ifva" style="padding-top:30px;"> 
 
                                 <b-row >
                                 <b-col >
@@ -190,6 +234,7 @@
                    <hr id="performance" style="padding-top:30px;">
                            <b-row>
                                 <b-col >
+                                    <h2>Performance in Sonic Anchor by hardworking circuit</h2>
                                     <p>A live event for discovering and extending the possibilities of hardworking circuit #1. [hardworking circuit #1.0] [hardworking circuit #1.1] [hardworking circuit #1.2]</p>
                                     <p> performance: 19th Feb, 2017 | <a href="http://www.cmhk.org/2017/03/15/online-archive-sonic-anchor-29-part-ii-31/">Sonic Anchor #29 Part II </a>- Second Coming Series: Hardworking Circuit #1.3 | Public Open Space, Comix Home Base , Organized by 
                                     Contemporary Musiking Hong Kong (CMHK)  & Hong Kong Arts Centre</p>
