@@ -71,7 +71,7 @@
                 <hr id="installation-detour" style="padding-top:30px;"></hr>
                 <b-row>
                     <b-col>
-                        <h4> Exhibition View @detour</h4>
+                        <h4> Exhibition View @deTour 2021 , PMQ Hong Kong</h4>
                         <b-img src="/images/works/hardworkingCircuit1_detour/1K4A0151.JPG" fluid> </b-img>
                         <b-img src="/images/works/hardworkingCircuit1_detour/1K4A0106.JPG" fluid> </b-img>
                         <b-img src="/images/works/hardworkingCircuit1_detour/1K4A0143.JPG" fluid> </b-img>
@@ -95,6 +95,7 @@
                 <hr id="installation-rossirossi" style="padding-top:30px;"></hr>
                 <b-row>
                     <b-col>
+                        <h4> Exhibition View @ Big Wind Blow , Rossi & Rossi Gallery , Hong Kong 2020</h4>
                         <b-embed
                             type="iframe"
                             aspect="16by9"
